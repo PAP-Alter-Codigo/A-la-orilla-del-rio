@@ -15,6 +15,7 @@ public class PlayerNavMesh : MonoBehaviour
 
     void Start()
     {
+        //Se deshabilitan funciones de navmesh3D, para que funcione bien en 2D
         agente.updateRotation = false;
         agente.updateUpAxis = false;
     }
@@ -22,6 +23,7 @@ public class PlayerNavMesh : MonoBehaviour
 
     void Update()
     {
+        //Se establece el destino del navmesh
         agente.SetDestination(objetivo.position);
     }
 }

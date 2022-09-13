@@ -8,7 +8,7 @@ public class MouseClickPosition : MonoBehaviour
     Vector3 posicionObjetivo;
 
     void Start()
-    {
+    {        
         cam = Camera.main;
         posicionObjetivo = this.transform.position;
     }
@@ -16,11 +16,12 @@ public class MouseClickPosition : MonoBehaviour
 
     void Update()
     {
+        //Al dar click izquierdo o tocar la pantalla, la posiciónObjetivo se iguala a la posición del clik para depués mover este objeto a la posiciónObjetivo
         if (Input.GetMouseButtonDown(0))
         {
             posicionObjetivo = cam.ScreenToWorldPoint(Input.mousePosition);
-            posicionObjetivo.z = this.transform.position.z;
-        }
-        transform.position = posicionObjetivo;
+            posicionObjetivo.z = 0;
+            transform.position = posicionObjetivo;
+        }       
     }
 }
