@@ -4,19 +4,42 @@ using UnityEngine;
 
 public class MouseClickPosition : MonoBehaviour
 {
-    Camera cam;
+    public Camera cam;
     Vector3 posicionObjetivo;
+    public static MouseClickPosition Instance { get; private set; }
+
+
+    private Player_Properties playerInstance;
+
+    void Awake()
+    {
+        if (Instance != null) 
+        { 
+            Destroy(this.gameObject); 
+        } 
+        else 
+        { 
+            Instance = this; 
+            DontDestroyOnLoad(this.gameObject);
+        }  
+    }
 
     void Start()
     {        
+        // Esto cambiarlo a que busque la camara de la escena actual
         cam = Camera.main;
-        posicionObjetivo = this.transform.position;
+        playerInstance = Player_Properties.Instance;
+        this.transform.position = playerInstance.gameObject.transform.position;
     }
 
 
     void Update()
     {
-        //Al dar click izquierdo o tocar la pantalla, la posiciónObjetivo se iguala a la posición del clik para depués mover este objeto a la posiciónObjetivo
+        if(playerInstance.currentState == Player_Properties.PlayerStates.LOCKED){
+            this.transform.position = playerInstance.gameObject.transform.position;
+            return;
+        }
+        //Al dar click izquierdo o tocar la pantalla, la posiciï¿½nObjetivo se iguala a la posiciï¿½n del clik para depuï¿½s mover este objeto a la posiciï¿½nObjetivo
         if (Input.GetMouseButtonDown(0))
         {
             posicionObjetivo = cam.ScreenToWorldPoint(Input.mousePosition);
