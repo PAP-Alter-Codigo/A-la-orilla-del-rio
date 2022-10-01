@@ -6744,7 +6744,6 @@ GameObject:
   m_Component:
   - component: {fileID: 278426682}
   - component: {fileID: 278426681}
-  - component: {fileID: 278426680}
   - component: {fileID: 278426678}
   - component: {fileID: 278426671}
   - component: {fileID: 278426683}
@@ -6781,7 +6780,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 278426670}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -6794,26 +6793,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!95 &278426680
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 278426670}
-  m_Enabled: 0
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 73dec7de561e06a47806c06c70be8703, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!212 &278426681
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6852,8 +6831,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 795811539
-  m_SortingLayer: 0
+  m_SortingLayerID: 2037826125
+  m_SortingLayer: 4
   m_SortingOrder: 1
   m_Sprite: {fileID: 4723107735738678597, guid: 024ea249c45730b49b88444d0109f786, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6913,7 +6892,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.043694735}
@@ -8008,6 +7987,7 @@ GameObject:
   - component: {fileID: 545453629}
   - component: {fileID: 545453628}
   - component: {fileID: 545453627}
+  - component: {fileID: 545453631}
   m_Layer: 0
   m_Name: Drag/Rock (3)
   m_TagString: Untagged
@@ -8085,7 +8065,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.0055651665}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -8096,7 +8076,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3, y: 3}
+  m_Size: {x: 0.9965315, y: 0.8963587}
   m_EdgeRadius: 0
 --- !u!212 &545453630
 SpriteRenderer:
@@ -8137,7 +8117,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 652705605
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1327669867, guid: 3dcefb485587b1e4db4fcd46386f62d4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8150,6 +8130,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!208 &545453631
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 545453625}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.437, z: 0.1}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &602281188
 GameObject:
   m_ObjectHideFlags: 0
@@ -11844,6 +11840,7 @@ GameObject:
   - component: {fileID: 1115607955}
   - component: {fileID: 1115607954}
   - component: {fileID: 1115607953}
+  - component: {fileID: 1115607956}
   m_Layer: 0
   m_Name: William
   m_TagString: Untagged
@@ -11881,7 +11878,7 @@ MonoBehaviour:
   clickEnabled: 1
   hoverCursor: {fileID: 0}
   useEventSystem: 1
-  ActivateDistance: 2
+  ActivateDistance: 1
   clickableName: Will
   verb: {fileID: 126358565}
 --- !u!61 &1115607954
@@ -11948,8 +11945,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -60639847
-  m_SortingLayer: 0
+  m_SortingLayerID: 1954829883
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 97cbe7648398b3c4f88e1a0b9961d7bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -11962,6 +11959,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!208 &1115607956
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115607951}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.05, y: 0.05, z: 0.1}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1171605140
 GameObject:
   m_ObjectHideFlags: 0
@@ -12136,6 +12149,7 @@ GameObject:
   - component: {fileID: 1270362317}
   - component: {fileID: 1270362316}
   - component: {fileID: 1270362315}
+  - component: {fileID: 1270362319}
   m_Layer: 0
   m_Name: Drag/Rock (2)
   m_TagString: Untagged
@@ -12213,7 +12227,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0055651665, y: 0.005565226}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -12224,7 +12238,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3, y: 3}
+  m_Size: {x: 1.0076623, y: 1.0299236}
   m_EdgeRadius: 0
 --- !u!212 &1270362318
 SpriteRenderer:
@@ -12265,7 +12279,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 652705605
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 1118892122, guid: 3dcefb485587b1e4db4fcd46386f62d4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -12278,6 +12292,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!208 &1270362319
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270362313}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.1}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1272180138
 GameObject:
   m_ObjectHideFlags: 0
@@ -12519,6 +12549,7 @@ GameObject:
   - component: {fileID: 1320429596}
   - component: {fileID: 1320429595}
   - component: {fileID: 1320429598}
+  - component: {fileID: 1320429599}
   m_Layer: 0
   m_Name: Princesa
   m_TagString: Untagged
@@ -12624,7 +12655,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 2037826125
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 1779474834, guid: ad277c0b66f134642ae8197156292043, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -12658,6 +12689,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!208 &1320429599
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320429592}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.05, y: 0.05, z: 0.1}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1335974844
 GameObject:
   m_ObjectHideFlags: 0
@@ -15451,6 +15498,7 @@ GameObject:
   - component: {fileID: 1990427020}
   - component: {fileID: 1990427019}
   - component: {fileID: 1990427018}
+  - component: {fileID: 1990427022}
   m_Layer: 0
   m_Name: Drag/Rock (4)
   m_TagString: Untagged
@@ -15502,14 +15550,14 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1990427016}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 1
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -15580,7 +15628,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 652705605
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1075744818, guid: 3dcefb485587b1e4db4fcd46386f62d4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -15593,6 +15641,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!208 &1990427022
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990427016}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.1}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &2031912994
 GameObject:
   m_ObjectHideFlags: 0
