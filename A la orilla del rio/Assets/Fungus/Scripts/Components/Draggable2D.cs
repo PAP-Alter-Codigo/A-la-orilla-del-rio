@@ -1,10 +1,12 @@
 // This code is part of the Fungus library (https://github.com/snozbot/fungus)
 // It is released for free under the MIT open source license (https://github.com/snozbot/fungus/blob/master/LICENSE)
 
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.Serialization;
 using System.Collections.Generic;
+using UnityEngine.AI;
+
 
 namespace Fungus
 {
@@ -38,12 +40,20 @@ namespace Fungus
 
         [SerializeField] protected bool beingDragged;
 
+
+
         public virtual bool BeingDragged
         {
             get { return beingDragged; }
             set { beingDragged = value; }
         }
 
+        //reference target script
+        public Target target;
+
+        private NavMeshAgent agent;
+
+        public Verb verb;
         protected Vector3 startingPosition;
         protected bool updatePosition = false;
         protected Vector3 newPosition;
@@ -59,12 +69,20 @@ namespace Fungus
 
         public void UnregisterHandler(DragCompleted handler)
         {
-            if(dragCompletedHandlers.Contains(handler))
+            if (dragCompletedHandlers.Contains(handler))
             {
                 dragCompletedHandlers.Remove(handler);
             }
         }
         #endregion
+
+        public void Start()
+        {
+            target = FindObjectOfType<Target>();
+            agent = GetComponent<NavMeshAgent>();
+            verb = FindObjectOfType<Verb>();
+            
+        }
 
         protected virtual void LateUpdate()
         {
@@ -77,19 +95,24 @@ namespace Fungus
             }
         }
 
-        protected virtual void OnTriggerEnter2D(Collider2D other) 
+        protected virtual void OnTriggerEnter2D(Collider2D other)
         {
             if (!dragEnabled)
             {
                 return;
             }
 
+
+            // target.followSpot = target.transform.position;
+            // target.inDialogue = true;
+
+
             var eventDispatcher = FungusManager.Instance.EventDispatcher;
 
             eventDispatcher.Raise(new DragEntered.DragEnteredEvent(this, other));
         }
 
-        protected virtual void OnTriggerExit2D(Collider2D other) 
+        protected virtual void OnTriggerExit2D(Collider2D other)
         {
             if (!dragEnabled)
             {
@@ -103,7 +126,11 @@ namespace Fungus
 
         protected virtual void DoBeginDrag()
         {
-            beingDragged = true;
+
+            target.enterDialogue();
+            target.SetDestinationTarget();
+            target.followSpot = target.transform.position;
+
 
             // Offset the object so that the drag is anchored to the exact point where the user clicked it
             float x = Input.mousePosition.x;
@@ -118,12 +145,19 @@ namespace Fungus
             eventDispatcher.Raise(new DragStarted.DragStartedEvent(this));
         }
 
+
         protected virtual void DoDrag()
         {
+
             if (!dragEnabled)
             {
+
                 return;
             }
+
+            // target.enterDialogue();
+            // target.SetDestinationTarget();
+            // target.followSpot = target.transform.position;
 
             float x = Input.mousePosition.x;
             float y = Input.mousePosition.y;
@@ -132,6 +166,8 @@ namespace Fungus
             newPosition = Camera.main.ScreenToWorldPoint(new Vector3(x, y, 10f)) - delta;
             newPosition.z = z;
             updatePosition = true;
+
+
         }
 
         protected virtual void DoEndDrag()
@@ -140,6 +176,8 @@ namespace Fungus
             {
                 return;
             }
+
+            target.exitDialogue();
 
             var eventDispatcher = FungusManager.Instance.EventDispatcher;
             bool dragCompleted = false;
@@ -167,7 +205,7 @@ namespace Fungus
                     LeanTween.move(gameObject, startingPosition, returnDuration).setEase(LeanTweenType.easeOutExpo);
                 }
             }
-            else if(returnOnCompleted)
+            else if (returnOnCompleted)
             {
                 LeanTween.move(gameObject, startingPosition, returnDuration).setEase(LeanTweenType.easeOutExpo);
             }
@@ -178,6 +216,7 @@ namespace Fungus
         protected virtual void DoPointerEnter()
         {
             ChangeCursor(hoverCursor);
+
         }
 
         protected virtual void DoPointerExit()
@@ -228,7 +267,7 @@ namespace Fungus
                 DoPointerEnter();
             }
         }
-        
+
         protected virtual void OnMouseExit()
         {
             if (!useEventSystem)
@@ -268,6 +307,7 @@ namespace Fungus
             if (useEventSystem)
             {
                 DoDrag();
+
             }
         }
 
