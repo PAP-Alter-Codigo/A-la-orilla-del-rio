@@ -22,6 +22,16 @@ namespace Fungus
         [Tooltip("Use the UI Event System to check for clicks. Clicks that hit an overlapping UI object will be ignored. Camera must have a PhysicsRaycaster component, or a Physics2DRaycaster for 2D colliders.")]
         [SerializeField] protected bool useEventSystem;
 
+        public float ActivateDistance;
+        public string clickableName;
+
+        public Verb verb;
+
+        public void Start()
+        {
+            verb = FindObjectOfType<Verb>();
+        }
+
         protected virtual void ChangeCursor(Texture2D cursorTexture)
         {
             if (!clickEnabled)
@@ -47,12 +57,17 @@ namespace Fungus
         protected virtual void DoPointerEnter()
         {
             ChangeCursor(hoverCursor);
+            verb.UpdateVerbTextBox(clickableName);
+            verb.currentClickable = clickableName;
+
         }
 
         protected virtual void DoPointerExit()
         {
             // Always reset the mouse cursor to be on the safe side
             SetMouseCursor.ResetMouseCursor();
+            verb.UpdateVerbTextBox(null);
+            verb.currentClickable = null;
         }
 
         #region Legacy OnMouseX methods

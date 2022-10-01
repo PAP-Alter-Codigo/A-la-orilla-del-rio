@@ -795,7 +795,6 @@ namespace Fungus
                     return variable as T;
                 }
             }
-
             Debug.LogWarning("Variable " + key + " not found.");
             return null;
         }

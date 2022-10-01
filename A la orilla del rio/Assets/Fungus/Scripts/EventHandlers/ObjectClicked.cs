@@ -1,20 +1,22 @@
 // This code is part of the Fungus library (https://github.com/snozbot/fungus)
 // It is released for free under the MIT open source license (https://github.com/snozbot/fungus/blob/master/LICENSE)
 
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
+using UnityEngine.AI;
 
-namespace Fungus 
+
+namespace Fungus
 {
     /// <summary>
     /// The block will execute when the user clicks or taps on the clickable object.
     /// </summary>
     [EventHandlerInfo("Sprite",
-                      "Object Clicked",
-                      "The block will execute when the user clicks or taps on the clickable object.")]
+                    "Object Clicked",
+                    "The block will execute when the user clicks or taps on the clickable object.")]
     [AddComponentMenu("")]
     public class ObjectClicked : EventHandler
-    {   
+    {
         public class ObjectClickedEvent
         {
             public Clickable2D ClickableObject;
@@ -32,6 +34,22 @@ namespace Fungus
 
         protected EventDispatcher eventDispatcher;
 
+        //reference Target script
+        public Target target;
+
+        private NavMeshAgent agent;
+
+        public Verb verb;
+
+        void Start()
+        {
+            target = FindObjectOfType<Target>();
+            agent = GetComponent<NavMeshAgent>();
+            verb = FindObjectOfType<Verb>();
+            //  agent.updateRotation = false;
+            // agent.updateUpAxis = false;
+            
+        }
         protected virtual void OnEnable()
         {
             eventDispatcher = FungusManager.Instance.EventDispatcher;
@@ -58,20 +76,42 @@ namespace Fungus
         /// </summary>
         protected virtual IEnumerator DoExecuteBlock(int numFrames)
         {
-            if (numFrames == 0)
+            //edited by Gabriel
+            while (Vector3.Distance(clickableObject.transform.position, target.transform.position) > clickableObject.ActivateDistance)
             {
+                // yield return new WaitForEndOfFrame();
+                yield return new WaitForSeconds(.1f);
+
+            }
+            //edited by Gabriel
+            if (Vector3.Distance(clickableObject.transform.position, target.transform.position) <= clickableObject.ActivateDistance)
+            {
+                //edited by Gabriel
+                // verb.UpdateVerbTextBox(clickableObject.clickableName);
+                target.enterDialogue();
+                target.SetDestinationTarget();
+                target.followSpot = target.transform.position;
+                
+                //target.animator.SetFloat("distance",0);
+
+
+                if (numFrames == 0)
+                {
+                    ExecuteBlock();
+                    yield break;
+                }
+
+                int count = Mathf.Max(waitFrames, 1);
+                while (count > 0)
+                {
+                    count--;
+                    yield return new WaitForEndOfFrame();
+                }
+
                 ExecuteBlock();
-                yield break;
+
             }
 
-            int count = Mathf.Max(waitFrames, 1);
-            while (count > 0)
-            {
-                count--;
-                yield return new WaitForEndOfFrame();
-            }
-
-            ExecuteBlock();
         }
 
         #region Public members
