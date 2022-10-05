@@ -179,6 +179,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Objetivo
       objectReference: {fileID: 0}
+    - target: {fileID: 5967316824983657068, guid: 6f7ce234aff4bc54d918c099036a421e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5967316824983657068, guid: 6f7ce234aff4bc54d918c099036a421e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5967316824983657068, guid: 6f7ce234aff4bc54d918c099036a421e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 2037826125
+      objectReference: {fileID: 0}
     - target: {fileID: 5967316824983657071, guid: 6f7ce234aff4bc54d918c099036a421e, type: 3}
       propertyPath: m_RootOrder
       value: 5
