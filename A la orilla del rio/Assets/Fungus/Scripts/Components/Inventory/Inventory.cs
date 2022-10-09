@@ -64,7 +64,7 @@ public class Inventory : MonoBehaviour
 
         foreach (MenuDialog menuDialog in menuDialogs)
         {
-            ToggleCanvasGroup(menuDialog.GetComponent<CanvasGroup>(), !setting);
+        ToggleCanvasGroup(menuDialog.GetComponent<CanvasGroup>(), !setting);
         }
         foreach (SayDialog sayDialog in sayDialogs)
         {

@@ -88,10 +88,18 @@ namespace Fungus
             {
                 //edited by Gabriel
                 // verb.UpdateVerbTextBox(clickableObject.clickableName);
-                target.enterDialogue();
+                target.inDialogue = true;
+                target.cutsceneInProgress = true;
                 target.SetDestinationTarget();
                 target.followSpot = target.transform.position;
-                
+                verb.gameObject.SetActive(false);
+                //change verb to Use
+                verb.UpdateVerbTextBox(clickableObject.clickableName);
+
+                //edited by Gabriel 
+
+
+
                 //target.animator.SetFloat("distance",0);
 
 
