@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c93fdb0c1f79a674193cdafa7aee25e4, type: 3}
   m_Name: Corazon
   m_EditorClassIdentifier: 
-  itemOwned: 0
+  itemOwned: 1
   itemName: Corazon
   itemIcon: {fileID: 21300000, guid: 5a5595aa430a8cf47837ce14b339e5f7, type: 3}
   combinable: 1
