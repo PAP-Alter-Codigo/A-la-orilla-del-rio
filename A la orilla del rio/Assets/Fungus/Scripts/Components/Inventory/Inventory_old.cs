@@ -1,3 +1,4 @@
+/*
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -17,13 +18,7 @@ public class Inventory : MonoBehaviour
 
     public bool buttonPressed = false;
 
-    //Creo esto para poder agregar mas paginas de ser necesario
-    public enum InventoryPages {NORMAL_ITEMS, KEY_ITEMS};
-    public InventoryPages currentPage;
-
     public InventoryItems[] inventoryItems;
-    public InventoryItems[] keyInventoryItems;
-    
     public ItemSlot[] itemSlots;
 
     private Flowchart[] flowcharts;
@@ -36,7 +31,6 @@ public class Inventory : MonoBehaviour
         target = FindObjectOfType<Target>();
         flowcharts = FindObjectsOfType<Flowchart>();
         openInventoryButton = GameObject.Find("OpenInventory");
-        currentPage = InventoryPages.NORMAL_ITEMS;
     }
 
 
@@ -89,18 +83,8 @@ public class Inventory : MonoBehaviour
     }
 
     public void InitializeItemSlots()
-    {   
-        List<InventoryItems> ownedItems;
-        
-        switch(currentPage){
-            default:
-                ownedItems = GetOwnedItems(inventoryItems.ToList());
-                break;
-            case InventoryPages.KEY_ITEMS:
-                ownedItems = GetOwnedItems(keyInventoryItems.ToList());
-                break;
-        }
-       
+    {
+        List<InventoryItems> ownedItems = GetOwnedItems(inventoryItems.ToList());
         for (int i = 0; i < itemSlots.Length; i++)
         {
             if (i < ownedItems.Count)
@@ -114,7 +98,7 @@ public class Inventory : MonoBehaviour
         }
     }
 
-    public List<InventoryItems> GetOwnedItems(List<InventoryItems> inventoryItems)
+        public List<InventoryItems> GetOwnedItems(List<InventoryItems> inventoryItems)
     {
         List<InventoryItems> ownedItems = new List<InventoryItems>();
         foreach (InventoryItems item in inventoryItems)
@@ -163,59 +147,14 @@ public class Inventory : MonoBehaviour
         }
     }
 
+
+
     public void ToggleCanvasGroup(CanvasGroup canvasGroup, bool setting)
     {
         canvasGroup.interactable = setting;
         canvasGroup.blocksRaycasts = setting;
         canvasGroup.alpha = setting ? 1 : 0;
-    } 
-
-    public void SetSelectedInventory(int i){
-        switch(i){
-            default:
-                currentPage = InventoryPages.NORMAL_ITEMS;
-                break;
-            case 1:
-                currentPage = InventoryPages.KEY_ITEMS;
-                break;
-        }
     }
-
-    public void ClearInventoryUI(){
-        for (int i = 0; i < itemSlots.Length; i++)
-        {
-            itemSlots[i].ClearItem();
-        }
-    }
-
-    public void FillItemSlots(){
-        List<InventoryItems> ownedItems;
-        
-        switch(currentPage){
-            default:
-                ownedItems = GetOwnedItems(inventoryItems.ToList());
-                break;
-            case InventoryPages.KEY_ITEMS:
-                ownedItems = GetOwnedItems(keyInventoryItems.ToList());
-                break;
-        }
-        
-        for (int i = 0; i < itemSlots.Length; i++)
-        {
-            if (i < ownedItems.Count)
-            {
-                itemSlots[i].DisplayItem(ownedItems[i]);
-            }
-            else
-            {
-                itemSlots[i].ClearItem();
-            }
-        }
-    }
-
-    public void UpdateInventory(){
-        ClearInventoryUI();
-        FillItemSlots();
-    }
-
 }
+
+*/
