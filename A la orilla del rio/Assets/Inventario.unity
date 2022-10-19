@@ -3796,8 +3796,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: cc673fb7178dec647a81f3e3c350a242, type: 2}
   - {fileID: 11400000, guid: d2a3ca41cc3af1a40a650b16c3e3c229, type: 2}
   - {fileID: 11400000, guid: 4dd12ad98593aa34ca6694de7e3c018b, type: 2}
-  keyInventoryItems:
-  - {fileID: 11400000, guid: 4f7cfee80f22bd649816b074f1855895, type: 2}
+  keyInventoryItems: []
   itemSlots:
   - {fileID: 1814464479}
   - {fileID: 1792068884}
@@ -6985,8 +6984,8 @@ CanvasGroup:
   m_GameObject: {fileID: 392860281}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!1 &462511121
 GameObject:
