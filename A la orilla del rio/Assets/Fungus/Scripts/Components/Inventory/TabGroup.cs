@@ -14,10 +14,13 @@ public class TabGroup : MonoBehaviour
    public Sprite tabHover;
    public Sprite tabActive;
 
-
     public TabButton selectedTab;
 
     public Inventory inventory;
+
+    private void Start() {
+        ResetTabs();    
+    }
 
    public void Subscribe(TabButton button){
     if(tabButtons == null){
@@ -38,6 +41,9 @@ public class TabGroup : MonoBehaviour
     }
 
     public void OnTabSelected(TabButton button){
+        if(button == selectedTab){
+            inventory.CloseInventory();
+        }
         ResetTabs();
         selectedTab = button;
         button.background.sprite = tabActive;

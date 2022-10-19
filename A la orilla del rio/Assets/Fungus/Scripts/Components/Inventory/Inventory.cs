@@ -7,14 +7,14 @@ using System.Linq;
 
 public class Inventory : MonoBehaviour
 {
+    //
+    private Inventory_UI_Control inventoryUI;
+    //
     private MenuDialog[] menuDialogs;
     private SayDialog[] sayDialogs;
-    public CanvasGroup canvasGroup;
     private Target target;
 
     //get button OpenInventory
-    public GameObject openInventoryButton;
-
     public bool buttonPressed = false;
 
     //Creo esto para poder agregar mas paginas de ser necesario
@@ -32,10 +32,12 @@ public class Inventory : MonoBehaviour
     {
         menuDialogs = FindObjectsOfType<MenuDialog>();
         sayDialogs = FindObjectsOfType<SayDialog>();
-        canvasGroup = GetComponentInChildren<CanvasGroup>();
-        target = FindObjectOfType<Target>();
+        
+        target = GameObject.FindGameObjectWithTag("Player").GetComponent<Target>();
         flowcharts = FindObjectsOfType<Flowchart>();
-        openInventoryButton = GameObject.Find("OpenInventory");
+        
+        inventoryUI = FindObjectOfType<Inventory_UI_Control>();
+
         currentPage = InventoryPages.NORMAL_ITEMS;
     }
 
@@ -44,34 +46,39 @@ public class Inventory : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
         if (Input.GetButtonDown("Inventario"))
         {
             ToggleInventory(!canvasGroup.interactable);
         }
-
+`       */
     }
     
-
-    public void CanvasGroupPressed()
+    /*
+   public void CanvasGroupPressed()
     {
         buttonPressed = true;
         ToggleInventory(!canvasGroup.interactable);
 
     }
+    */
 
     public void ToggleInventory(bool setting)
     {
-        ToggleCanvasGroup(canvasGroup, setting);
+        //ToggleCanvasGroup(canvasGroup, setting);
         InitializeItemSlots();
 
+        /*
         if (!target.cutsceneInProgress)
         {
             target.inDialogue = setting;
         }
+        */
+
 
         foreach (MenuDialog menuDialog in menuDialogs)
         {
-            ToggleCanvasGroup(menuDialog.GetComponent<CanvasGroup>(), !setting);
+            inventoryUI.ToggleCanvasGroup(menuDialog.GetComponent<CanvasGroup>(), !setting);
         }
         foreach (SayDialog sayDialog in sayDialogs)
         {
@@ -84,7 +91,7 @@ public class Inventory : MonoBehaviour
             {
                 Time.timeScale = 1;
             }
-            ToggleCanvasGroup(sayDialog.GetComponent<CanvasGroup>(), !setting);
+            inventoryUI.ToggleCanvasGroup(sayDialog.GetComponent<CanvasGroup>(), !setting);
         }
     }
 
@@ -140,11 +147,11 @@ public class Inventory : MonoBehaviour
                     {
                         if (flowchart.HasBlock(item1.succesBlockNames[i]))
                         {
-                            openInventoryButton.SetActive(true);
-                            ToggleInventory(false);
+                           
+                            //ToggleInventory(false);
                             target.enterDialogue();
                             flowchart.ExecuteBlock(item1.succesBlockNames[i]);
-                            
+                            UpdateInventory();
                             return;
                         }
                     }
@@ -155,7 +162,6 @@ public class Inventory : MonoBehaviour
         {
             if (flowchart.HasBlock(item1.failBlockNames))
             {
-                openInventoryButton.SetActive(true);
                 ToggleInventory(false);
                 target.enterDialogue();
                 flowchart.ExecuteBlock(item1.failBlockNames);
@@ -163,12 +169,9 @@ public class Inventory : MonoBehaviour
         }
     }
 
-    public void ToggleCanvasGroup(CanvasGroup canvasGroup, bool setting)
-    {
-        canvasGroup.interactable = setting;
-        canvasGroup.blocksRaycasts = setting;
-        canvasGroup.alpha = setting ? 1 : 0;
-    } 
+    
+
+    
 
     public void SetSelectedInventory(int i){
         switch(i){
@@ -216,6 +219,10 @@ public class Inventory : MonoBehaviour
     public void UpdateInventory(){
         ClearInventoryUI();
         FillItemSlots();
+    }
+
+    public void CloseInventory(){
+        ClearInventoryUI();
     }
 
 }

@@ -3682,9 +3682,8 @@ GameObject:
   - component: {fileID: 103550764}
   - component: {fileID: 103550763}
   - component: {fileID: 103550767}
-  - component: {fileID: 103550766}
   m_Layer: 0
-  m_Name: Scroll View
+  m_Name: Item_View
   m_TagString: Untagged
   m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -3697,18 +3696,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 103550761}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 902294984}
-  m_Father: {fileID: 902220491}
-  m_RootOrder: 2
+  m_Father: {fileID: 392860282}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 172, y: 0}
+  m_AnchoredPosition: {x: 156.8, y: -158.20003}
   m_SizeDelta: {x: 220, y: 320}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &103550763
@@ -3779,18 +3778,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 103550761}
   m_CullTransparentMesh: 1
---- !u!225 &103550766
-CanvasGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 103550761}
-  m_Enabled: 1
-  m_Alpha: 1
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
-  m_IgnoreParentGroups: 0
 --- !u!114 &103550767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3798,21 +3785,19 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 103550761}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b5495642c92950d4a9287f7e87571b6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvasGroup: {fileID: 462511124}
-  openInventoryButton: {fileID: 1580363782}
   buttonPressed: 0
   currentPage: 0
-  inventoryItems: []
-  keyInventoryItems:
-  - {fileID: 11400000, guid: 4f7cfee80f22bd649816b074f1855895, type: 2}
+  inventoryItems:
+  - {fileID: 11400000, guid: cc673fb7178dec647a81f3e3c350a242, type: 2}
   - {fileID: 11400000, guid: d2a3ca41cc3af1a40a650b16c3e3c229, type: 2}
   - {fileID: 11400000, guid: 4dd12ad98593aa34ca6694de7e3c018b, type: 2}
-  - {fileID: 11400000, guid: cc673fb7178dec647a81f3e3c350a242, type: 2}
+  keyInventoryItems:
+  - {fileID: 11400000, guid: 4f7cfee80f22bd649816b074f1855895, type: 2}
   itemSlots:
   - {fileID: 1814464479}
   - {fileID: 1792068884}
@@ -3861,6 +3846,7 @@ MonoBehaviour:
   hoveredItemSlot: 
   combinability: 0
   inventory: {fileID: 0}
+  inventoryUI: {fileID: 0}
   verb: 0
 --- !u!114 &126358566
 MonoBehaviour:
@@ -6352,7 +6338,7 @@ GameObject:
   - component: {fileID: 278426684}
   m_Layer: 0
   m_Name: Tom
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6892,20 +6878,20 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 371427148}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1815870587}
   - {fileID: 864431671}
-  m_Father: {fileID: 902220491}
-  m_RootOrder: 1
+  m_Father: {fileID: 392860282}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -102, y: -0.18502808}
-  m_SizeDelta: {x: -564.11, y: 294.37}
+  m_AnchoredPosition: {x: 156.98512, y: -296.37537}
+  m_SizeDelta: {x: -55.3591, y: 294.37}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &371427150
 MonoBehaviour:
@@ -6950,7 +6936,58 @@ MonoBehaviour:
   tabHover: {fileID: 21300000, guid: 888feb4a32e3b564fb7e6f9b28cc8e10, type: 3}
   tabActive: {fileID: 21300000, guid: 2e33a3f531b6adc4f9d8a99c83e2ba2d, type: 3}
   selectedTab: {fileID: 1815870591}
-  inventory: {fileID: 902220492}
+  inventory: {fileID: 103550767}
+--- !u!1 &392860281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 392860282}
+  - component: {fileID: 392860283}
+  m_Layer: 0
+  m_Name: Open_Inventory_Object
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &392860282
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392860281}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 371427149}
+  - {fileID: 103550762}
+  m_Father: {fileID: 902220491}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 330.2, y: 156.8}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &392860283
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392860281}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &462511121
 GameObject:
   m_ObjectHideFlags: 0
@@ -8704,8 +8741,8 @@ MonoBehaviour:
   hoverCursor: {fileID: 0}
   useEventSystem: 1
   ActivateDistance: 1
-  clickableName: Book
-  verb: {fileID: 0}
+  clickableName: Key
+  verb: {fileID: 126358565}
 --- !u!61 &898501860
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8716,10 +8753,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.011704862, y: 0.0117048025}
+  m_Offset: {x: -0.0016723648, y: -0.0020815423}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -8730,7 +8767,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5887966, y: 0.5419767}
+  m_Size: {x: 0.112255186, y: 0.051183283}
   m_EdgeRadius: 0
 --- !u!212 &898501861
 SpriteRenderer:
@@ -8792,8 +8829,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 898501858}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.36, y: -1.45, z: -0.0625953}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 7.3054, y: -1.2805, z: -0.0625953}
+  m_LocalScale: {x: 9.560976, y: 8.697022, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 476850312}
@@ -8892,9 +8929,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 392860282}
   - {fileID: 1580363786}
-  - {fileID: 371427149}
-  - {fileID: 103550762}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8912,28 +8948,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 902220487}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5495642c92950d4a9287f7e87571b6c, type: 3}
+  m_Script: {fileID: 11500000, guid: 448010a65f29bd343a3c230698473816, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvasGroup: {fileID: 462511124}
-  openInventoryButton: {fileID: 1580363782}
-  buttonPressed: 0
-  currentPage: 0
-  inventoryItems:
-  - {fileID: 11400000, guid: cc673fb7178dec647a81f3e3c350a242, type: 2}
-  - {fileID: 11400000, guid: d2a3ca41cc3af1a40a650b16c3e3c229, type: 2}
-  - {fileID: 11400000, guid: 4dd12ad98593aa34ca6694de7e3c018b, type: 2}
-  keyInventoryItems:
-  - {fileID: 11400000, guid: 4f7cfee80f22bd649816b074f1855895, type: 2}
-  itemSlots:
-  - {fileID: 1814464479}
-  - {fileID: 1792068884}
-  - {fileID: 179307722}
-  - {fileID: 850170606}
-  - {fileID: 485321833}
-  - {fileID: 2036479950}
-  - {fileID: 887708461}
-  - {fileID: 1392999138}
+  isInventoryOpen: 0
 --- !u!1 &902294983
 GameObject:
   m_ObjectHideFlags: 0
@@ -12275,7 +12293,7 @@ GameObject:
   - component: {fileID: 1580363784}
   - component: {fileID: 1580363783}
   m_Layer: 0
-  m_Name: OpenInventory
+  m_Name: Toggle_Inventory_Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12325,45 +12343,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 103550761}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1580363782}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 103550767}
-        m_TargetAssemblyTypeName: Inventory, Assembly-CSharp
-        m_MethodName: CanvasGroupPressed
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 278426671}
-        m_TargetAssemblyTypeName: Target, Fungus
-        m_MethodName: dontMove
+      - m_Target: {fileID: 902220492}
+        m_TargetAssemblyTypeName: Inventory_UI_Control, Fungus
+        m_MethodName: ToggleInventory
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12424,7 +12406,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 902220491}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
