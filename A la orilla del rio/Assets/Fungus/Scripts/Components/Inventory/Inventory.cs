@@ -44,15 +44,15 @@ public class Inventory : MonoBehaviour
 
 
     // Update is called once per frame
-    void Update()
-    {
-        /*
-        if (Input.GetButtonDown("Inventario"))
-        {
-            ToggleInventory(!canvasGroup.interactable);
-        }
-`       */
-    }
+//     void Update()
+//     {
+    
+//         if (Input.GetButtonDown("Inventario"))
+//         {
+//             ToggleInventory(!canvasGroup.interactable);
+//         }
+// `       
+//     }
     
     /*
    public void CanvasGroupPressed()

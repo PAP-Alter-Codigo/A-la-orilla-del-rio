@@ -48,7 +48,7 @@ namespace Fungus
             verb = FindObjectOfType<Verb>();
             //  agent.updateRotation = false;
             // agent.updateUpAxis = false;
-            
+
         }
         protected virtual void OnEnable()
         {
@@ -87,11 +87,13 @@ namespace Fungus
             if (Vector3.Distance(clickableObject.transform.position, target.transform.position) <= clickableObject.ActivateDistance)
             {
                 //edited by Gabriel
-                // verb.UpdateVerbTextBox(clickableObject.clickableName);
-                target.enterDialogue();
+                target.inDialogue = true;
+                target.cutsceneInProgress = true;
                 target.SetDestinationTarget();
                 target.followSpot = target.transform.position;
-                
+                verb.gameObject.SetActive(false);
+                //change verb to Use
+                verb.UpdateVerbTextBox(clickableObject.clickableName);
                 //target.animator.SetFloat("distance",0);
 
 
