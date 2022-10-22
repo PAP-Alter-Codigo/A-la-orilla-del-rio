@@ -1,4 +1,4 @@
-/*
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,14 +6,14 @@ using Fungus;
 using System.Linq;
 
 
-public class Inventory : MonoBehaviour
+public class Inventory_old : MonoBehaviour
 {
     private MenuDialog[] menuDialogs;
     private SayDialog[] sayDialogs;
     public CanvasGroup canvasGroup;
     private Target target;
 
-    //get button OpenInventory
+    // get button OpenInventory
     public GameObject openInventoryButton;
 
     public bool buttonPressed = false;
@@ -156,5 +156,3 @@ public class Inventory : MonoBehaviour
         canvasGroup.alpha = setting ? 1 : 0;
     }
 }
-
-*/
