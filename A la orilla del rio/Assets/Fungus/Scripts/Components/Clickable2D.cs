@@ -25,8 +25,7 @@ namespace Fungus
         public float ActivateDistance;
         public string clickableName;
 
-        public Verb verb;
-
+       private Verb verb;
         public void Start()
         {
             verb = FindObjectOfType<Verb>();
@@ -58,7 +57,8 @@ namespace Fungus
         {
             ChangeCursor(hoverCursor);
             verb.UpdateVerbTextBox(clickableName);
-            //verb.currentClickable = clickableName;
+            verb.currentClickable = clickableName;
+            // verb.currentClickable = clickableName;
 
         }
 
@@ -67,7 +67,7 @@ namespace Fungus
             // Always reset the mouse cursor to be on the safe side
             SetMouseCursor.ResetMouseCursor();
             verb.UpdateVerbTextBox(null);
-            //verb.currentClickable = null;
+            // verb.currentClickable = null;
         }
 
         #region Legacy OnMouseX methods

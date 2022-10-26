@@ -9,13 +9,11 @@ public class Verb : MonoBehaviour
 
 
 
-    
     public string currentClickable;
     public InventoryItems currentItem;
     public string hoveredItemSlot;
     public bool combinability;
     public Inventory inventory;
-    public Inventory_UI_Control inventoryUI;
 
     public enum Actions
     {
@@ -36,7 +34,6 @@ public class Verb : MonoBehaviour
         verbTextBox.text = "";
         flowcharts = FindObjectsOfType<Flowchart>();
         inventory = FindObjectOfType<Inventory>();
-        inventoryUI = FindObjectOfType<Inventory_UI_Control>();
 
     }
 
@@ -52,7 +49,7 @@ public class Verb : MonoBehaviour
             verbTextBox.text = walkString + currentClickable;
         } else if (verb == Actions.Use)
         {
-            if(inventoryUI.isInventoryOpen == true)
+            if(inventory.canvasGroup.interactable == true)
             {
                 combinability = true;
                 verbTextBox.text = useString + " " + currentItem.itemName + " con " + hoveredItemSlot;
