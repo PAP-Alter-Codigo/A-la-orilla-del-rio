@@ -18,12 +18,12 @@ public class Inventory : MonoBehaviour
     public bool buttonPressed = false;
 
     //Creo esto para poder agregar mas paginas de ser necesario
-    public enum InventoryPages {NORMAL_ITEMS, KEY_ITEMS};
+    public enum InventoryPages { NORMAL_ITEMS, KEY_ITEMS };
     public InventoryPages currentPage;
 
     public InventoryItems[] inventoryItems;
     public InventoryItems[] keyInventoryItems;
-    
+
     public ItemSlot[] itemSlots;
 
     private Flowchart[] flowcharts;
@@ -32,10 +32,10 @@ public class Inventory : MonoBehaviour
     {
         menuDialogs = FindObjectsOfType<MenuDialog>();
         sayDialogs = FindObjectsOfType<SayDialog>();
-        
+
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Target>();
         flowcharts = FindObjectsOfType<Flowchart>();
-        
+
         inventoryUI = FindObjectOfType<Inventory_UI_Control>();
 
         currentPage = InventoryPages.NORMAL_ITEMS;
@@ -44,16 +44,16 @@ public class Inventory : MonoBehaviour
 
 
     // Update is called once per frame
-//     void Update()
-//     {
-    
-//         if (Input.GetButtonDown("Inventario"))
-//         {
-//             ToggleInventory(!canvasGroup.interactable);
-//         }
-// `       
-//     }
-    
+    //     void Update()
+    //     {
+
+    //         if (Input.GetButtonDown("Inventario"))
+    //         {
+    //             ToggleInventory(!canvasGroup.interactable);
+    //         }
+    // `       
+    //     }
+
     /*
    public void CanvasGroupPressed()
     {
@@ -96,10 +96,11 @@ public class Inventory : MonoBehaviour
     }
 
     public void InitializeItemSlots()
-    {   
+    {
         List<InventoryItems> ownedItems;
-        
-        switch(currentPage){
+
+        switch (currentPage)
+        {
             default:
                 ownedItems = GetOwnedItems(inventoryItems.ToList());
                 break;
@@ -107,7 +108,7 @@ public class Inventory : MonoBehaviour
                 ownedItems = GetOwnedItems(keyInventoryItems.ToList());
                 break;
         }
-       
+
         for (int i = 0; i < itemSlots.Length; i++)
         {
             if (i < ownedItems.Count)
@@ -147,7 +148,7 @@ public class Inventory : MonoBehaviour
                     {
                         if (flowchart.HasBlock(item1.succesBlockNames[i]))
                         {
-                           
+
                             //ToggleInventory(false);
                             target.enterDialogue();
                             flowchart.ExecuteBlock(item1.succesBlockNames[i]);
@@ -169,12 +170,14 @@ public class Inventory : MonoBehaviour
         }
     }
 
-    
 
-    
 
-    public void SetSelectedInventory(int i){
-        switch(i){
+
+
+    public void SetSelectedInventory(int i)
+    {
+        switch (i)
+        {
             default:
                 currentPage = InventoryPages.NORMAL_ITEMS;
                 break;
@@ -184,17 +187,20 @@ public class Inventory : MonoBehaviour
         }
     }
 
-    public void ClearInventoryUI(){
+    public void ClearInventoryUI()
+    {
         for (int i = 0; i < itemSlots.Length; i++)
         {
             itemSlots[i].ClearItem();
         }
     }
 
-    public void FillItemSlots(){
+    public void FillItemSlots()
+    {
         List<InventoryItems> ownedItems;
-        
-        switch(currentPage){
+
+        switch (currentPage)
+        {
             default:
                 ownedItems = GetOwnedItems(inventoryItems.ToList());
                 break;
@@ -202,7 +208,7 @@ public class Inventory : MonoBehaviour
                 ownedItems = GetOwnedItems(keyInventoryItems.ToList());
                 break;
         }
-        
+
         for (int i = 0; i < itemSlots.Length; i++)
         {
             if (i < ownedItems.Count)
@@ -216,12 +222,14 @@ public class Inventory : MonoBehaviour
         }
     }
 
-    public void UpdateInventory(){
+    public void UpdateInventory()
+    {
         ClearInventoryUI();
         FillItemSlots();
     }
 
-    public void CloseInventory(){
+    public void CloseInventory()
+    {
         ClearInventoryUI();
     }
 

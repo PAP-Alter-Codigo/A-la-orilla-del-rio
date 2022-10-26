@@ -6,6 +6,10 @@ public class Verb : MonoBehaviour
 {
     public string walkString = "Camina hacia ";
     public string useString = "Usa ";
+
+
+
+    
     public string currentClickable;
     public InventoryItems currentItem;
     public string hoveredItemSlot;
