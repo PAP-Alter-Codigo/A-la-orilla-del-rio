@@ -5,6 +5,7 @@ using UnityEngine;
     public class InventoryItems : ScriptableObject
     {
         public bool itemOwned;
+        public int Class;
         
         public string itemName;
         public Sprite itemIcon;
