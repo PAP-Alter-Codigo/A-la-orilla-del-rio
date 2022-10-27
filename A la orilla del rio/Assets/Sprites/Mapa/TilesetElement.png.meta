@@ -124,11 +124,7 @@ TextureImporter:
         width: 14
         height: 15
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -149,11 +145,7 @@ TextureImporter:
         width: 14
         height: 16
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -174,11 +166,7 @@ TextureImporter:
         width: 14
         height: 11
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -199,11 +187,7 @@ TextureImporter:
         width: 10
         height: 13
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -224,11 +208,7 @@ TextureImporter:
         width: 11
         height: 13
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -249,11 +229,7 @@ TextureImporter:
         width: 12
         height: 13
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -274,11 +250,7 @@ TextureImporter:
         width: 14
         height: 12
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -299,11 +271,7 @@ TextureImporter:
         width: 14
         height: 16
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -324,11 +292,7 @@ TextureImporter:
         width: 13
         height: 12
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -349,11 +313,7 @@ TextureImporter:
         width: 15
         height: 13
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -374,11 +334,7 @@ TextureImporter:
         width: 14
         height: 14
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -397,15 +353,9 @@ TextureImporter:
         x: 176
         y: 208
         width: 48
-<<<<<<< Updated upstream
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-=======
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -426,11 +376,7 @@ TextureImporter:
         width: 16
         height: 15
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -448,17 +394,10 @@ TextureImporter:
         serializedVersion: 2
         x: 224
         y: 224
-<<<<<<< Updated upstream
-        width: 32
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-=======
         width: 16
         height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -479,11 +418,7 @@ TextureImporter:
         width: 14
         height: 15
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -504,11 +439,7 @@ TextureImporter:
         width: 14
         height: 13
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -529,11 +460,7 @@ TextureImporter:
         width: 10
         height: 13
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -554,11 +481,7 @@ TextureImporter:
         width: 14
         height: 14
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -579,11 +502,7 @@ TextureImporter:
         width: 13
         height: 11
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -604,11 +523,7 @@ TextureImporter:
         width: 14
         height: 13
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -629,11 +544,7 @@ TextureImporter:
         width: 14
         height: 14
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -654,11 +565,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -679,11 +586,7 @@ TextureImporter:
         width: 39
         height: 22
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -704,11 +607,7 @@ TextureImporter:
         width: 32
         height: 21
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -729,11 +628,7 @@ TextureImporter:
         width: 27
         height: 27
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -754,11 +649,7 @@ TextureImporter:
         width: 27
         height: 28
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -779,11 +670,7 @@ TextureImporter:
         width: 27
         height: 20
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -799,21 +686,12 @@ TextureImporter:
       name: TilesetElement_29
       rect:
         serializedVersion: 2
-<<<<<<< Updated upstream
-        x: 192
-        y: 128
-        width: 63
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-=======
         x: 208
         y: 128
         width: 47
         height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -834,11 +712,7 @@ TextureImporter:
         width: 14
         height: 30
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -859,11 +733,7 @@ TextureImporter:
         width: 14
         height: 27
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -884,11 +754,7 @@ TextureImporter:
         width: 14
         height: 12
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -909,11 +775,7 @@ TextureImporter:
         width: 15
         height: 24
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -934,11 +796,7 @@ TextureImporter:
         width: 8
         height: 11
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -959,11 +817,7 @@ TextureImporter:
         width: 16
         height: 15
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -984,11 +838,7 @@ TextureImporter:
         width: 14
         height: 14
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1009,11 +859,7 @@ TextureImporter:
         width: 16
         height: 15
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1034,11 +880,7 @@ TextureImporter:
         width: 14
         height: 13
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1059,11 +901,7 @@ TextureImporter:
         width: 12
         height: 8
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1084,11 +922,7 @@ TextureImporter:
         width: 12
         height: 6
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1109,11 +943,7 @@ TextureImporter:
         width: 16
         height: 11
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1134,11 +964,7 @@ TextureImporter:
         width: 32
         height: 11
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1159,11 +985,7 @@ TextureImporter:
         width: 14
         height: 15
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1184,11 +1006,7 @@ TextureImporter:
         width: 14
         height: 10
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1209,11 +1027,7 @@ TextureImporter:
         width: 5
         height: 4
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1234,11 +1048,7 @@ TextureImporter:
         width: 45
         height: 13
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1259,11 +1069,7 @@ TextureImporter:
         width: 14
         height: 11
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1284,11 +1090,7 @@ TextureImporter:
         width: 14
         height: 11
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1309,11 +1111,7 @@ TextureImporter:
         width: 9
         height: 8
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1334,11 +1132,7 @@ TextureImporter:
         width: 14
         height: 6
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1359,11 +1153,7 @@ TextureImporter:
         width: 9
         height: 7
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1384,11 +1174,7 @@ TextureImporter:
         width: 14
         height: 10
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1406,17 +1192,10 @@ TextureImporter:
         serializedVersion: 2
         x: 16
         y: 48
-<<<<<<< Updated upstream
-        width: 80
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-=======
         width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1437,11 +1216,7 @@ TextureImporter:
         width: 14
         height: 13
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1462,11 +1237,7 @@ TextureImporter:
         width: 14
         height: 13
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1487,11 +1258,7 @@ TextureImporter:
         width: 14
         height: 13
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1512,11 +1279,7 @@ TextureImporter:
         width: 14
         height: 13
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1537,11 +1300,7 @@ TextureImporter:
         width: 14
         height: 15
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1562,11 +1321,7 @@ TextureImporter:
         width: 14
         height: 15
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1587,11 +1342,7 @@ TextureImporter:
         width: 14
         height: 15
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1612,11 +1363,7 @@ TextureImporter:
         width: 14
         height: 15
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1637,11 +1384,7 @@ TextureImporter:
         width: 14
         height: 13
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1662,11 +1405,7 @@ TextureImporter:
         width: 14
         height: 13
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1687,11 +1426,7 @@ TextureImporter:
         width: 14
         height: 13
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1712,11 +1447,7 @@ TextureImporter:
         width: 14
         height: 13
       alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1728,8 +1459,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-<<<<<<< Updated upstream
-=======
     - serializedVersion: 2
       name: TilesetElement_2
       rect:
@@ -2003,7 +1732,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
->>>>>>> Stashed changes
     outline: []
     physicsShape: []
     bones: []
@@ -2015,17 +1743,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-<<<<<<< Updated upstream
-      TilesetElement_34: 1043588881
-      TilesetElement_21: 211589668
-      TilesetElement_60: 1979010848
-=======
       TilesetElement_75: -670991455
       TilesetElement_21: 211589668
       TilesetElement_60: 1979010848
       TilesetElement_73: 395990857
       TilesetElement_34: 1043588881
->>>>>>> Stashed changes
       TilesetElement_6: -491857517
       TilesetElement_8: 1924646521
       TilesetElement_44: 2037687342
@@ -2041,15 +1763,6 @@ TextureImporter:
       TilesetElement_5: -474355363
       TilesetElement_48: 257696865
       TilesetElement_31: 783211142
-<<<<<<< Updated upstream
-      TilesetElement_36: -1663439452
-      TilesetElement_37: -181506432
-      TilesetElement_27: 630145718
-      TilesetElement_61: 561949178
-      TilesetElement_18: 1451454008
-      TilesetElement_64: 1296912801
-      TilesetElement_0: -1475417828
-=======
       TilesetElement_67: 2075575787
       TilesetElement_36: -1663439452
       TilesetElement_37: -181506432
@@ -2061,19 +1774,13 @@ TextureImporter:
       TilesetElement_64: 1296912801
       TilesetElement_0: -1475417828
       TilesetElement_71: 1583849645
->>>>>>> Stashed changes
       TilesetElement_47: 1091717136
       TilesetElement_51: 940378359
       TilesetElement_10: 1352401154
       TilesetElement_32: -1610918534
       TilesetElement_17: 483619553
-<<<<<<< Updated upstream
-      TilesetElement_28: -410976411
-      TilesetElement_46: 969183633
-=======
       TilesetElement_46: 969183633
       TilesetElement_28: -410976411
->>>>>>> Stashed changes
       TilesetElement_66: 1893991287
       TilesetElement_23: 1403315426
       TilesetElement_45: 383216956
@@ -2082,13 +1789,6 @@ TextureImporter:
       TilesetElement_52: 1489392434
       TilesetElement_65: -898978005
       TilesetElement_20: 1740176662
-<<<<<<< Updated upstream
-      TilesetElement_29: 164036882
-      TilesetElement_55: -305531859
-      TilesetElement_59: -1280929281
-      TilesetElement_38: 1209285836
-      TilesetElement_26: 1572958652
-=======
       TilesetElement_55: -305531859
       TilesetElement_29: 164036882
       TilesetElement_76: -1301789297
@@ -2097,7 +1797,6 @@ TextureImporter:
       TilesetElement_70: 253256556
       TilesetElement_26: 1572958652
       TilesetElement_72: -2112793104
->>>>>>> Stashed changes
       TilesetElement_35: -1296200106
       TilesetElement_41: 792355652
       TilesetElement_33: 687002807
@@ -2119,10 +1818,7 @@ TextureImporter:
       TilesetElement_63: -508781835
       TilesetElement_43: -1047419746
       TilesetElement_58: -1524100654
-<<<<<<< Updated upstream
-=======
       TilesetElement_74: 621882196
->>>>>>> Stashed changes
       TilesetElement_39: 627146120
   spritePackingTag: 
   pSDRemoveMatte: 0

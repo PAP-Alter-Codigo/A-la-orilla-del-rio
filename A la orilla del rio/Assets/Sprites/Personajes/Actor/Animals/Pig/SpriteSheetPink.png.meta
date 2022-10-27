@@ -3,11 +3,7 @@ guid: 1d6c837c6fe73d24eae919c0ac6c631a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-<<<<<<< Updated upstream
-  serializedVersion: 12
-=======
   serializedVersion: 11
->>>>>>> Stashed changes
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -67,10 +63,6 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-<<<<<<< Updated upstream
-  cookieLightType: 1
-=======
->>>>>>> Stashed changes
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -109,21 +101,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-<<<<<<< Updated upstream
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-=======
->>>>>>> Stashed changes
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -153,13 +130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream
-      spriteID: 9e09a82824b458244964c0625a03d5e1
-      internalID: -1758191594
-=======
       spriteID: 4f5875a5b736d3946bff8d1f589e7dc7
       internalID: 1439662948
->>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -179,13 +151,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream
-      spriteID: 1ae27b6f1750542449871d3b438d121a
-      internalID: -629827476
-=======
       spriteID: ee523ca893eb5f046928e87234ba15c8
       internalID: -1570772942
->>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -201,13 +168,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-<<<<<<< Updated upstream
-      SpriteSheetPink_0: -1758191594
-      SpriteSheetPink_1: -629827476
-=======
       SpriteSheetPink_0: 1439662948
       SpriteSheetPink_1: -1570772942
->>>>>>> Stashed changes
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

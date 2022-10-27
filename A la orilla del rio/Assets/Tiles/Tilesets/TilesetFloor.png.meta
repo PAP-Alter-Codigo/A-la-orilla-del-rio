@@ -2720,11 +2720,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< Updated upstream
-      name: Pasto_Lodo_EsquinaArribaIzquierda
-=======
       name: TilesetFloor_124
->>>>>>> Stashed changes
       rect:
         serializedVersion: 2
         x: 64
@@ -3165,11 +3161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< Updated upstream
-      name: TilesetFloor_145
-=======
       name: Pasto_Lodo_EsquinaArribaIzquierd
->>>>>>> Stashed changes
       rect:
         serializedVersion: 2
         x: 80
@@ -3190,11 +3182,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< Updated upstream
-      name: TilesetFloor_146
-=======
       name: Pasto_Lodo_EsquinaArribaDerech
->>>>>>> Stashed changes
       rect:
         serializedVersion: 2
         x: 96
@@ -3593,11 +3581,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< Updated upstream
-      name: TilesetFloor_165
-=======
       name: Pasto_Lodo_EsquinaAbajozquierda
->>>>>>> Stashed changes
       rect:
         serializedVersion: 2
         x: 80
@@ -3618,11 +3602,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< Updated upstream
-      name: TilesetFloor_166
-=======
       name: Pasto_Lodo_EsquinaAbajoDerech
->>>>>>> Stashed changes
       rect:
         serializedVersion: 2
         x: 96
@@ -9782,10 +9762,7 @@ TextureImporter:
       TilesetFloor_78: -892212180
       TilesetFloor_96: -1912165724
       TilesetFloor_77: 659620378
-<<<<<<< Updated upstream
-=======
       Pasto_Lodo_EsquinaAbajozquierda: 143403124
->>>>>>> Stashed changes
       TilesetFloor_421: 1842004233
       TilesetFloor_169: -1919243803
       TilesetFloor_364: -1608490110
@@ -9831,10 +9808,7 @@ TextureImporter:
       TilesetFloor_84: 832802820
       TilesetFloor_342: 51671463
       TilesetFloor_199: 1418193097
-<<<<<<< Updated upstream
-=======
       Pasto_Lodo_EsquinaArribaDerech: -2061040009
->>>>>>> Stashed changes
       TilesetFloor_440: 1736135914
       TilesetFloor_101: -660759089
       TilesetFloor_67: 1743723722
@@ -9860,10 +9834,7 @@ TextureImporter:
       TilesetFloor_252: -1601717752
       TilesetFloor_353: -779017708
       TilesetFloor_100: 65413636
-<<<<<<< Updated upstream
-=======
       Pasto_Lodo_EsquinaArribaIzquierd: -849006352
->>>>>>> Stashed changes
       TilesetFloor_302: 2136795847
       TilesetFloor_235: 1129582446
       TilesetFloor_58: -259540121
@@ -9904,10 +9875,7 @@ TextureImporter:
       TilesetFloor_249: 1755825784
       TilesetFloor_262: -1989327490
       TilesetFloor_288: 166289561
-<<<<<<< Updated upstream
-=======
       Pasto_Lodo_EsquinaAbajoDerech: -285265219
->>>>>>> Stashed changes
       TilesetFloor_86: -1411335915
       Pasto_Lodo_ArribaIzquierda: -2124327223
       TilesetFloor_410: -1671666221
@@ -9963,19 +9931,11 @@ TextureImporter:
       TilesetFloor_133: 1126243221
       TilesetFloor_429: 1418722543
       TilesetFloor_203: -1490103187
-<<<<<<< Updated upstream
-      TilesetFloor_165: 143403124
-=======
       TilesetFloor_428: 1199162121
->>>>>>> Stashed changes
       TilesetFloor_366: -1709123623
       TilesetFloor_61: 733112124
       TilesetFloor_237: -1210701805
       TilesetFloor_109: 1715087902
-<<<<<<< Updated upstream
-      TilesetFloor_428: 1199162121
-=======
->>>>>>> Stashed changes
       TilesetFloor_65: -1079228939
       TilesetFloor_99: -833935034
       TilesetFloor_283: -1663188561
@@ -9998,10 +9958,6 @@ TextureImporter:
       TilesetFloor_54: -1223771619
       TilesetFloor_59: -1163703025
       TilesetFloor_456: 792351161
-<<<<<<< Updated upstream
-      TilesetFloor_146: -2061040009
-=======
->>>>>>> Stashed changes
       TilesetFloor_229: 253929053
       TilesetFloor_348: -459061396
       TilesetFloor_383: 1277916250
@@ -10033,10 +9989,6 @@ TextureImporter:
       TilesetFloor_72: -815547532
       TilesetFloor_132: -1869005257
       TilesetFloor_24: 441671118
-<<<<<<< Updated upstream
-      TilesetFloor_166: -285265219
-=======
->>>>>>> Stashed changes
       TilesetFloor_108: 468170165
       TilesetFloor_401: 1216786571
       TilesetFloor_98: 1039165566
@@ -10047,10 +9999,7 @@ TextureImporter:
       Pasto_Lodo_ArribaBottom: -1401040971
       TilesetFloor_167: -1349578052
       TilesetFloor_238: -463890227
-<<<<<<< Updated upstream
-=======
       TilesetFloor_124: -286233898
->>>>>>> Stashed changes
       TilesetFloor_225: -1975787847
       TilesetFloor_343: -802863393
       TilesetFloor_81: 509600410
@@ -10094,10 +10043,6 @@ TextureImporter:
       TilesetFloor_241: 655925214
       TilesetFloor_73: -221557659
       TilesetFloor_422: -1763794455
-<<<<<<< Updated upstream
-      TilesetFloor_145: -849006352
-=======
->>>>>>> Stashed changes
       TilesetFloor_420: -1713204389
       TilesetFloor_48: -579535451
       Pasto_Lodo_UnoIzquierda: 1612068239
@@ -10121,10 +10066,6 @@ TextureImporter:
       TilesetFloor_83: -1963848169
       TilesetFloor_257: 1546074871
       TilesetFloor_352: 658610545
-<<<<<<< Updated upstream
-      Pasto_Lodo_EsquinaArribaIzquierda: -286233898
-=======
->>>>>>> Stashed changes
       TilesetFloor_455: -767998921
       TilesetFloor_264: -122056644
       Pasto_Lodo_EsquinaArribaDerecha: 1618256256
