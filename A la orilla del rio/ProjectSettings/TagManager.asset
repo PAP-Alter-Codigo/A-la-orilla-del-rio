@@ -44,21 +44,30 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Floor
+  - name: Tilemap_Piso
     uniqueID: 3609589833
     locked: 0
-  - name: Items
+  - name: Plantas
     uniqueID: 2587838427
     locked: 0
-  - name: NPC
+  - name: Tilemap_Limite
     uniqueID: 1954829883
     locked: 0
-  - name: Player
+  - name: Tilemap_Arboles
     uniqueID: 2037826125
     locked: 0
-  - name: Wall
+  - name: Tilemap_Casa
     uniqueID: 4262550145
     locked: 0
-  - name: Enviroment
+  - name: Tilemap_Props
     uniqueID: 652705605
+    locked: 0
+  - name: NPC
+    uniqueID: 3120055189
+    locked: 0
+  - name: Personaje
+    uniqueID: 988978553
+    locked: 0
+  - name: OverPersonaje
+    uniqueID: 2988212803
     locked: 0
