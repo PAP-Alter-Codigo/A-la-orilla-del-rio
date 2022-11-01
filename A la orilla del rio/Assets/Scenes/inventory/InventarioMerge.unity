@@ -5139,7 +5139,6 @@ GameObject:
   - component: {fileID: 94393681}
   - component: {fileID: 94393680}
   - component: {fileID: 94393679}
-  - component: {fileID: 94393678}
   m_Layer: 0
   m_Name: Inventory (1)
   m_TagString: Untagged
@@ -5147,18 +5146,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &94393678
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 94393677}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b12b77e578491a4fbc07c93176a3965, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &94393679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10815,7 +10802,6 @@ GameObject:
   - component: {fileID: 902220490}
   - component: {fileID: 902220489}
   - component: {fileID: 902220488}
-  - component: {fileID: 902220492}
   m_Layer: 0
   m_Name: Inventory
   m_TagString: Untagged
@@ -10906,18 +10892,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &902220492
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 902220487}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b12b77e578491a4fbc07c93176a3965, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &902294983
 GameObject:
   m_ObjectHideFlags: 0
@@ -14447,7 +14421,7 @@ GameObject:
   - component: {fileID: 1316484504}
   - component: {fileID: 1316484503}
   m_Layer: 0
-  m_Name: OpenInventory
+  m_Name: OpenInventory2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14932,7 +14906,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1338686721}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1338686727}
   variables:
   - {fileID: 1338686725}
   description: 
@@ -15934,7 +15909,7 @@ GameObject:
   - component: {fileID: 1503332045}
   - component: {fileID: 1503332046}
   m_Layer: 0
-  m_Name: Scroll View
+  m_Name: Scroll View2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15979,6 +15954,7 @@ MonoBehaviour:
   buttonPressed: 0
   inventoryItems:
   - {fileID: 11400000, guid: 4f7cfee80f22bd649816b074f1855895, type: 2}
+  - {fileID: 11400000, guid: 4dd12ad98593aa34ca6694de7e3c018b, type: 2}
   itemSlots:
   - {fileID: 1498741158}
   - {fileID: 318466522}
@@ -18671,7 +18647,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 60163810}
+  selectedFlowchart: {fileID: 1338686723}
 --- !u!4 &2125055453
 Transform:
   m_ObjectHideFlags: 1
