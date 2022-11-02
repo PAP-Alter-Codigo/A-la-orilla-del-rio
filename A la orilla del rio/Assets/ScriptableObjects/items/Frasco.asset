@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e64c7960e86f1145be4f7f578875d2d, type: 3}
   m_Name: Frasco
   m_EditorClassIdentifier: 
-  itemOwned: 1
+  itemOwned: 0
   Class: 0
   itemName: Frasco
   itemIcon: {fileID: 21300000, guid: 99b849ee41642d84bbeb62be20c46986, type: 3}
