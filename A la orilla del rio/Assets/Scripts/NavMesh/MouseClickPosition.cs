@@ -11,6 +11,7 @@ public class MouseClickPosition : MonoBehaviour
 
     private Player_Properties playerInstance;
 
+    
     void Awake()
     {
         if (Instance != null) 
@@ -23,6 +24,7 @@ public class MouseClickPosition : MonoBehaviour
             DontDestroyOnLoad(this.gameObject);
         }  
     }
+    
 
     void Start()
     {        
@@ -44,7 +46,7 @@ public class MouseClickPosition : MonoBehaviour
         {
             posicionObjetivo = cam.ScreenToWorldPoint(Input.mousePosition);
             posicionObjetivo.z = 0;
-            transform.position = posicionObjetivo;
         }       
+        transform.position = posicionObjetivo;
     }
 }
