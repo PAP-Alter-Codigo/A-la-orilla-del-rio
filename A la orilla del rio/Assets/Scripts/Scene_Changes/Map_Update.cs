@@ -17,21 +17,15 @@ public class Map_Update : MonoBehaviour
     [SerializeField]
     int index;
     [SerializeField]
-    float checkpointX;
-    [SerializeField]
-    float checkpointY;
+    string checkpointName;
 
     private GameObject playerObject;
     private Player_Properties playerProperties;
 
-    private void Start() {
-
-    }
-
     private void SetPlayerCheckpoint(){
         playerProperties = Player_Properties.Instance;
-        playerProperties.checkpointPosX = checkpointX;
-        playerProperties.checkpointPosY = checkpointY; 
+        playerProperties.lastCheckPoint = checkpointName;
+        playerProperties.currentState = Player_Properties.PlayerStates.AVAILABLE;
     }
 
     private void OnTriggerEnter2D(Collider2D other) {

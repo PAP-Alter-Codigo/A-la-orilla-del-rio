@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Cinemachine;
 
 /*
     Este codigo es para hacer setup de propiedades cada vez que la escena carga
@@ -23,23 +24,34 @@ public class Scene_Load_Actions : MonoBehaviour
     
     private void SceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        //Set Player Coordinates
-        SetPlayerCoordinates();
         //Set cursor properties
         SetCursorProperties();
+        //Set Player Coordinates
+        SetPlayerCoordinates();
+
+        SetCameraFollow();
+    }
+
+    private void SetCameraFollow(){
+        GameObject player = Player_Properties.Instance.gameObject;
+        CinemachineVirtualCamera vcam = GameObject.FindGameObjectWithTag("CinemachineCam").GetComponent<CinemachineVirtualCamera>();
+        vcam.LookAt = Player_Properties.Instance.gameObject.transform;
+        vcam.Follow = Player_Properties.Instance.gameObject.transform;        
     }
 
     private void SetPlayerCoordinates(){
-        GameObject player = Player_Properties.Instance.gameObject;
-        player.transform.position = new Vector2(Player_Properties.Instance.checkpointPosX, Player_Properties.Instance.checkpointPosY);
+        Player_Properties player = Player_Properties.Instance;
+        
+        player.gameObject.transform.position = GameObject.Find("Map/SpawnPoints/" +player.lastCheckPoint).transform.position;
     }
 
     private void SetCursorProperties(){
         MouseClickPosition cursor = MouseClickPosition.Instance;
         GameObject cursorObj = cursor.gameObject;
-        GameObject player = Player_Properties.Instance.gameObject;
-        cursorObj.transform.position = player.transform.position;
+        Player_Properties player = Player_Properties.Instance;
         cursor.cam =  GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
+        cursorObj.transform.position = GameObject.Find("Map/SpawnPoints/" +player.lastCheckPoint).transform.position;
+        player.currentState = Player_Properties.PlayerStates.AVAILABLE;
     }
 
 }
