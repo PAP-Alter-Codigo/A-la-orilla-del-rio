@@ -5,19 +5,25 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Intro/Intro.unity
+    guid: c390d6cb459ece64f9728c67f1275e8c
+  - enabled: 1
+    path: Assets/Scenes/Isometric/Scene0.unity
+    guid: b133fd32c68eab24e98a36e3ab30949c
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Scenes/TestMap1.unity
-    guid: 750284256ea0ec34d884ec91d8ab768f
   - enabled: 0
-    path: Assets/Scenes/TestMap2.unity
-    guid: 623968d35b17a284d900f83e4b7f8c09
-  - enabled: 1
-    path: Assets/Scenes/Cuartos.unity
-    guid: fdcbb22e6b1b8f548ae47657e3a443d2
-  - enabled: 1
-    path: Assets/Scenes/Pasillos.unity
-    guid: 70fc18d251820d148bf751d2cf1481fa
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
