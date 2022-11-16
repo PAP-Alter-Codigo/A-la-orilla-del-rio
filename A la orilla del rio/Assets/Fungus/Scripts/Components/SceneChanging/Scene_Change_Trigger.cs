@@ -9,7 +9,6 @@ public class Scene_Change_Trigger : MonoBehaviour
     private Game_Master gm;
     public int nextSceneId;
     public string nextCheckPointName;
-    public Vector2 nextCheckPointPos;
     
 
     void Start(){
@@ -19,7 +18,6 @@ public class Scene_Change_Trigger : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other) {
 
         if(other.CompareTag("Player")){
-            gm.lastSpawnpointPos = transform.position;
             gm.lastSpawnpointName = nextCheckPointName;
             // Aqui podemos poner alguna animacion de transicion
             SceneManager.LoadScene(nextSceneId);
