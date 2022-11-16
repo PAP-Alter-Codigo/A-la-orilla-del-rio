@@ -30,8 +30,7 @@ public class Player_Properties : MonoBehaviour
     public VerticalDirection currentVDirection;
 
     // Checkpoint
-    public float checkpointPosX;
-    public float checkpointPosY;
+    public string lastCheckPoint;
 
     // Inventory, Por ahora es una lista de integers para debuggear, puede ser de objetos o incluso una referencia a un objeto
     public List<int> inventory;
@@ -61,9 +60,7 @@ public class Player_Properties : MonoBehaviour
         currentVDirection = VerticalDirection.DOWN;
         currentState = PlayerStates.AVAILABLE;
 
-        checkpointPosX = 0.0f;
-        checkpointPosX = 0.0f;
-
+        lastCheckPoint = "spawn";
 
         isWalking = false;
         inventory = new List<int>();
@@ -74,7 +71,7 @@ public class Player_Properties : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print(nav.steeringTarget);
+        //print(nav.steeringTarget);
         if (nav.velocity != Vector3.zero){
             isWalking = true;
         }else{
