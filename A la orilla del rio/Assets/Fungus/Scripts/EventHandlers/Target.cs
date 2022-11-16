@@ -19,6 +19,7 @@ public class Target : MonoBehaviour
         agent.updateRotation = false;
         agent.updateUpAxis = false;
         verb = FindObjectOfType<Verb>();
+        Set_Player_Position_To_Spawnpoint();
     }
 
     // Update is called once per frame
@@ -80,6 +81,22 @@ public class Target : MonoBehaviour
     // }
 
 
-
+    public void Set_Player_Position_To_Spawnpoint(){
+        string pointName = Game_Master.instance.lastSpawnpointName;
+        print("Point name: " +pointName);
+        if(pointName == null || pointName == string.Empty){
+            pointName = "Default_Point";
+        }
+        GameObject point = GameObject.Find("Spawn_Points/" +Game_Master.instance.lastSpawnpointName);
+        print(point);
+        if(point == null){
+            print("ERR: COULD NOT FIND SPAWN POINT OF " +Game_Master.instance.lastSpawnpointName);
+            point = GameObject.Find("Spawn_Points/Default_Point");
+            this.transform.position = this.GetComponent<Target>().followSpot = point.transform.position;
+            return;
+        }
+        print("Found point at: " +point.transform.position);
+        this.transform.position = this.GetComponent<Target>().followSpot = point.transform.position;
+    }
 
 }
