@@ -757,7 +757,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 685.18335
+    x: 683.26025
     y: 246.94264
     width: 105.38461
     height: 40
@@ -15461,7 +15461,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 0.5
   durationOLD: 0
 --- !u!1 &68495957
 GameObject:

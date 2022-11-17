@@ -19121,7 +19121,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 0.5
   durationOLD: 0
 --- !u!1 &68495957
 GameObject:
@@ -19576,7 +19576,7 @@ MonoBehaviour:
   m_VoxelSize: 0.030000001
   m_BuildHeightMesh: 0
   m_HideEditorLogs: 0
-  m_NavMeshData: {fileID: 23800000, guid: 46c8e5d8971bade43a593c4dfea5f803, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 7d0fb44ab944702438174904f3df9aa1, type: 2}
 --- !u!1 &101230761
 GameObject:
   m_ObjectHideFlags: 0
