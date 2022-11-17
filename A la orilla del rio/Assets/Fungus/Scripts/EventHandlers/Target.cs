@@ -14,7 +14,6 @@ public class Target : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        followSpot = transform.position;
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
@@ -92,11 +91,11 @@ public class Target : MonoBehaviour
         if(point == null){
             print("ERR: COULD NOT FIND SPAWN POINT OF " +Game_Master.instance.lastSpawnpointName);
             point = GameObject.Find("Spawn_Points/Default_Point");
-            this.transform.position = this.GetComponent<Target>().followSpot = point.transform.position;
+            this.transform.position = followSpot = point.transform.position;
             return;
         }
         print("Found point at: " +point.transform.position);
-        this.transform.position = this.GetComponent<Target>().followSpot = point.transform.position;
+        this.transform.position = followSpot = point.transform.position;
     }
 
 }
