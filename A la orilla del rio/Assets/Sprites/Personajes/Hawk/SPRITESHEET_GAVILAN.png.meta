@@ -1,0 +1,482 @@
+fileFormatVersion: 2
+guid: 48a358bf0b2748a4aa3fdb04fdea10b4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPRITESHEET_GAVILAN_5
+      rect:
+        serializedVersion: 2
+        x: 6130
+        y: 1616
+        width: 292
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068077d5ff1249c4cacd87e5f38ef0e9
+      internalID: -1868844788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET_GAVILAN_6
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1616
+        width: 342
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7ff87308ab71148833db8673bbd7f2
+      internalID: -1923335055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET_GAVILAN_7
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 1616
+        width: 294
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10af790e2e3437243be1a93a62e6ab34
+      internalID: 1900205942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET_GAVILAN_8
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 1616
+        width: 297
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5791b209142ef04bb9da1ed6acafd77
+      internalID: -1369564329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET_GAVILAN_9
+      rect:
+        serializedVersion: 2
+        x: 4732
+        y: 1616
+        width: 294
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daebb0ede0378f048b80df9527661bd2
+      internalID: -1854671435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET_GAVILAN_16
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 905
+        width: 889
+        height: 564
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f2095686259a448ad87a8a407b8434
+      internalID: -1092987202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET_GAVILAN_18
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 905
+        width: 914
+        height: 564
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286846c85989c5d4c805053649fa3c86
+      internalID: 1962962071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET_GAVILAN_20
+      rect:
+        serializedVersion: 2
+        x: 3039
+        y: 905
+        width: 900
+        height: 564
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185766aa31748634f98b8e09ac05d36b
+      internalID: -1817038321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET_GAVILAN_22
+      rect:
+        serializedVersion: 2
+        x: 4406
+        y: 905
+        width: 934
+        height: 564
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f01e720d7d7ce742ad41e3638a1d508
+      internalID: 520954405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET_GAVILAN_24
+      rect:
+        serializedVersion: 2
+        x: 5808
+        y: 907
+        width: 930
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b36e7f49e1684e408e69e1cbe6b165b
+      internalID: 468534660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET_GAVILAN_31
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 120
+        width: 846
+        height: 566
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650f7115e52745041ac43a9cfe780edb
+      internalID: -49355966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET_GAVILAN_32
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 125
+        width: 906
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11abd3879054344f8e50cbb22be022c
+      internalID: -48162585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET_GAVILAN_34
+      rect:
+        serializedVersion: 2
+        x: 3009
+        y: 125
+        width: 930
+        height: 561
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfb44e33c4e4754f85e5b89aeda76f1
+      internalID: 1092873884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET_GAVILAN_36
+      rect:
+        serializedVersion: 2
+        x: 4472
+        y: 125
+        width: 869
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc7cc9faa6b918488b9c76221452f0a
+      internalID: 640991694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SPRITESHEET_GAVILAN_23: -1138929077
+      SPRITESHEET_GAVILAN_9: -1854671435
+      SPRITESHEET_GAVILAN_38: -935095019
+      SPRITESHEET_GAVILAN_3: -718747846
+      SPRITESHEET_GAVILAN_30: -572039331
+      SPRITESHEET_GAVILAN_27: 1185567862
+      SPRITESHEET_GAVILAN_37: -434844085
+      SPRITESHEET_GAVILAN_31: -49355966
+      SPRITESHEET_GAVILAN_0: 1684904327
+      SPRITESHEET_GAVILAN_19: -61464661
+      SPRITESHEET_GAVILAN_28: -1730754800
+      SPRITESHEET_GAVILAN_8: -1369564329
+      SPRITESHEET_GAVILAN_2: -113333471
+      SPRITESHEET_GAVILAN_1: -1029905349
+      SPRITESHEET_GAVILAN_14: 2057845690
+      SPRITESHEET_GAVILAN_20: -1817038321
+      SPRITESHEET_GAVILAN_25: 835721605
+      SPRITESHEET_GAVILAN_17: 1437885485
+      SPRITESHEET_GAVILAN_29: 1648625276
+      SPRITESHEET_GAVILAN_5: -1868844788
+      SPRITESHEET_GAVILAN_6: -1923335055
+      SPRITESHEET_GAVILAN_32: -48162585
+      SPRITESHEET_GAVILAN_22: 520954405
+      SPRITESHEET_GAVILAN_11: 1246100843
+      SPRITESHEET_GAVILAN_12: 36983120
+      SPRITESHEET_GAVILAN_21: -2027263500
+      SPRITESHEET_GAVILAN_39: -1748554199
+      SPRITESHEET_GAVILAN_15: -1773501646
+      SPRITESHEET_GAVILAN_7: 1900205942
+      SPRITESHEET_GAVILAN_35: 2011855886
+      SPRITESHEET_GAVILAN_4: -742476984
+      SPRITESHEET_GAVILAN_40: 673031589
+      SPRITESHEET_GAVILAN_10: 1614306123
+      SPRITESHEET_GAVILAN_36: 640991694
+      SPRITESHEET_GAVILAN_18: 1962962071
+      SPRITESHEET_GAVILAN_24: 468534660
+      SPRITESHEET_GAVILAN_33: 979084265
+      SPRITESHEET_GAVILAN_34: 1092873884
+      SPRITESHEET_GAVILAN_13: 1909354384
+      SPRITESHEET_GAVILAN_16: -1092987202
+      SPRITESHEET_GAVILAN_26: -2053911960
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
