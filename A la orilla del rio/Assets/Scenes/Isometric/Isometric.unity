@@ -20571,12 +20571,13 @@ GameObject:
   m_Component:
   - component: {fileID: 278426682}
   - component: {fileID: 278426681}
-  - component: {fileID: 278426680}
   - component: {fileID: 278426678}
   - component: {fileID: 278426671}
   - component: {fileID: 278426683}
   - component: {fileID: 278426684}
   - component: {fileID: 278426685}
+  - component: {fileID: 278426686}
+  - component: {fileID: 278426687}
   m_Layer: 0
   m_Name: Tom
   m_TagString: Untagged
@@ -20622,26 +20623,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!95 &278426680
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 278426670}
-  m_Enabled: 0
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9363a04af5d2fde4e9978d1d204bcb75, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!212 &278426681
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20764,6 +20745,42 @@ MonoBehaviour:
   useEventSystem: 0
   ActivateDistance: 0
   clickableName: Fox
+--- !u!95 &278426686
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278426670}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 814c5741bf3a1c74fbf11e765b78b10d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &278426687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278426670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82b3cdd16e8b66a448f48363b7015e68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  facingLeft: 0
+  facingFront: 0
+  isWalking: 0
+  animator: {fileID: 278426686}
 --- !u!1 &295992224
 GameObject:
   m_ObjectHideFlags: 0
