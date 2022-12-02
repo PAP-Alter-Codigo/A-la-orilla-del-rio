@@ -129,36 +129,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SPRITESHEET_GAVILAN_5
-      rect:
-        serializedVersion: 2
-        x: 6130
-        y: 1616
-        width: 292
-        height: 744
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 068077d5ff1249c4cacd87e5f38ef0e9
-      internalID: -1868844788
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: SPRITESHEET_GAVILAN_6
       rect:
         serializedVersion: 2
-        x: 487
-        y: 1616
+        x: 484
+        y: 1619
         width: 342
         height: 694
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -166,69 +145,6 @@ TextureImporter:
       bones: []
       spriteID: 6e7ff87308ab71148833db8673bbd7f2
       internalID: -1923335055
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SPRITESHEET_GAVILAN_7
-      rect:
-        serializedVersion: 2
-        x: 1933
-        y: 1616
-        width: 294
-        height: 698
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 10af790e2e3437243be1a93a62e6ab34
-      internalID: 1900205942
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SPRITESHEET_GAVILAN_8
-      rect:
-        serializedVersion: 2
-        x: 3331
-        y: 1616
-        width: 297
-        height: 694
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5791b209142ef04bb9da1ed6acafd77
-      internalID: -1369564329
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SPRITESHEET_GAVILAN_9
-      rect:
-        serializedVersion: 2
-        x: 4732
-        y: 1616
-        width: 294
-        height: 698
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: daebb0ede0378f048b80df9527661bd2
-      internalID: -1854671435
       vertices: []
       indices: 
       edges: []
@@ -242,7 +158,7 @@ TextureImporter:
         width: 889
         height: 564
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -263,7 +179,7 @@ TextureImporter:
         width: 914
         height: 564
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -284,7 +200,7 @@ TextureImporter:
         width: 900
         height: 564
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -305,7 +221,7 @@ TextureImporter:
         width: 934
         height: 564
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -326,7 +242,7 @@ TextureImporter:
         width: 930
         height: 555
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -347,7 +263,7 @@ TextureImporter:
         width: 846
         height: 566
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -368,7 +284,7 @@ TextureImporter:
         width: 906
         height: 554
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -389,7 +305,7 @@ TextureImporter:
         width: 930
         height: 561
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -410,7 +326,7 @@ TextureImporter:
         width: 869
         height: 554
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -418,6 +334,90 @@ TextureImporter:
       bones: []
       spriteID: 6fc7cc9faa6b918488b9c76221452f0a
       internalID: 640991694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET_GAVILAN_0
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 1619
+        width: 342
+        height: 694
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f0bfbbbbc1a364c97acad59b09c7da
+      internalID: 1684904327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET_GAVILAN_1
+      rect:
+        serializedVersion: 2
+        x: 3281
+        y: 1621
+        width: 342
+        height: 694
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d70c467694a324487460f60e755ff7
+      internalID: -1029905349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET_GAVILAN_2
+      rect:
+        serializedVersion: 2
+        x: 4681
+        y: 1616
+        width: 342
+        height: 694
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5d40934fe1b064189897e1179addfc
+      internalID: -113333471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET_GAVILAN_3
+      rect:
+        serializedVersion: 2
+        x: 6082
+        y: 1620
+        width: 342
+        height: 694
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd961cf8df3a0f64797f983264551075
+      internalID: -718747846
       vertices: []
       indices: 
       edges: []
