@@ -11,6 +11,8 @@ public class SlidingPuzzleTile : MonoBehaviour{
     [SerializeField]
     Flowchart flowchart;
     Vector2 targetPos;
+    [SerializeField]
+    LayerMask layerMask;
 
     private void OnMouseOver() {
         if(Input.GetMouseButton(0) && !board.isTileMoving) {
@@ -18,7 +20,7 @@ public class SlidingPuzzleTile : MonoBehaviour{
             Vector2 openDir = Vector2.negativeInfinity;
             foreach(Vector2 dir in directions) {
                 Vector2 startPos = new Vector2(transform.position.x + dir.x * transform.localScale.x / 1.5f, transform.position.y + dir.y * transform.localScale.y / 1.5f);
-                if(!Physics2D.Raycast(startPos, dir, rayDistance)) {
+                if(!Physics2D.Raycast(startPos, dir, rayDistance, layerMask)) {
                     Debug.DrawRay(startPos, dir, Color.cyan, rayDistance);
                     openDir = dir;
                     break;
