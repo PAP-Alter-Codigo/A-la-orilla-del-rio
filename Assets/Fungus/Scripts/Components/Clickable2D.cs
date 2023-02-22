@@ -25,7 +25,7 @@ namespace Fungus
         public float ActivateDistance;
         public string clickableName;
 
-       private Verb verb;
+        private Verb verb;
         public void Start()
         {
             verb = FindObjectOfType<Verb>();
