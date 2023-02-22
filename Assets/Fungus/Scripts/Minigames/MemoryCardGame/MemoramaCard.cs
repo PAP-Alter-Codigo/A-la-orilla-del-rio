@@ -14,7 +14,7 @@ public class MemoramaCard : MonoBehaviour{
     private int card;
 
     private void OnMouseOver() {
-        if(Input.GetMouseButtonDown(0) && !flippedCards.Contains(gameObject) && !flowchart.GetBooleanVariable("isCardInUse")) {
+        if(Input.GetMouseButtonDown(0) && transform.forward.z > 0 && !flowchart.GetBooleanVariable("isCardInUse")) {
             flowchart.SetGameObjectVariable("currCard", gameObject);
             flowchart.ExecuteBlock("flipCard");
         }
