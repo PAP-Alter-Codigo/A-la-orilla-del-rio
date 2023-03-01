@@ -10,15 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3e64c7960e86f1145be4f7f578875d2d, type: 3}
-  m_Name: Book
+  m_Name: Premio
   m_EditorClassIdentifier: 
-  itemOwned: 1
+  itemOwned: 0
   Class: 0
-  itemName: Book
-  itemIcon: {fileID: 21300000, guid: 11c4235d5836e5b4fbbac982e839d4c2, type: 3}
-  combinable: 1
-  combinableItems:
-  - {fileID: 11400000}
-  succesBlockNames:
-  - Leer/ibro
+  itemName: Premio
+  itemIcon: {fileID: 21300000, guid: d767f19e7577dcc45861824b664970c6, type: 3}
+  combinable: 0
+  combinableItems: []
+  succesBlockNames: []
   failBlockNames: fail
