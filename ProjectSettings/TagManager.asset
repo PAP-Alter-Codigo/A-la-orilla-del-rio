@@ -51,6 +51,9 @@ TagManager:
   - name: Plantas
     uniqueID: 2587838427
     locked: 0
+  - name: Tilemap_Agua
+    uniqueID: 1560534387
+    locked: 0
   - name: Tilemap_Limite
     uniqueID: 1954829883
     locked: 0
