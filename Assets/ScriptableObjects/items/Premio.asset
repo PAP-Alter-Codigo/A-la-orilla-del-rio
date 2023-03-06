@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemOwned: 0
   Class: 0
-  itemName: Premio
+  itemName: Palito
   itemIcon: {fileID: 21300000, guid: d767f19e7577dcc45861824b664970c6, type: 3}
   combinable: 0
   combinableItems: []
