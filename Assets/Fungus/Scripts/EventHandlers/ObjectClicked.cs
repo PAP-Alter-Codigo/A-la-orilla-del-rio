@@ -76,42 +76,43 @@ namespace Fungus
         /// </summary>
         protected virtual IEnumerator DoExecuteBlock(int numFrames)
         {
-            //edited by Gabriel
-            while (Vector3.Distance(clickableObject.transform.position, target.transform.position) > clickableObject.ActivateDistance)
-            {
-                // yield return new WaitForEndOfFrame();
-                yield return new WaitForSeconds(.1f);
+            bool doExecute = target == null;
 
-            }
-            //edited by Gabriel
-            if (Vector3.Distance(clickableObject.transform.position, target.transform.position) <= clickableObject.ActivateDistance)
-            {
+            if(!doExecute) {
                 //edited by Gabriel
-                target.inDialogue = true;
-                target.cutsceneInProgress = true;
-                target.SetDestinationTarget();
-                target.followSpot = target.transform.position;
-                verb.gameObject.SetActive(false);
-                //change verb to Use
-                verb.UpdateVerbTextBox(clickableObject.clickableName);
-                //target.animator.SetFloat("distance",0);
-
-
-                if (numFrames == 0)
+                while (Vector3.Distance(clickableObject.transform.position, target.transform.position) > clickableObject.ActivateDistance)
                 {
+                    // yield return new WaitForEndOfFrame();
+                    yield return new WaitForSeconds(.1f);
+
+                }
+                //edited by Gabriel
+                if (Vector3.Distance(clickableObject.transform.position, target.transform.position) <= clickableObject.ActivateDistance)
+                {
+                    //edited by Gabriel
+                    target.inDialogue = true;
+                    target.cutsceneInProgress = true;
+                    target.SetDestinationTarget();
+                    target.followSpot = target.transform.position;
+                    verb.gameObject.SetActive(false);
+                    //change verb to Use
+                    verb.UpdateVerbTextBox(clickableObject.clickableName);
+                    //target.animator.SetFloat("distance",0);
+                    doExecute = true;
+                }
+            }
+
+            if(doExecute) {
+                if (numFrames == 0){
                     ExecuteBlock();
                     yield break;
                 }
-
                 int count = Mathf.Max(waitFrames, 1);
-                while (count > 0)
-                {
+                while (count > 0){
                     count--;
                     yield return new WaitForEndOfFrame();
                 }
-
                 ExecuteBlock();
-
             }
 
         }
