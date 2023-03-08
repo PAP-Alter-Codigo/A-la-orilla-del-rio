@@ -139,7 +139,7 @@ public class MemoramaBoard : MonoBehaviour{
         // Se completó el juego
         if(matches >= uniqueCards) {
             //win
-            Debug.Log("Win");
+            flowchart.ExecuteBlock("MemoramaWin");
         }
     }
 }
