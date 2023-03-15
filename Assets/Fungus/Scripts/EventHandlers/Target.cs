@@ -95,8 +95,11 @@ public class Target : MonoBehaviour
 
     public void dontMove()
     {
+        print("before position: " +transform.position);
         agent.SetDestination(transform.position);
+        print("middle position: " +transform.position);
         followSpot = transform.position;
+        print("after position: " +transform.position);
     }
 
     // private void OnCollisionStay2D(Collision2D collision)
