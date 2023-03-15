@@ -1,7 +1,7 @@
 // This code is part of the Fungus library (https://github.com/snozbot/fungus)
 // It is released for free under the MIT open source license (https://github.com/snozbot/fungus/blob/master/LICENSE)
 
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.Serialization;
 using System.Collections.Generic;
@@ -59,7 +59,7 @@ namespace Fungus
 
         public void UnregisterHandler(DragCompleted handler)
         {
-            if(dragCompletedHandlers.Contains(handler))
+            if (dragCompletedHandlers.Contains(handler))
             {
                 dragCompletedHandlers.Remove(handler);
             }
@@ -76,8 +76,13 @@ namespace Fungus
                 updatePosition = false;
             }
         }
+        // edited
+        public void SetDraggable(bool isDraggable)
+        {
+            dragEnabled = isDraggable;
+        }
 
-        protected virtual void OnTriggerEnter2D(Collider2D other) 
+        protected virtual void OnTriggerEnter2D(Collider2D other)
         {
             if (!dragEnabled)
             {
@@ -89,7 +94,7 @@ namespace Fungus
             eventDispatcher.Raise(new DragEntered.DragEnteredEvent(this, other));
         }
 
-        protected virtual void OnTriggerExit2D(Collider2D other) 
+        protected virtual void OnTriggerExit2D(Collider2D other)
         {
             if (!dragEnabled)
             {
@@ -167,7 +172,7 @@ namespace Fungus
                     LeanTween.move(gameObject, startingPosition, returnDuration).setEase(LeanTweenType.easeOutExpo);
                 }
             }
-            else if(returnOnCompleted)
+            else if (returnOnCompleted)
             {
                 LeanTween.move(gameObject, startingPosition, returnDuration).setEase(LeanTweenType.easeOutExpo);
             }
@@ -228,7 +233,7 @@ namespace Fungus
                 DoPointerEnter();
             }
         }
-        
+
         protected virtual void OnMouseExit()
         {
             if (!useEventSystem)
