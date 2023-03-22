@@ -59,7 +59,7 @@ namespace Fungus
 
         public void UnregisterHandler(DragCompleted handler)
         {
-            if (dragCompletedHandlers.Contains(handler))
+            if(dragCompletedHandlers.Contains(handler))
             {
                 dragCompletedHandlers.Remove(handler);
             }
@@ -172,7 +172,7 @@ namespace Fungus
                     LeanTween.move(gameObject, startingPosition, returnDuration).setEase(LeanTweenType.easeOutExpo);
                 }
             }
-            else if (returnOnCompleted)
+            else if(returnOnCompleted)
             {
                 LeanTween.move(gameObject, startingPosition, returnDuration).setEase(LeanTweenType.easeOutExpo);
             }
@@ -233,7 +233,7 @@ namespace Fungus
                 DoPointerEnter();
             }
         }
-
+        
         protected virtual void OnMouseExit()
         {
             if (!useEventSystem)

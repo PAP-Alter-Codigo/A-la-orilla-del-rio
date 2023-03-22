@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Fungus/Scripts/EventHandlers/Drag/draggableItem.cs.meta
 guid: 405cfc0e314e84efc989438e5df75b37
+========
+guid: cd19f38aace31a646b648a20d5d37b94
+>>>>>>>> origin/development:Assets/Fungus/Scripts/Minigames/Fish/BarColoreador.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
