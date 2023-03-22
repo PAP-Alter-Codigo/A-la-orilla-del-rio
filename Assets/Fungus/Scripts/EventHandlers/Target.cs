@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UI;
 
 public class Target : MonoBehaviour
 {
@@ -49,17 +50,43 @@ public class Target : MonoBehaviour
         verb.verb = Verb.Actions.Walk;
         verb.UpdateVerbTextBox(null);
         verb.gameObject.SetActive(true);
+
+            // Disable all UI buttons
+    // var buttons = FindObjectsOfType<Button>();
+    // foreach (var button in buttons)
+    // {
+    //     button.interactable = true;
+    // }
     }
+
+
+    // public void enterDialogue()
+    // {
+    //     inDialogue = true;
+    //     cutsceneInProgress = true;
+
+    //     verb.verb = Verb.Actions.Walk;
+    //     verb.UpdateVerbTextBox(null);
+    //     verb.gameObject.SetActive(false);
+    // }
 
     public void enterDialogue()
-    {
-        inDialogue = true;
-        cutsceneInProgress = true;
+{
+    inDialogue = true;
+    cutsceneInProgress = true;
 
-        verb.verb = Verb.Actions.Walk;
-        verb.UpdateVerbTextBox(null);
-        verb.gameObject.SetActive(false);
+    verb.verb = Verb.Actions.Walk;
+    verb.UpdateVerbTextBox(null);
+    verb.gameObject.SetActive(false);
+
+    // Disable all UI buttons
+    var buttons = FindObjectsOfType<Button>();
+    foreach (var button in buttons)
+    {
+        button.interactable = false;
     }
+
+}
 
     public void SetDestinationTarget()
     {
@@ -68,10 +95,11 @@ public class Target : MonoBehaviour
 
     public void dontMove()
     {
+        print("before position: " +transform.position);
         agent.SetDestination(transform.position);
+        print("middle position: " +transform.position);
         followSpot = transform.position;
-        inDialogue = true;
-
+        print("after position: " +transform.position);
     }
 
     // private void OnCollisionStay2D(Collision2D collision)

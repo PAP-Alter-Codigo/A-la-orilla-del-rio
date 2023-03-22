@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Fungus/Scripts/Minigames/Fish/FishMarker.cs.meta
 guid: 000a07fda5f7ee348938db361f919ff3
+========
+guid: 69cf2937614507841a89271bd6a0f9ff
+>>>>>>>> origin/development:Assets/Fungus/Scripts/Minigames/ImageTilesPuzzle/SlidingPuzzleBoard.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

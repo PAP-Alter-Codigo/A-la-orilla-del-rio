@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/Level/Level 1/L1 Scene02.unity.meta
 guid: 38c10505f3b31463fbd03ae6ea3758cb
+========
+guid: 35c4a121944412345b58882f82a28a9a
+>>>>>>>> origin/development:Assets/Scenes/Minigames/DiegoMiniJuego1.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
