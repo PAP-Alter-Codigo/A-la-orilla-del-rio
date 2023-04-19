@@ -48,14 +48,14 @@ TagManager:
   - name: Tilemap_Piso
     uniqueID: 3609589833
     locked: 0
-  - name: Plantas
-    uniqueID: 2587838427
-    locked: 0
   - name: Tilemap_Agua
     uniqueID: 1560534387
     locked: 0
   - name: Tilemap_Limite
     uniqueID: 1954829883
+    locked: 0
+  - name: Art
+    uniqueID: 2340784529
     locked: 0
   - name: Tilemap_Arboles
     uniqueID: 2037826125
@@ -65,6 +65,9 @@ TagManager:
     locked: 0
   - name: Tilemap_Props
     uniqueID: 652705605
+    locked: 0
+  - name: Plantas
+    uniqueID: 2587838427
     locked: 0
   - name: NPC
     uniqueID: 3120055189
