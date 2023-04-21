@@ -9,12 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Intro/IntroMountain.unity
     guid: d1647ef09841bb348af1cda4012b250c
   - enabled: 1
+    path: Assets/Scenes/Level/Level 1/L1 Scene01.unity
+    guid: 9dcf46e7a8249c34f945e44b2f136a4b
+  - enabled: 1
+    path: Assets/Scenes/Level/Level 1/L1 Scene02.unity
+    guid: 38c10505f3b31463fbd03ae6ea3758cb
+  - enabled: 1
     path: Assets/Scenes/SwitchingScenes/Scene0.unity
     guid: 4a7c0002b37a0d44d9c257aeb58a5a59
   - enabled: 1
     path: Assets/Scenes/SwitchingScenes/scene1.unity
     guid: 518a7090e610c4f4f928e5840a7dca44
-  - enabled: 1
-    path: Assets/Scenes/Level/Level 1/L1 Scene02.unity
-    guid: 38c10505f3b31463fbd03ae6ea3758cb
   m_configObjects: {}
