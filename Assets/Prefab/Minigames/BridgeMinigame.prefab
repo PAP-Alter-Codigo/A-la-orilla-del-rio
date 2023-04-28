@@ -4641,7 +4641,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 988978553
-  m_SortingLayer: 8
+  m_SortingLayer: 10
   m_SortingOrder: 0
   m_Sprite: {fileID: -2006236565, guid: 579b1c7ce704bd643b3d477f8ca40ac2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4663,7 +4663,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8208637958101955789}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18a0e492e94664ec0ac44d252c40e3a7, type: 3}
+  m_Script: {fileID: 11500000, guid: d56b38eb6b1504b639efcd52fbd7c5ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dragEnabled: 1
@@ -4673,8 +4673,6 @@ MonoBehaviour:
   hoverCursor: {fileID: 0}
   useEventSystem: 0
   beingDragged: 0
-  target: {fileID: 0}
-  verb: {fileID: 0}
 --- !u!58 &8208637958101955788
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4705,7 +4703,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flowchart: {fileID: 8208637958783683294}
   edgeRad: 0.3
-  edgeOff: 0.35
+  edgeOff: 0.3
 --- !u!50 &8208637958101955786
 Rigidbody2D:
   serializedVersion: 4
