@@ -79,12 +79,12 @@ public class Target : MonoBehaviour
     verb.UpdateVerbTextBox(null);
     verb.gameObject.SetActive(false);
 
-    // Disable all UI buttons
-    var buttons = FindObjectsOfType<Button>();
-    foreach (var button in buttons)
-    {
-        button.interactable = false;
-    }
+    // // Disable all UI buttons
+    // var buttons = FindObjectsOfType<Button>();
+    // foreach (var button in buttons)
+    // {
+    //     button.interactable = false;
+    // }
 
 }
 
