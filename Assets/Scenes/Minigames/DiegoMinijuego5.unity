@@ -447,11 +447,11 @@ MonoBehaviour:
   maxPeakScale: 4.2
   minPeakScale: 1.5
   maxPeakXOffset: 7
-  maxPeakYOffset: 1
+  maxPeakYOffset: 0.5
   maxPeakRotation: 90
   flyingObstacleYOffset: 5
   spawnMountainChance: 0.003
-  spawnFlyingChance: 0.0015
+  spawnFlyingChance: 0.001
 --- !u!1 &406178170
 GameObject:
   m_ObjectHideFlags: 0
@@ -1803,18 +1803,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 235.81378, y: 123.12167}
+  scrollPos: {x: 903.98395, y: 209.71495}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.8800001
+  zoom: 0.40000045
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1225223229}
   selectedCommands: []
   variables: []
   description: 
@@ -1858,7 +1859,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 111.36363
+    width: 112.49992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2501,8 +2502,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.25}
-  m_Size: {x: 0.8, y: 1.2}
+  m_Offset: {x: 0.026533276, y: -0.27405825}
+  m_Size: {x: 0.5346679, y: 0.72924477}
   m_Direction: 0
 --- !u!1 &1804895278
 GameObject:
