@@ -18,7 +18,7 @@ public class ObstacleSpawner : MonoBehaviour{
             GameObject mountain = new GameObject("mountain");
             for(int i = 0; i < peaks; i++) {
                 GameObject mntnPeak = Instantiate(obstacleSquare, mountain.transform);
-                mntnPeak.transform.localScale = new(Random.value * maxPeakScale + minPeakScale,Random.value * maxPeakScale + minPeakScale,Random.value * maxPeakScale + minPeakScale);
+                mntnPeak.transform.localScale = new Vector3(Random.value * maxPeakScale + minPeakScale,Random.value * maxPeakScale + minPeakScale,Random.value * maxPeakScale + minPeakScale);
                 mntnPeak.transform.localPosition += maxPeakXOffset * Random.value * Vector3.right;
                 mntnPeak.transform.localPosition += maxPeakYOffset * Random.value * Vector3.up;
                 mntnPeak.transform.rotation = Quaternion.Euler(0, 0, maxPeakRotation * Random.value);

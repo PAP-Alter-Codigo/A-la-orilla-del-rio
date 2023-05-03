@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics.Contracts;
-using UnityEditor.SearchService;
+//using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -55,7 +55,7 @@ public class Birb : MonoBehaviour{
     void Start(){
         Time.timeScale = 0.0f;
         if(maxZrot <= minZrot) maxZrot = minZrot  + 1.0f;
-        PhysicsMaterial2D pm = new() {
+        PhysicsMaterial2D pm = new PhysicsMaterial2D() {
             bounciness = 5
         };
         GetComponent<Rigidbody2D>().sharedMaterial = pm;
@@ -71,6 +71,7 @@ public class Birb : MonoBehaviour{
                 if(winScreen.activeInHierarchy && nextSceneName.Length > 0) {
                     loadingScreen.SetActive(true);
                     SceneManager.LoadScene(nextSceneName);
+                    Time.timeScale = 1f;
                     return;
                 }
             }
