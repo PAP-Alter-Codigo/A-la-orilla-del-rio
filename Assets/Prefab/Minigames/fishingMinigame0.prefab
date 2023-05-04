@@ -1447,7 +1447,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   scrollPos: {x: -0.50458336, y: 72.71166}
-  variablesScrollPos: {x: 0, y: 25}
+  variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 454
   zoom: 0.7899997
@@ -2220,7 +2220,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 9217781985553595694}
   suppressBlockAutoSelect: 0
-  clickableObject: {fileID: 9217781985768426539}
+  clickableObject: {fileID: 0}
   waitFrames: 1
   target: {fileID: 0}
   verb: {fileID: 0}
@@ -11679,7 +11679,6 @@ GameObject:
   - component: {fileID: 9217781985768426542}
   - component: {fileID: 9217781985768426537}
   - component: {fileID: 9217781985768426536}
-  - component: {fileID: 9217781985768426539}
   - component: {fileID: 452440095}
   m_Layer: 0
   m_Name: ClickableSprite
@@ -11781,23 +11780,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3, y: 3}
   m_EdgeRadius: 0
---- !u!114 &9217781985768426539
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9217781985768426538}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clickEnabled: 0
-  hoverCursor: {fileID: 0}
-  useEventSystem: 0
-  ActivateDistance: 0
-  clickableName: 
 --- !u!114 &452440095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12515,7 +12497,7 @@ GameObject:
   - component: {fileID: 9217781986202296886}
   m_Layer: 0
   m_Name: Circle (1)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26258,7 +26240,7 @@ GameObject:
   - component: {fileID: 9217781986275151327}
   m_Layer: 0
   m_Name: Circle (2)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
