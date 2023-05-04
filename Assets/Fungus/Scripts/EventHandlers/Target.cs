@@ -28,18 +28,18 @@ public class Target : MonoBehaviour
         if (inDialogue == false)
         {
             //posicion del mouse
-        var mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        if (Input.GetMouseButton(0) )
-        {
-            //actualizar la posicion del target
-            followSpot = new Vector2(mousePos.x, mousePos.y);
-        }
-        agent.SetDestination(new Vector3(followSpot.x, followSpot.y, transform.position.z));
+            var mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            if (Input.GetMouseButton(0))
+            {
+                //actualizar la posicion del target
+                followSpot = new Vector2(mousePos.x, mousePos.y);
+            }
+            agent.SetDestination(new Vector3(followSpot.x, followSpot.y, transform.position.z));
 
-        // moverse hacia el punto de seguimiento
-        //transform.position = Vector2.MoveTowards(transform.position, followSpot, speed * Time.deltaTime);
+            // moverse hacia el punto de seguimiento
+            //transform.position = Vector2.MoveTowards(transform.position, followSpot, speed * Time.deltaTime);
         }
-        
+
     }
 
     public void exitDialogue()
@@ -51,12 +51,7 @@ public class Target : MonoBehaviour
         verb.UpdateVerbTextBox(null);
         verb.gameObject.SetActive(true);
 
-            // Disable all UI buttons
-    // var buttons = FindObjectsOfType<Button>();
-    // foreach (var button in buttons)
-    // {
-    //     button.interactable = true;
-    // }
+        enableUI();
     }
 
 
@@ -71,22 +66,36 @@ public class Target : MonoBehaviour
     // }
 
     public void enterDialogue()
-{
-    inDialogue = true;
-    cutsceneInProgress = true;
+    {
+        inDialogue = true;
+        cutsceneInProgress = true;
 
-    verb.verb = Verb.Actions.Walk;
-    verb.UpdateVerbTextBox(null);
-    verb.gameObject.SetActive(false);
+        verb.verb = Verb.Actions.Walk;
+        verb.UpdateVerbTextBox(null);
+        verb.gameObject.SetActive(false);
 
-    // // Disable all UI buttons
-    // var buttons = FindObjectsOfType<Button>();
-    // foreach (var button in buttons)
-    // {
-    //     button.interactable = false;
-    // }
+        // // Disable all UI buttons
+        disableUI();
 
-}
+    }
+
+    public void disableUI()
+    {
+        var buttons = FindObjectsOfType<Button>();
+        foreach (var button in buttons)
+        {
+            button.interactable = false;
+        }
+    }
+
+    public void enableUI(){
+        var buttons = FindObjectsOfType<Button>();
+        foreach (var button in buttons)
+        {
+            button.interactable = true;
+        }
+    }
+
 
     public void SetDestinationTarget()
     {
@@ -95,11 +104,11 @@ public class Target : MonoBehaviour
 
     public void dontMove()
     {
-        print("before position: " +transform.position);
+        print("before position: " + transform.position);
         agent.SetDestination(transform.position);
-        print("middle position: " +transform.position);
+        print("middle position: " + transform.position);
         followSpot = transform.position;
-        print("after position: " +transform.position);
+        print("after position: " + transform.position);
     }
 
     // private void OnCollisionStay2D(Collision2D collision)

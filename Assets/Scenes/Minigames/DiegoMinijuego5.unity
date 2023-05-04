@@ -450,8 +450,8 @@ MonoBehaviour:
   maxPeakYOffset: 0.5
   maxPeakRotation: 90
   flyingObstacleYOffset: 5
-  spawnMountainChance: 0.003
-  spawnFlyingChance: 0.001
+  spawnMountainChance: 0.03
+  spawnFlyingChance: 0.01
 --- !u!1 &406178170
 GameObject:
   m_ObjectHideFlags: 0

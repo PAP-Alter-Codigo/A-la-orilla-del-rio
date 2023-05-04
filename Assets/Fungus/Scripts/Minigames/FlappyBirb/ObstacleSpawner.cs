@@ -11,7 +11,7 @@ public class ObstacleSpawner : MonoBehaviour{
     private float spawnMountainChance = 0.003f, spawnFlyingChance = 0.001f;
 
     // Update is called once per frame
-    void Update(){
+    void FixedUpdate(){
         if(Time.timeScale == 0.0f) return;
         if(Random.value < spawnMountainChance) {
             int peaks = Random.Range(1, 4);
