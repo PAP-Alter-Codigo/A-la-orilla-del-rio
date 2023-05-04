@@ -3,7 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SlidingPuzzleBoard : MonoBehaviour{
+public class SlidingPuzzleBoard : MonoBehaviour
+{
     [SerializeField, Range(2, 8)]
     private int size = 3;
     [SerializeField]
@@ -18,31 +19,39 @@ public class SlidingPuzzleBoard : MonoBehaviour{
     bool clearing = false;
     public bool isTileMoving;
 
-    private void FixedUpdate() {
-        if(clearing && transform.childCount < 1){
+    private void FixedUpdate()
+    {
+        // Verifica si el tablero se está borrando y si no tiene hijos
+        if (clearing && transform.childCount < 1)
+        {
             AddBoardTiles();
             clearing = false;
         }
     }
 
-    public void MakeBoard(){
-        if(images.Length < 1) return;
+    public void MakeBoard()
+    {
+        if (images.Length < 1) return;
         // Obtener una imagen aleatoria para el juego
         image = images[UnityEngine.Random.Range(0, images.Length)];
         finalImage.GetComponent<SpriteRenderer>().sprite = hintImage.GetComponent<SpriteRenderer>().sprite = Sprite.Create(image, new Rect(0, 0, image.width, image.height), new Vector2(0.5f, 0.5f));
 
         // Si ya hay un juego creado, limpiarlo
-        if(transform.childCount > 0) {
+        if (transform.childCount > 0)
+        {
             Destroy(lostChild);
-            for(int i=0;i<transform.childCount;i++)
+            for (int i = 0; i < transform.childCount; i++)
                 Destroy(transform.GetChild(i).gameObject);
             clearing = true;
-        }else {
+        }
+        else
+        {
             AddBoardTiles();
         }
     }
 
-    void AddBoardTiles() {
+    void AddBoardTiles()
+    {
         // Generar los cuadros del tablero
         int sliceWidth = image.width/size, sliceHeight = image.height/size;
         ArrayList availablePositions = new ArrayList(size*size);
@@ -55,7 +64,6 @@ public class SlidingPuzzleBoard : MonoBehaviour{
                 SpriteRenderer sr = newTile.transform.GetChild(0).GetComponent<SpriteRenderer>();
                 sr.sprite = Sprite.Create(image, new Rect(x, y, sliceWidth, sliceHeight), new Vector2(0.5f, 0.5f));
                 availablePositions.Add(new Vector2(startOffset + i * spacing, startOffset + j * spacing));
-                //newTile.transform.localPosition = new Vector2(startOffset + i * spacing, startOffset + j * spacing);
                 newTile.GetComponent<SlidingPuzzleTile>().SetTargetPos(new Vector2(startOffset + i * spacing, startOffset + j * spacing));
             }
         }
@@ -119,15 +127,19 @@ public class SlidingPuzzleBoard : MonoBehaviour{
         return inv_count;
     }
 
-    public void TileStopped() {
+    public void TileStopped()
+    {
         bool win = true;
-        for(int i = 0;i < transform.childCount;i++)
-            if(!transform.GetChild(i).GetComponent<SlidingPuzzleTile>().IsOnTargetPos()) {
-                win=false;
+        for (int i = 0; i < transform.childCount; i++)
+            if (!transform.GetChild(i).GetComponent
+        <SlidingPuzzleTile>().IsOnTargetPos())
+            {
+                win = false;
                 break;
             }
         isTileMoving = false;
-        if(!win) return;
+        if (!win) return;
+        // Si el jugador gana, reasigna el último tile al tablero y cambia su posición al objetivo.
         lostChild.transform.parent = transform;
         SlidingPuzzleTile t = lostChild.GetComponent<SlidingPuzzleTile>();
         lostChild.transform.localPosition = t.GetTargetPos();
