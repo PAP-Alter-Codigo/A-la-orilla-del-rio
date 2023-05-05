@@ -309,6 +309,139 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 20037753}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &39942260
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 39942261}
+  - component: {fileID: 39942264}
+  - component: {fileID: 39942263}
+  - component: {fileID: 39942262}
+  m_Layer: 0
+  m_Name: New Game (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &39942261
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39942260}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 902220491}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 57, y: -44}
+  m_SizeDelta: {x: 40, y: 40}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &39942262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39942260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 39942263}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 278426671}
+        m_TargetAssemblyTypeName: Target, Fungus
+        m_MethodName: dontMove
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &39942263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39942260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 115114460, guid: d28aa3a114478b547b233abb40eb9767, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &39942264
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39942260}
+  m_CullTransparentMesh: 1
 --- !u!1 &60163809
 GameObject:
   m_ObjectHideFlags: 0
@@ -498,18 +631,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -220.77362, y: 124.800766}
+  scrollPos: {x: -63.39736, y: -55.205944}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 403
-  zoom: 0.43000028
+  zoom: 0.67000014
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 60164290}
   selectedCommands: []
   variables:
   - {fileID: 60163885}
@@ -566,7 +700,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 535.1518
     y: 260.6536
-    width: 77.90696
+    width: 76.268654
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -626,7 +760,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 686.18335
     y: 246.94264
-    width: 101.16276
+    width: 103.73134
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -682,7 +816,7 @@ MonoBehaviour:
   storyText: "\xA1Encontr\xE9 unos hijos de la serpiente!"
   description: 
   character: {fileID: 1279988736}
-  portrait: {fileID: 21300000, guid: a90243094eae7744185b698ac8911e4a, type: 3}
+  portrait: {fileID: 21300000, guid: cc52d0de4e1992b41a25d6a83e62458d, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -708,7 +842,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 476.70587
     y: 102.074135
-    width: 156.97668
+    width: 161.04475
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1111,7 +1245,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 964.5631
     y: 402.8215
-    width: 77.90696
+    width: 76.268654
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1173,7 +1307,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 517.4415
     y: 357.1479
-    width: 126.74414
+    width: 129.99998
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1330,7 +1464,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 726.9161
     y: 399.43344
-    width: 163.95341
+    width: 167.0149
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1785,7 +1919,7 @@ MonoBehaviour:
   storyText: "Ay, \xA1mis hijos!"
   description: 
   character: {fileID: 1322808064}
-  portrait: {fileID: 21300000, guid: a90243094eae7744185b698ac8911e4a, type: 3}
+  portrait: {fileID: 21300000, guid: 8de7b4069be82a24797c879a656a5c28, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1811,7 +1945,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 906.31104
     y: 159.91763
-    width: 159.30225
+    width: 164.62685
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1891,7 +2025,7 @@ MonoBehaviour:
   storyText: "\xBFMe ayudar\xEDas a encontrar mis hijos?"
   description: 
   character: {fileID: 1322808064}
-  portrait: {fileID: 21300000, guid: a90243094eae7744185b698ac8911e4a, type: 3}
+  portrait: {fileID: 21300000, guid: 8de7b4069be82a24797c879a656a5c28, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1918,7 +2052,7 @@ MonoBehaviour:
   storyText: "\xA1Oye t\xFA!"
   description: 
   character: {fileID: 1322808064}
-  portrait: {fileID: 21300000, guid: a90243094eae7744185b698ac8911e4a, type: 3}
+  portrait: {fileID: 21300000, guid: 8de7b4069be82a24797c879a656a5c28, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2418,7 +2552,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 673.9503
     y: 167.69917
-    width: 122.09298
+    width: 124.02984
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2700,7 +2834,7 @@ MonoBehaviour:
   storyText: "\xA1Encontr\xE9 unos hijos de la serpiente!"
   description: 
   character: {fileID: 1279988736}
-  portrait: {fileID: 21300000, guid: a90243094eae7744185b698ac8911e4a, type: 3}
+  portrait: {fileID: 21300000, guid: cc52d0de4e1992b41a25d6a83e62458d, type: 3}
   voiceOverClip: {fileID: 8300000, guid: be122d5e134d8fb46a8f0d559bf85f08, type: 3}
   showAlways: 1
   showCount: 1
@@ -2726,7 +2860,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 869.5981
     y: 95.07907
-    width: 156.97668
+    width: 163.43282
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3606,7 +3740,7 @@ MonoBehaviour:
   storyText: "\xA1Encontr\xE9 unos hijos de la serpiente!"
   description: 
   character: {fileID: 1279988736}
-  portrait: {fileID: 21300000, guid: a90243094eae7744185b698ac8911e4a, type: 3}
+  portrait: {fileID: 21300000, guid: cc52d0de4e1992b41a25d6a83e62458d, type: 3}
   voiceOverClip: {fileID: 8300000, guid: be122d5e134d8fb46a8f0d559bf85f08, type: 3}
   showAlways: 1
   showCount: 1
@@ -3632,7 +3766,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 668.7063
     y: 85.70318
-    width: 156.97668
+    width: 162.23878
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3696,7 +3830,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 884.23004
     y: 251.18115
-    width: 175.58131
+    width: 178.9552
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3832,7 +3966,7 @@ MonoBehaviour:
   storyText: Ahora puedo volver a casa.
   description: 
   character: {fileID: 1322808064}
-  portrait: {fileID: 21300000, guid: a90243094eae7744185b698ac8911e4a, type: 3}
+  portrait: {fileID: 21300000, guid: 8de7b4069be82a24797c879a656a5c28, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3873,7 +4007,7 @@ MonoBehaviour:
   storyText: "Pero, \xBFqu\xE9 tienes ah\xED?"
   description: 
   character: {fileID: 1322808064}
-  portrait: {fileID: 21300000, guid: a90243094eae7744185b698ac8911e4a, type: 3}
+  portrait: {fileID: 21300000, guid: 8de7b4069be82a24797c879a656a5c28, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4542,7 +4676,7 @@ MonoBehaviour:
   storyText: "\xA1Los has encontrado todos! \xA1Muchas gracias!"
   description: 
   character: {fileID: 1322808064}
-  portrait: {fileID: 21300000, guid: a90243094eae7744185b698ac8911e4a, type: 3}
+  portrait: {fileID: 21300000, guid: 8de7b4069be82a24797c879a656a5c28, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4569,7 +4703,7 @@ MonoBehaviour:
   storyText: Hora de volver con la serpiente.
   description: 
   character: {fileID: 1279988736}
-  portrait: {fileID: 21300000, guid: a90243094eae7744185b698ac8911e4a, type: 3}
+  portrait: {fileID: 21300000, guid: cc52d0de4e1992b41a25d6a83e62458d, type: 3}
   voiceOverClip: {fileID: 8300000, guid: be122d5e134d8fb46a8f0d559bf85f08, type: 3}
   showAlways: 1
   showCount: 1
@@ -4596,7 +4730,7 @@ MonoBehaviour:
   storyText: "\xA1Creo que ahora los tengo todos!"
   description: 
   character: {fileID: 1279988736}
-  portrait: {fileID: 21300000, guid: a90243094eae7744185b698ac8911e4a, type: 3}
+  portrait: {fileID: 21300000, guid: cc52d0de4e1992b41a25d6a83e62458d, type: 3}
   voiceOverClip: {fileID: 8300000, guid: be122d5e134d8fb46a8f0d559bf85f08, type: 3}
   showAlways: 1
   showCount: 1
@@ -4637,7 +4771,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 913.2473
     y: 323.47412
-    width: 133.72089
+    width: 137.16415
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5223,7 +5357,7 @@ MonoBehaviour:
   storyText: Me faltan {$Huevos} huevitos
   description: 
   character: {fileID: 1279988736}
-  portrait: {fileID: 21300000, guid: a90243094eae7744185b698ac8911e4a, type: 3}
+  portrait: {fileID: 21300000, guid: cc52d0de4e1992b41a25d6a83e62458d, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5336,7 +5470,7 @@ MonoBehaviour:
   storyText: Me faltan {$Huevos} huevitos
   description: 
   character: {fileID: 1279988736}
-  portrait: {fileID: 21300000, guid: a90243094eae7744185b698ac8911e4a, type: 3}
+  portrait: {fileID: 21300000, guid: cc52d0de4e1992b41a25d6a83e62458d, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5790,7 +5924,7 @@ MonoBehaviour:
   storyText: Me faltan {$Huevos} huevitos
   description: 
   character: {fileID: 1279988736}
-  portrait: {fileID: 21300000, guid: a90243094eae7744185b698ac8911e4a, type: 3}
+  portrait: {fileID: 21300000, guid: cc52d0de4e1992b41a25d6a83e62458d, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6565,7 +6699,7 @@ MonoBehaviour:
   storyText: Falta encontrar {$Huevos} huevitos
   description: 
   character: {fileID: 1322808064}
-  portrait: {fileID: 21300000, guid: fe2371dc25f86c740ba55c41dba7384c, type: 3}
+  portrait: {fileID: 21300000, guid: 8de7b4069be82a24797c879a656a5c28, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6628,7 +6762,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1195.7261
     y: 228.19104
-    width: 131.3953
+    width: 134.7761
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6788,7 +6922,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1199.2979
     y: 172.19107
-    width: 126.74414
+    width: 131.19402
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6940,7 +7074,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1199.1946
     y: 121.29535
-    width: 126.74414
+    width: 129.99998
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7161,7 +7295,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 413.54196
     y: 185.71576
-    width: 184.88364
+    width: 194.47758
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -10898,7 +11032,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fe2371dc25f86c740ba55c41dba7384c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9d0a5f514d9734c4d941e1e482199678, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -35193,6 +35327,82 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 489688309}
   m_CullTransparentMesh: 1
+--- !u!1 &495200678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 495200679}
+  - component: {fileID: 495200681}
+  - component: {fileID: 495200680}
+  m_Layer: 0
+  m_Name: menu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &495200679
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495200678}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.20000005, y: 0.20000005, z: 0.20000008}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 902220491}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -343, y: 181.18433}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &495200680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495200678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 971543306, guid: d28aa3a114478b547b233abb40eb9767, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &495200681
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495200678}
+  m_CullTransparentMesh: 1
 --- !u!1 &500638473
 GameObject:
   m_ObjectHideFlags: 0
@@ -35836,7 +36046,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.739828, y: 2.1945, z: -10}
+  m_LocalPosition: {x: -5.750548, y: 2.1944098, z: -10}
   m_LocalScale: {x: 1.8225001, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -36335,7 +36545,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 92d9c6381a3e9e54cb3413f1265c4abd, type: 3}
+  m_Sprite: {fileID: -1890833506, guid: d28aa3a114478b547b233abb40eb9767, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -38855,7 +39065,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c4bca5e9fda4e9e4b8dcb39729f3d043, type: 3}
+  m_Sprite: {fileID: -595892362, guid: d28aa3a114478b547b233abb40eb9767, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -39080,7 +39290,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -39401,7 +39611,7 @@ GameObject:
   - component: {fileID: 873117710}
   - component: {fileID: 873117711}
   m_Layer: 0
-  m_Name: Will
+  m_Name: Coyote
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39435,10 +39645,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Coyote
-  nameColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+  nameColor: {r: 0.6862745, g: 0.5764706, b: 0.5137255, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: d19e4e55a5324b44a80e0458ca549f65, type: 3}
+  - {fileID: 21300000, guid: 9d0a5f514d9734c4d941e1e482199678, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -39679,8 +39889,12 @@ RectTransform:
   m_Children:
   - {fileID: 1580363786}
   - {fileID: 103550762}
+  - {fileID: 495200679}
+  - {fileID: 39942261}
   - {fileID: 2041723434}
   - {fileID: 1119129834}
+  - {fileID: 1567875906}
+  - {fileID: 1120088503}
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -44486,7 +44700,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 902220491}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -44586,6 +44800,82 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1119129833}
+  m_CullTransparentMesh: 1
+--- !u!1 &1120088502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1120088503}
+  - component: {fileID: 1120088505}
+  - component: {fileID: 1120088504}
+  m_Layer: 0
+  m_Name: menu (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1120088503
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120088502}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.20000005, y: 0.20000005, z: 0.20000008}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 902220491}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -343, y: 181.18433}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1120088504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120088502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 971543306, guid: d28aa3a114478b547b233abb40eb9767, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1120088505
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120088502}
   m_CullTransparentMesh: 1
 --- !u!1 &1141562520
 GameObject:
@@ -47623,7 +47913,7 @@ GameObject:
   - component: {fileID: 1279988735}
   - component: {fileID: 1279988736}
   m_Layer: 0
-  m_Name: Tom
+  m_Name: Zorro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47660,7 +47950,7 @@ MonoBehaviour:
   nameColor: {r: 0.7169812, g: 0.17180489, b: 0.17180489, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: a90243094eae7744185b698ac8911e4a, type: 3}
+  - {fileID: 21300000, guid: cc52d0de4e1992b41a25d6a83e62458d, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -48296,7 +48586,7 @@ GameObject:
   - component: {fileID: 1322808063}
   - component: {fileID: 1322808064}
   m_Layer: 0
-  m_Name: Princess
+  m_Name: Snake
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48330,10 +48620,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Serpiente
-  nameColor: {r: 0.9433962, g: 0.0658597, b: 0.8874961, a: 1}
+  nameColor: {r: 0.17481782, g: 0.4433962, b: 0.14807758, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: fe2371dc25f86c740ba55c41dba7384c, type: 3}
+  - {fileID: 21300000, guid: 8de7b4069be82a24797c879a656a5c28, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -50425,6 +50715,82 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1567875905
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1567875906}
+  - component: {fileID: 1567875908}
+  - component: {fileID: 1567875907}
+  m_Layer: 0
+  m_Name: menu (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1567875906
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567875905}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.20000005, y: 0.20000005, z: 0.20000008}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 902220491}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -343, y: 181.18433}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1567875907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567875905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 971543306, guid: d28aa3a114478b547b233abb40eb9767, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1567875908
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567875905}
+  m_CullTransparentMesh: 1
 --- !u!1 &1580363782
 GameObject:
   m_ObjectHideFlags: 0
@@ -100119,7 +100485,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.25882354, g: 0.25490198, b: 0.2627451, a: 1}
+  m_Color: {r: 0.9294118, g: 0.83921576, b: 0.6784314, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -100264,11 +100630,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 902220491}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 68, y: -110.5}
+  m_AnchoredPosition: {x: 57, y: -44}
   m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2041723435
@@ -100340,14 +100706,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.46190357, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6a3d90bfc3dacce47b7dbc303a38a00a, type: 3}
+  m_Sprite: {fileID: 115114460, guid: d28aa3a114478b547b233abb40eb9767, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -100950,7 +101316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 74343942}
+  selectedFlowchart: {fileID: 60163810}
 --- !u!4 &2125055453
 Transform:
   m_ObjectHideFlags: 1
