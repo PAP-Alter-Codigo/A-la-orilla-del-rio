@@ -365,7 +365,7 @@ TextureImporter:
         serializedVersion: 2
         x: 841
         y: 864
-        width: 524
+        width: 522
         height: 528
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -384,9 +384,9 @@ TextureImporter:
       name: zorro_volteado_18
       rect:
         serializedVersion: 2
-        x: 1366
+        x: 1365
         y: 826
-        width: 526
+        width: 527
         height: 597
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -447,9 +447,9 @@ TextureImporter:
       name: zorro_volteado_32
       rect:
         serializedVersion: 2
-        x: 1441
+        x: 1442
         y: 120
-        width: 529
+        width: 528
         height: 597
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -512,7 +512,7 @@ TextureImporter:
         serializedVersion: 2
         x: 918
         y: 172
-        width: 522
+        width: 523
         height: 513
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
