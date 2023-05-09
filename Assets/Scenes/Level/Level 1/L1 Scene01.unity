@@ -339,7 +339,6 @@ GameObject:
   - component: {fileID: 60164025}
   - component: {fileID: 60164060}
   - component: {fileID: 60164080}
-  - component: {fileID: 60164082}
   - component: {fileID: 60164128}
   - component: {fileID: 60164145}
   - component: {fileID: 60164146}
@@ -484,6 +483,8 @@ GameObject:
   - component: {fileID: 60164425}
   - component: {fileID: 60164423}
   - component: {fileID: 60164424}
+  - component: {fileID: 60164427}
+  - component: {fileID: 60164428}
   m_Layer: 0
   m_Name: Clickable Flowchart
   m_TagString: Untagged
@@ -515,8 +516,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 60163816}
+  selectedCommands:
+  - {fileID: 60164427}
   variables:
   - {fileID: 60163885}
   - {fileID: 60163905}
@@ -583,12 +586,12 @@ MonoBehaviour:
   commandList:
   - {fileID: 60164236}
   - {fileID: 60164128}
-  - {fileID: 60164082}
   - {fileID: 60164025}
+  - {fileID: 60164428}
   - {fileID: 60164392}
   - {fileID: 60163981}
   - {fileID: 60164426}
-  - {fileID: 60164425}
+  - {fileID: 60164427}
   - {fileID: 60164273}
   - {fileID: 60164276}
   - {fileID: 60164275}
@@ -606,6 +609,7 @@ MonoBehaviour:
   - {fileID: 60164422}
   - {fileID: 60164421}
   - {fileID: 60164424}
+  - {fileID: 60164425}
   suppressAllAutoSelections: 0
 --- !u!4 &60163817
 Transform:
@@ -1135,23 +1139,6 @@ MonoBehaviour:
   - {fileID: 60164202}
   - {fileID: 60164201}
   suppressAllAutoSelections: 0
---- !u!114 &60164082
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 60163809}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 247
-  indentLevel: 0
-  volume: 0.05
-  fadeDuration: 0
-  waitUntilFinished: 1
 --- !u!114 &60164128
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7491,7 +7478,7 @@ MonoBehaviour:
   storyText: "D\xF3nde estar\xE1 el Coyote?"
   description: 
   character: {fileID: 1279988736}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: cc52d0de4e1992b41a25d6a83e62458d, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7807,6 +7794,37 @@ MonoBehaviour:
   returnValueType: System.Void
   showInherited: 0
   callMode: 0
+--- !u!114 &60164427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60163809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 593
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: d67500fd4f4d0994dac49a7751c68e25, type: 3}
+  volume: 0.452
+  loop: 1
+--- !u!114 &60164428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60163809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 594
+  indentLevel: 0
 --- !u!1 &68495957
 GameObject:
   m_ObjectHideFlags: 0
@@ -56266,7 +56284,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickEnabled: 0
+  clickEnabled: 1
   hoverCursor: {fileID: 0}
   useEventSystem: 1
   ActivateDistance: 2

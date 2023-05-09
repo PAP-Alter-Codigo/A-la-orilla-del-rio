@@ -308,7 +308,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 296.52673
     y: -32.44088
-    width: 78.3582
+    width: 76.26865
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -627,7 +627,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -37.13878
     y: 18.375889
-    width: 138.05966
+    width: 133.58205
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -794,7 +794,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -15.108833
     y: -77.087944
-    width: 85.82088
+    width: 84.62685
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1040,7 +1040,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -266.60883
     y: 12.012062
-    width: 79.85073
+    width: 78.6567
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1968,7 +1968,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -266.45135
     y: -48.561584
-    width: 76.86566
+    width: 76.26865
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4074,7 +4074,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8862746, g: 0.8117648, b: 0.5882353, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4641,7 +4641,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.87843144, g: 0.80392164, b: 0.58431375, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5279,7 +5279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8705883, g: 0.7960785, b: 0.5803922, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
