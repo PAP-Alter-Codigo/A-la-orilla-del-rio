@@ -1,0 +1,522 @@
+fileFormatVersion: 2
+guid: da89c285f87b44d6a9cca5553e972258
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: N1_Escena 2_Objetos1 con sombra_0
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 4510
+        width: 372
+        height: 670
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6023981996a0047cf8476bbb0121e994
+      internalID: -303793804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N1_Escena 2_Objetos1 con sombra_1
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 4485
+        width: 442
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d2ec87864e14816ba674608dce0f44
+      internalID: 1237083750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N1_Escena 2_Objetos1 con sombra_3
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 4483
+        width: 352
+        height: 723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24874019a82ea4c79a66b0f6048e7051
+      internalID: -632559579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N1_Escena 2_Objetos1 con sombra_4
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 3646
+        width: 426
+        height: 658
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7b904b4b91f415f9a2a8d1b37a85be
+      internalID: -2059864193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N1_Escena 2_Objetos1 con sombra_5
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 3627
+        width: 436
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c500cc2d7b3fe4e6fa3971c51c791c6a
+      internalID: 1008803185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N1_Escena 2_Objetos1 con sombra_6
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 3635
+        width: 452
+        height: 682
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64dd45d3cb737483685a858d4a97e556
+      internalID: -1276377800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N1_Escena 2_Objetos1 con sombra_7
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 2772
+        width: 373
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7efe96699106c4997ad7e24d6016619c
+      internalID: 56652287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N1_Escena 2_Objetos1 con sombra_8
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 2747
+        width: 436
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9898f1ee34ee240769348262cc6fccef
+      internalID: -999190076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N1_Escena 2_Objetos1 con sombra_10
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 2744
+        width: 352
+        height: 725
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95109e998e5f44069ad50aaea1ea8e91
+      internalID: 134085562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N1_Escena 2_Objetos1 con sombra_11
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1909
+        width: 426
+        height: 658
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae7d22bdbf2e489ba1e49c4e160147a
+      internalID: 42030497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N1_Escena 2_Objetos1 con sombra_12
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 1889
+        width: 436
+        height: 696
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef79431142fc443d903fd7647e3ef9c
+      internalID: 653479985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N1_Escena 2_Objetos1 con sombra_13
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 1896
+        width: 452
+        height: 684
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b6c8affc9214b6e8135fc002f24486
+      internalID: -1836181438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N1_Escena 2_Objetos1 con sombra_14
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1033
+        width: 372
+        height: 671
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f9665ff1e74493abc1bf512334cd03
+      internalID: 243985640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N1_Escena 2_Objetos1 con sombra_15
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1009
+        width: 434
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61ed4fb5659a4fa583faa52cf686443
+      internalID: -682185305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N1_Escena 2_Objetos1 con sombra_17
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 1007
+        width: 352
+        height: 723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211448aee7c61476d89840ab6b433a08
+      internalID: 861268291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N1_Escena 2_Objetos1 con sombra_18
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 170
+        width: 426
+        height: 658
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb526eadd56d4ce98f425459d4f4d89
+      internalID: 820452491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N1_Escena 2_Objetos1 con sombra_19
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 151
+        width: 436
+        height: 695
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a6e484d676644288087df372465335
+      internalID: 1382281957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N1_Escena 2_Objetos1 con sombra_20
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 157
+        width: 452
+        height: 684
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d12259122b3444eadfce55621c2fee
+      internalID: 1407628052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      N1_Escena 2_Objetos1 con sombra_9: -1760980064
+      N1_Escena 2_Objetos1 con sombra_11: 42030497
+      N1_Escena 2_Objetos1 con sombra_14: 243985640
+      N1_Escena 2_Objetos1 con sombra_15: -682185305
+      N1_Escena 2_Objetos1 con sombra_18: 820452491
+      N1_Escena 2_Objetos1 con sombra_5: 1008803185
+      N1_Escena 2_Objetos1 con sombra_1: 1237083750
+      N1_Escena 2_Objetos1 con sombra_0: -303793804
+      N1_Escena 2_Objetos1 con sombra_16: 1520526364
+      N1_Escena 2_Objetos1 con sombra_8: -999190076
+      N1_Escena 2_Objetos1 con sombra_12: 653479985
+      N1_Escena 2_Objetos1 con sombra_10: 134085562
+      N1_Escena 2_Objetos1 con sombra_17: 861268291
+      N1_Escena 2_Objetos1 con sombra_13: -1836181438
+      N1_Escena 2_Objetos1 con sombra_2: -2125642854
+      N1_Escena 2_Objetos1 con sombra_20: 1407628052
+      N1_Escena 2_Objetos1 con sombra_4: -2059864193
+      N1_Escena 2_Objetos1 con sombra_19: 1382281957
+      N1_Escena 2_Objetos1 con sombra_3: -632559579
+      N1_Escena 2_Objetos1 con sombra_6: -1276377800
+      N1_Escena 2_Objetos1 con sombra_7: 56652287
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
