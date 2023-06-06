@@ -12,6 +12,11 @@ public class Target : MonoBehaviour
 
     public Verb verb;
 
+		public GameObject destinationMarker;
+		private Vector3 destination;
+		[SerializeField]
+		private LineRenderer Path;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,7 +39,25 @@ public class Target : MonoBehaviour
                 //actualizar la posicion del target
                 followSpot = new Vector2(mousePos.x, mousePos.y);
             }
-            agent.SetDestination(new Vector3(followSpot.x, followSpot.y, transform.position.z));
+						destination = new Vector3(followSpot.x, followSpot.y, transform.position.z);
+            agent.SetDestination(destination);
+
+						/// Aqui mostramos el objetivo, maybe ver como hacer que desaparezca cuando nos acercamos
+						destinationMarker.SetActive(true);
+						destinationMarker.transform.position = destination;
+						/// Aqui hacemos el path
+						if(agent.pathStatus == NavMeshPathStatus.PathComplete){
+							Path.positionCount = agent.path.corners.Length;
+							for (int i = 0; i < agent.path.corners.Length; i++)
+							{
+								Path.SetPosition(i, agent.path.corners[i]);
+							}
+						}else {
+							/// El camino no se calculo bien 
+							// hay 2 posibilidades, si no se encontro comanio o hay algo tapandolo
+						}
+
+						
 
             // moverse hacia el punto de seguimiento
             //transform.position = Vector2.MoveTowards(transform.position, followSpot, speed * Time.deltaTime);
