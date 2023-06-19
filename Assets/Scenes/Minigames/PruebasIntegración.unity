@@ -2652,7 +2652,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1064499740}
   selectedCommands:
-  - {fileID: 1064499745}
+  - {fileID: 1064499744}
   variables: []
   description: 
   stepPause: 0
@@ -3228,15 +3228,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18a0e492e94664ec0ac44d252c40e3a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dragEnabled: 1
-  returnOnCancelled: 0
-  returnOnCompleted: 0
-  returnDuration: 1
-  hoverCursor: {fileID: 0}
-  useEventSystem: 0
-  beingDragged: 0
-  target: {fileID: 0}
-  verb: {fileID: 0}
 --- !u!50 &1180757121
 Rigidbody2D:
   serializedVersion: 4
@@ -3502,7 +3493,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 305867720671203150}
+  selectedFlowchart: {fileID: 1064499722}
 --- !u!4 &1351865102
 Transform:
   m_ObjectHideFlags: 1
@@ -6693,6 +6684,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: b9ee8cdd98119b248a2d09301eefdac1, type: 3}
   - {fileID: 21300000, guid: d119afad18649dc47bcdda9bc2a19e5a, type: 3}
   - {fileID: 21300000, guid: f039e02d5f441d64584ad7b20f19175f, type: 3}
+  reward: {fileID: 0}
   card: {fileID: 305867720663774645}
   flowchart: {fileID: 305867720671203150}
   flippedCards: {fileID: 305867720586554549}
@@ -9064,6 +9056,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   size: 3
+  reward: {fileID: 0}
   startOffset: -2.25
   spacing: 1.5
   images:

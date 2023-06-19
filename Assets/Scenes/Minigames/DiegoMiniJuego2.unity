@@ -487,41 +487,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 305867720740990363, guid: dfc6767a15282584089f7c4d624e56e1, type: 3}
-      propertyPath: nodeRect.x
-      value: 67
-      objectReference: {fileID: 0}
-    - target: {fileID: 305867720740990363, guid: dfc6767a15282584089f7c4d624e56e1, type: 3}
-      propertyPath: nodeRect.y
-      value: 71.26582
-      objectReference: {fileID: 0}
-    - target: {fileID: 305867720740990363, guid: dfc6767a15282584089f7c4d624e56e1, type: 3}
-      propertyPath: commandList.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 305867720740990363, guid: dfc6767a15282584089f7c4d624e56e1, type: 3}
-      propertyPath: commandList.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 305867720740990363, guid: dfc6767a15282584089f7c4d624e56e1, type: 3}
-      propertyPath: commandList.Array.data[1]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 305867720740990372, guid: dfc6767a15282584089f7c4d624e56e1, type: 3}
-      propertyPath: selectedBlocks.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 305867720740990372, guid: dfc6767a15282584089f7c4d624e56e1, type: 3}
-      propertyPath: selectedCommands.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 305867720740990393, guid: dfc6767a15282584089f7c4d624e56e1, type: 3}
-      propertyPath: nodeRect.x
-      value: 358.77618
-      objectReference: {fileID: 0}
-    - target: {fileID: 305867720740990393, guid: dfc6767a15282584089f7c4d624e56e1, type: 3}
-      propertyPath: nodeRect.y
-      value: -7.568618
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfc6767a15282584089f7c4d624e56e1, type: 3}

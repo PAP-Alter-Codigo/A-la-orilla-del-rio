@@ -41841,7 +41841,6 @@ GameObject:
   - component: {fileID: 670975983}
   - component: {fileID: 670975969}
   - component: {fileID: 670975982}
-  - component: {fileID: 670976001}
   m_Layer: 5
   m_Name: SPFlowchart
   m_TagString: Untagged
@@ -41879,7 +41878,6 @@ MonoBehaviour:
   variables:
   - {fileID: 670975966}
   - {fileID: 670975965}
-  - {fileID: 670976001}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -42698,21 +42696,6 @@ Transform:
   m_Father: {fileID: 1904913039}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &670976001
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 670975963}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecbb345616367420f90d15042808304e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 0
-  key: Reward
-  value: {fileID: 11400000, guid: 4f7cfee80f22bd649816b074f1855895, type: 2}
 --- !u!1 &707774940
 GameObject:
   m_ObjectHideFlags: 0
@@ -105972,7 +105955,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 670975964}
+  selectedFlowchart: {fileID: 0}
 --- !u!4 &2125055453
 Transform:
   m_ObjectHideFlags: 1
