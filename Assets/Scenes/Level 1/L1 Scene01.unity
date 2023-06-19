@@ -485,6 +485,7 @@ GameObject:
   - component: {fileID: 60164424}
   - component: {fileID: 60164427}
   - component: {fileID: 60164428}
+  - component: {fileID: 60164429}
   m_Layer: 0
   m_Name: Clickable Flowchart
   m_TagString: Untagged
@@ -534,6 +535,7 @@ MonoBehaviour:
   - {fileID: 60164338}
   - {fileID: 60164354}
   - {fileID: 60164371}
+  - {fileID: 60164429}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -575,7 +577,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 535.1518
     y: 260.6536
-    width: 76.268654
+    width: 78.3582
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -642,7 +644,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 686.18335
     y: 246.94264
-    width: 103.73134
+    width: 103.73133
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -724,7 +726,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 476.70587
     y: 102.074135
-    width: 161.04475
+    width: 161.94028
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1127,7 +1129,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 964.5631
     y: 402.8215
-    width: 76.268654
+    width: 76.86566
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1172,7 +1174,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 517.4415
     y: 357.1479
-    width: 129.99998
+    width: 130.597
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1329,7 +1331,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 726.9161
     y: 399.43344
-    width: 167.0149
+    width: 170.89551
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1810,7 +1812,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 906.31104
     y: 159.91763
-    width: 164.62685
+    width: 166.41788
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2417,7 +2419,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 673.9503
     y: 167.69917
-    width: 124.02984
+    width: 126.119385
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3631,7 +3633,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 668.7063
     y: 85.70318
-    width: 162.23878
+    width: 163.43282
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3695,7 +3697,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 884.23004
     y: 251.18115
-    width: 178.9552
+    width: 181.34326
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4636,7 +4638,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 913.2473
     y: 323.47412
-    width: 137.16415
+    width: 139.55222
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6627,7 +6629,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1195.7261
     y: 228.19104
-    width: 134.7761
+    width: 135.07462
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6787,7 +6789,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1199.2979
     y: 172.19107
-    width: 131.19402
+    width: 132.08954
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6939,7 +6941,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1199.1946
     y: 121.29535
-    width: 129.99998
+    width: 130.597
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7160,7 +7162,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 413.54196
     y: 185.71576
-    width: 194.47758
+    width: 194.7761
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -7796,7 +7798,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &60164427
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7813,7 +7815,7 @@ MonoBehaviour:
   loop: 1
 --- !u!114 &60164428
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7825,6 +7827,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 594
   indentLevel: 0
+--- !u!114 &60164429
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60163809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 1
+  key: hasitem01
+  value: 1
 --- !u!1 &68495957
 GameObject:
   m_ObjectHideFlags: 0
@@ -8492,10 +8509,10 @@ RectTransform:
   m_Father: {fileID: 271095456}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 65, y: -130}
-  m_SizeDelta: {x: 80, y: 80}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &77863634
 MonoBehaviour:
@@ -9179,6 +9196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   size: 3
+  reward: {fileID: 11400000, guid: cc673fb7178dec647a81f3e3c350a242, type: 2}
   startOffset: -2
   spacing: 2
   images:
@@ -9516,7 +9534,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10075,7 +10093,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 370}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &271095457
 MonoBehaviour:
@@ -10794,10 +10812,10 @@ RectTransform:
   m_Father: {fileID: 271095456}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 155, y: -40}
-  m_SizeDelta: {x: 80, y: 80}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &318466519
 MonoBehaviour:
@@ -41289,7 +41307,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -41440,10 +41458,10 @@ RectTransform:
   m_Father: {fileID: 271095456}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 65, y: -220}
-  m_SizeDelta: {x: 80, y: 80}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &593164120
 MonoBehaviour:
@@ -41843,11 +41861,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -103.19018, y: -149.29556}
+  scrollPos: {x: -192.0384, y: -164.97769}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 400
-  zoom: 0.6700003
+  blockViewHeight: 580
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -41855,9 +41873,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 670975994}
-  selectedCommands:
-  - {fileID: 670975982}
+  - {fileID: 670975968}
+  selectedCommands: []
   variables:
   - {fileID: 670975966}
   - {fileID: 670975965}
@@ -41916,8 +41933,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 363.1251
-    y: 471.6207
-    width: 145.52234
+    y: 470.6207
+    width: 146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -41971,9 +41988,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 336.61932
-    y: 576.6467
-    width: 117.16415
+    x: 373.61932
+    y: 564.6467
+    width: 115
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -42041,7 +42058,7 @@ MonoBehaviour:
   indentLevel: 0
   item: {fileID: 11400000, guid: cc673fb7178dec647a81f3e3c350a242, type: 2}
   add:
-    booleanRef: {fileID: 0}
+    booleanRef: {fileID: 60164429}
     booleanVal: 1
 --- !u!114 &670975975
 MonoBehaviour:
@@ -42327,9 +42344,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 238.08797
-    y: 478.39255
-    width: 105.223854
+    x: 220.08797
+    y: 564.3926
+    width: 103
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -42408,7 +42425,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 596.96045
     y: 232.93475
-    width: 112.68654
+    width: 110
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -42472,7 +42489,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 600.4187
     y: 475.1895
-    width: 141.04474
+    width: 139
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -42550,7 +42567,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 358.484
     y: 357.46753
-    width: 136.56712
+    width: 135
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -42612,7 +42629,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 599.19
     y: 357.57004
-    width: 117.16415
+    width: 115
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -42654,7 +42671,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 293.671
     y: 187.98735
-    width: 112.68654
+    width: 111
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -43439,10 +43456,10 @@ RectTransform:
   m_Father: {fileID: 271095456}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 155, y: -310}
-  m_SizeDelta: {x: 80, y: 80}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &814783447
 MonoBehaviour:
@@ -44787,10 +44804,10 @@ RectTransform:
   m_Father: {fileID: 271095456}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 155, y: -130}
-  m_SizeDelta: {x: 80, y: 80}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &916830257
 MonoBehaviour:
@@ -44937,10 +44954,10 @@ RectTransform:
   m_Father: {fileID: 271095456}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 65, y: -310}
-  m_SizeDelta: {x: 80, y: 80}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &930506012
 MonoBehaviour:
@@ -45217,7 +45234,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -52776,7 +52793,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1308910224
 RectTransform:
   m_ObjectHideFlags: 0
@@ -53038,7 +53055,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1316484503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54119,7 +54136,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -54842,10 +54859,10 @@ RectTransform:
   m_Father: {fileID: 271095456}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 65, y: -40}
-  m_SizeDelta: {x: 80, y: 80}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1498741155
 MonoBehaviour:
@@ -54975,7 +54992,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1503332044
 RectTransform:
   m_ObjectHideFlags: 0
@@ -55013,7 +55030,14 @@ MonoBehaviour:
   canvasGroup: {fileID: 1503332046}
   openInventoryButton: {fileID: 0}
   buttonPressed: 0
-  inventoryItems: []
+  inventoryItems:
+  - {fileID: 11400000, guid: 4f7cfee80f22bd649816b074f1855895, type: 2}
+  - {fileID: 11400000, guid: d2a3ca41cc3af1a40a650b16c3e3c229, type: 2}
+  - {fileID: 11400000, guid: 4dd12ad98593aa34ca6694de7e3c018b, type: 2}
+  - {fileID: 11400000, guid: c744640fb1cc1114e8b553d1e0ea21ca, type: 2}
+  - {fileID: 11400000, guid: af4463ba1dc7f416ba4b2babc29e476c, type: 2}
+  - {fileID: 11400000, guid: cc673fb7178dec647a81f3e3c350a242, type: 2}
+  - {fileID: 11400000, guid: 9754f0adead4e7647b55a078fced80de, type: 2}
   itemSlots:
   - {fileID: 1498741158}
   - {fileID: 318466522}
@@ -55156,7 +55180,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -103468,10 +103492,10 @@ RectTransform:
   m_Father: {fileID: 271095456}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 155, y: -220}
-  m_SizeDelta: {x: 80, y: 80}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1859892952
 MonoBehaviour:
@@ -104172,7 +104196,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -105931,7 +105955,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1007054681}
+  selectedFlowchart: {fileID: 0}
 --- !u!4 &2125055453
 Transform:
   m_ObjectHideFlags: 1

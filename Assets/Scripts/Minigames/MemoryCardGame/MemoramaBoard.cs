@@ -14,6 +14,9 @@ public class MemoramaBoard : MonoBehaviour{
     [SerializeField]
     Sprite[] icons;
     [SerializeField]
+
+	public InventoryItems reward;	
+    [SerializeField]
     GameObject card;
     [SerializeField]
     Flowchart flowchart;
@@ -81,11 +84,11 @@ public class MemoramaBoard : MonoBehaviour{
         return next;
     }
 
-    // Consigue el mejor número de cartas a poner en horizontal para evitar un tablero muy largo.
+    // Consigue el mejor nï¿½mero de cartas a poner en horizontal para evitar un tablero muy largo.
     private int GetBoardWidth(int cards) {
         int d = 2;
         List<int> divisors = new List<int>();
-        // Obtener todos los números que pueden dividir al número de cartas
+        // Obtener todos los nï¿½meros que pueden dividir al nï¿½mero de cartas
         while(d <= cards/2 + cards%2) {
             if(cards % d == 0)
                 divisors.Add(d);
@@ -99,7 +102,7 @@ public class MemoramaBoard : MonoBehaviour{
 
         if(divisors.Count == 2)
             return divisors[0];
-        // Buscar el número cartas en horizontal más pequeño para acomodar el tablero
+        // Buscar el nï¿½mero cartas en horizontal mï¿½s pequeï¿½o para acomodar el tablero
         for(int i = 0;i<divisors.Count;i++) {
             for(int j = i+1;j<divisors.Count-1;j++) {
                 if(divisors[i] + divisors[j]<minSum && divisors[i]*divisors[j] == cards) {
@@ -117,7 +120,7 @@ public class MemoramaBoard : MonoBehaviour{
         GameObject currCard = flowchart.GetGameObjectVariable("currCard");
         int cardId = currCard.GetComponent<MemoramaCard>().GetCard();
         bool sameCards = true;
-        // Revisar si las cartas que estén en juego sean iguales
+        // Revisar si las cartas que estï¿½n en juego sean iguales
         foreach(GameObject go in flippedCards) {
             if(go.GetComponent<MemoramaCard>().GetCard() != cardId) {
                 sameCards = false;
@@ -136,9 +139,11 @@ public class MemoramaBoard : MonoBehaviour{
             flowchart.ExecuteBlock("CardConfetti");
             matches++;
         }
-        // Se completó el juego
+        // Se completï¿½ el juego
         if(matches >= uniqueCards) {
             //win
+			
+			reward.itemOwned = true;
             flowchart.ExecuteBlock("MemoramaWin");
         }
     }
