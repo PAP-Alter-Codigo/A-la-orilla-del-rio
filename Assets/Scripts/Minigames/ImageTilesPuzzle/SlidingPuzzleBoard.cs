@@ -8,6 +8,9 @@ public class SlidingPuzzleBoard : MonoBehaviour
     [SerializeField, Range(2, 8)]
     private int size = 3;
     [SerializeField]
+
+	public InventoryItems reward;	
+    [SerializeField]
     private float startOffset;
     public float spacing;
     [SerializeField]
@@ -143,6 +146,7 @@ public class SlidingPuzzleBoard : MonoBehaviour
         lostChild.transform.parent = transform;
         SlidingPuzzleTile t = lostChild.GetComponent<SlidingPuzzleTile>();
         lostChild.transform.localPosition = t.GetTargetPos();
+		reward.itemOwned = true;
         t.Win();
     }
 }
