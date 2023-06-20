@@ -10,6 +10,7 @@ public class Player_Anim_Properties : MonoBehaviour
     public bool isWalking;
 
     public Animator animator;
+    public Animator path_indicator_animator;
 
     // Referencia al  navmesh
     private UnityEngine.AI.NavMeshAgent nav;
@@ -24,11 +25,21 @@ public class Player_Anim_Properties : MonoBehaviour
       nav = this.gameObject.GetComponent<UnityEngine.AI.NavMeshAgent>();
       renderer = this.gameObject.GetComponent<SpriteRenderer>();
     }
+	void FixedUpdate()
+	{
+		
+	}
 
     // Update is called once per frame
     void Update()
     {
-         //print(nav.steeringTarget);
+		
+       	if (Input.GetMouseButtonDown(0))
+       	{
+			path_indicator_animator.SetTrigger("mouseClicked");
+		}	
+        
+		//print(nav.steeringTarget);
         if (nav.velocity != Vector3.zero){
             isWalking = true;
         }else{

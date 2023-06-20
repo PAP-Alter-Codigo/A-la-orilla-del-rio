@@ -50,7 +50,7 @@ public class Target : MonoBehaviour
 							Path.positionCount = agent.path.corners.Length;
 							for (int i = 0; i < agent.path.corners.Length; i++)
 							{
-								Path.SetPosition(i, agent.path.corners[i]);
+								Path.SetPosition(i, agent.path.corners[agent.path.corners.Length - 1 - i]);
 							}
 						}else {
 							/// El camino no se calculo bien 
