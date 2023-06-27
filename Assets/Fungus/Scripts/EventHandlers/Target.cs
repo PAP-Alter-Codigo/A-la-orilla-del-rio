@@ -11,6 +11,7 @@ public class Target : MonoBehaviour
     private NavMeshAgent agent;
 
     public Verb verb;
+	private Vector3 destination;
 
     // Start is called before the first frame update
     void Start()
@@ -34,7 +35,10 @@ public class Target : MonoBehaviour
                 //actualizar la posicion del target
                 followSpot = new Vector2(mousePos.x, mousePos.y);
             }
-            agent.SetDestination(new Vector3(followSpot.x, followSpot.y, transform.position.z));
+			destination = new Vector3(followSpot.x, followSpot.y, transform.position.z);
+            agent.SetDestination(destination);
+
+						
 
             // moverse hacia el punto de seguimiento
             //transform.position = Vector2.MoveTowards(transform.position, followSpot, speed * Time.deltaTime);
