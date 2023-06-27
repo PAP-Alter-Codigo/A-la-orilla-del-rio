@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8489067607281042243}
   - component: {fileID: 8489067607281042242}
   - component: {fileID: 8489067607281042253}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: EventSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8489067607381610140}
   - component: {fileID: 8489067607381610143}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: HintImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135,7 +135,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -195,7 +195,7 @@ GameObject:
   - component: {fileID: 8489067607401508646}
   - component: {fileID: 8489067607401508647}
   - component: {fileID: 8489067607401508644}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: SPFlowchart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -242,7 +242,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 8489067607401508652}
+  - {fileID: 8489067607401508689}
   selectedCommands: []
   variables:
   - {fileID: 8489067607401508651}
@@ -272,7 +272,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 293.671
-    y: 187.98735
+    y: 189.25317
     width: 111.42859
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -312,7 +312,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 597.92395
+    x: 596.49536
     y: 240.84811
     width: 117.142876
     height: 40
@@ -340,7 +340,7 @@ MonoBehaviour:
   parentBlock: {fileID: 8489067607401508689}
   suppressBlockAutoSelect: 0
   keyPressType: 0
-  keyCode: 277
+  keyCode: 293
 --- !u!114 &8489067607401508691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -719,7 +719,7 @@ GameObject:
   - component: {fileID: 8489067607509924345}
   - component: {fileID: 8489067607509924348}
   - component: {fileID: 8489067607509924351}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: bg (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -769,7 +769,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -803,7 +803,7 @@ GameObject:
   - component: {fileID: 8489067607514764808}
   - component: {fileID: 8489067607514764811}
   - component: {fileID: 8489067607514764810}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: BoardBound (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -853,7 +853,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -912,7 +912,7 @@ GameObject:
   - component: {fileID: 8489067607831762357}
   - component: {fileID: 8489067607831762312}
   - component: {fileID: 8489067607831762315}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: bg (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -962,7 +962,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -996,7 +996,7 @@ GameObject:
   - component: {fileID: 8489067607941858406}
   - component: {fileID: 8489067607941858401}
   - component: {fileID: 8489067607941858400}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: BoardBound (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1046,7 +1046,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1106,7 +1106,7 @@ GameObject:
   - component: {fileID: 8489067608034167836}
   - component: {fileID: 8489067608034167839}
   - component: {fileID: 8489067608034167838}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: BoardBound (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1156,7 +1156,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1215,7 +1215,7 @@ GameObject:
   - component: {fileID: 8489067608090278691}
   - component: {fileID: 8489067608090278690}
   - component: {fileID: 8489067608090278701}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: BoardLimits
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1269,7 +1269,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1301,7 +1301,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8489067608323802566}
   - component: {fileID: 8489067608323802567}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Board
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1335,8 +1335,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69cf2937614507841a89271bd6a0f9ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  width: 4
-  height: 4
+  size: 3
+  reward: {fileID: 0}
   startOffset: -2.25
   spacing: 1.5
   images:
@@ -1360,7 +1360,7 @@ GameObject:
   - component: {fileID: 8489067608354150253}
   - component: {fileID: 8489067608354150240}
   - component: {fileID: 8489067608354150243}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: bg (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1410,7 +1410,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1441,7 +1441,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8489067608370728592}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: SlidingPuzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1479,7 +1479,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8489067608431713859}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: fg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1516,7 +1516,7 @@ GameObject:
   - component: {fileID: 8489067608464808281}
   - component: {fileID: 8489067608464808284}
   - component: {fileID: 8489067608464808287}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: bg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1566,7 +1566,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1598,7 +1598,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8489067608734115083}
   - component: {fileID: 8489067608734115082}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: FinalImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1640,7 +1640,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1684,7 +1684,7 @@ GameObject:
   - component: {fileID: 8489067608968459945}
   - component: {fileID: 8489067608968459944}
   - component: {fileID: 8489067608968459947}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: BoardBound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1734,7 +1734,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1792,7 +1792,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8489067608977395113}
   - component: {fileID: 8489067608977395118}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: img
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1834,7 +1834,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1877,7 +1877,7 @@ GameObject:
   - component: {fileID: 8489067608996524483}
   - component: {fileID: 8489067608996524480}
   - component: {fileID: 8489067608996524481}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1943,6 +1943,9 @@ MonoBehaviour:
   board: {fileID: 8489067608323802567}
   rayDistance: 1
   flowchart: {fileID: 8489067607401508701}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 32
 --- !u!1 &8489067609142482331
 GameObject:
   m_ObjectHideFlags: 0
@@ -1954,7 +1957,7 @@ GameObject:
   - component: {fileID: 8489067609142482328}
   - component: {fileID: 8489067609142482335}
   - component: {fileID: 8489067609142482334}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: bg (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2004,7 +2007,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

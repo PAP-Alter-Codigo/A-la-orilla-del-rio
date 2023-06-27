@@ -12,6 +12,14 @@ public class Player_Anim_Properties : MonoBehaviour
     public Animator animator;
     public Animator path_indicator_animator;
 
+	
+    public AudioSource audiosource; 
+    public AudioClip[] dirtSteps; 
+    public AudioClip[] waterSteps;
+    public bool isWalkingOnWater;
+
+    int randomSound;
+
     // Referencia al  navmesh
     private UnityEngine.AI.NavMeshAgent nav;
     private SpriteRenderer renderer;
@@ -58,5 +66,24 @@ public class Player_Anim_Properties : MonoBehaviour
         animator.SetBool("facingLeft", facingLeft);
         animator.SetBool("isMoving", isWalking);
 
+    }
+	
+    public void PlayAudio1() 
+    {
+        if (isWalkingOnWater)
+        {
+        	randomSound=Random.Range(0,waterSteps.Length);
+			audiosource.clip = waterSteps[randomSound];
+        }else 
+        {            
+        	randomSound=Random.Range(0,dirtSteps.Length);
+			audiosource.clip = dirtSteps[randomSound];
+        }
+        audiosource.Play(); 
+    }
+    
+    public void setWalkingOnWater (bool state) 
+    {
+        isWalkingOnWater=state;
     }
 }
