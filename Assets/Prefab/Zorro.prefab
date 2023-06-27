@@ -150,8 +150,6 @@ MonoBehaviour:
   inDialogue: 0
   cutsceneInProgress: 0
   verb: {fileID: 0}
-  destinationMarker: {fileID: 7933621091255825291}
-  Path: {fileID: 278426689}
 --- !u!195 &4688602539579240420
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -312,6 +310,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 4688602539579240421}
     m_Modifications:
     - target: {fileID: 411758503221087271, guid: 4264b8b2b05624e46b924c8f75c32255, type: 3}
+      propertyPath: m_Color.a
+      value: 0.50980395
+      objectReference: {fileID: 0}
+    - target: {fileID: 411758503221087271, guid: 4264b8b2b05624e46b924c8f75c32255, type: 3}
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
@@ -390,6 +392,8 @@ MonoBehaviour:
   foxTransform: {fileID: 4688602539579240421}
   animationController: {fileID: 8940444062282708541}
   range: 2
+  agent: {fileID: 4688602539579240420}
+  Path: {fileID: 278426689}
 --- !u!95 &8940444062282708541 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: -4826849814215543103, guid: 4264b8b2b05624e46b924c8f75c32255, type: 3}

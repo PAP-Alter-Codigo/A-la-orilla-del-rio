@@ -105927,10 +105927,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1126180669, guid: ab41890332949154789ea89695b7e702, type: 3}
-      propertyPath: range
-      value: 2.5
-      objectReference: {fileID: 0}
     - target: {fileID: 4688602539579240421, guid: ab41890332949154789ea89695b7e702, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -105982,22 +105978,6 @@ PrefabInstance:
     - target: {fileID: 4688602539579240433, guid: ab41890332949154789ea89695b7e702, type: 3}
       propertyPath: m_Name
       value: Zorro
-      objectReference: {fileID: 0}
-    - target: {fileID: 4947097564490271963, guid: ab41890332949154789ea89695b7e702, type: 3}
-      propertyPath: m_Color.a
-      value: 0.50980395
-      objectReference: {fileID: 0}
-    - target: {fileID: 4947097564490271963, guid: ab41890332949154789ea89695b7e702, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4947097564490271963, guid: ab41890332949154789ea89695b7e702, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4947097564490271963, guid: ab41890332949154789ea89695b7e702, type: 3}
-      propertyPath: m_Color.r
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab41890332949154789ea89695b7e702, type: 3}

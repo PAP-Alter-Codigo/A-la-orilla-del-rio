@@ -57,5 +57,6 @@ public class Player_Anim_Properties : MonoBehaviour
         animator.SetBool("facingFront", facingFront);
         animator.SetBool("facingLeft", facingLeft);
         animator.SetBool("isMoving", isWalking);
+
     }
 }
