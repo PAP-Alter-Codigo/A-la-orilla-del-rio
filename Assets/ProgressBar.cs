@@ -14,6 +14,9 @@ public class ProgressBar : MonoBehaviour
 	[SerializeField]
 	[Range(0.01f, 1.0f)]
 	private float ProgressSpeed = 1f;
+	[SerializeField]
+	[Range(0.01f, 1.0f)]
+	private float DownProgressSpeed = 1f;
 
 	[SerializeField]
 	[Range(0.0f, 1.0f)]
@@ -22,22 +25,20 @@ public class ProgressBar : MonoBehaviour
 	[SerializeField]
 	public static bool MakingProgress = false;
 
-	
-
-
 
 	public void Update()
 	{
 		if(Progress >= 1.0f){
 			//Aqui hacer la rutina de juego ganado.
 			this.enabled = false;
+			CoyoteController.gameComplete = true;
 		}
 		if(MakingProgress && Progress < 1.0f)
 		{
 			Progress += Time.deltaTime * ProgressSpeed;
 		} else if(!MakingProgress && Progress >= 0.0f)
 		{
-			Progress -= Time.deltaTime * ProgressSpeed;
+			Progress -= Time.deltaTime * DownProgressSpeed;
 		}
 		ProgressImage.fillAmount = Progress;
 	}
