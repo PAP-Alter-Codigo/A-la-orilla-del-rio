@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fbfb3cfb26aac42f991642bddf50913d
+guid: 5119e1e618906214d96d0b8912f6b78a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -101,140 +101,116 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: new_fox_sprite_sheet_2
+      name: fox_sprite_sheet_0
       rect:
         serializedVersion: 2
-        x: 2074
-        y: 1854
-        width: 569
-        height: 444
+        x: 176
+        y: 1738
+        width: 540
+        height: 490
       alignment: 9
-      pivot: {x: 0.4894114, y: 0.16075863}
+      pivot: {x: 0.47946575, y: 0.14245157}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4deecbf198981404b937bb5bc04991b3
-      internalID: -763838394
+      spriteID: e5c945175af96f7458f87641ac575074
+      internalID: 1644993232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_fox_sprite_sheet_4
-      rect:
-        serializedVersion: 2
-        x: 177
-        y: 1741
-        width: 538
-        height: 486
-      alignment: 9
-      pivot: {x: 0.5, y: 0.16114964}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 103341a6434a94d7499173c5fa516f91
-      internalID: 1662342034
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: new_fox_sprite_sheet_5
+      name: fox_sprite_sheet_1
       rect:
         serializedVersion: 2
         x: 798
-        y: 1765
-        width: 575
-        height: 471
+        y: 1764
+        width: 578
+        height: 474
       alignment: 9
-      pivot: {x: 0.49650732, y: 0.18873367}
+      pivot: {x: 0.45012075, y: 0.16313332}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 587a56cd6554d4ca6b0cd27afb9bdd5b
-      internalID: 2012161606
+      spriteID: 897e42ed7fe17b54dab0e366dab9f936
+      internalID: -1553147909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_fox_sprite_sheet_6
+      name: fox_sprite_sheet_2
       rect:
         serializedVersion: 2
-        x: 1420
-        y: 1810
-        width: 545
-        height: 464
+        x: 1416
+        y: 1814
+        width: 551
+        height: 466
       alignment: 9
-      pivot: {x: 0.49631503, y: 0.17538136}
+      pivot: {x: 0.48390046, y: 0.13355514}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc60c758706fa4c8783cc616d23b8999
-      internalID: 519147157
+      spriteID: 5c0902880b5d3ea4cac30243fa2f7421
+      internalID: 1424811570
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_fox_sprite_sheet_7
+      name: fox_sprite_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 1858
+        width: 572
+        height: 446
+      alignment: 9
+      pivot: {x: 0.43408927, y: 0.117122635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889f9fc607581af4c964bebca451d49e
+      internalID: 1127226270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_sprite_sheet_4
       rect:
         serializedVersion: 2
         x: 2867
-        y: 1593
+        y: 1591
         width: 579
         height: 464
       alignment: 9
-      pivot: {x: 0.47918817, y: 0.18403783}
+      pivot: {x: 0.4578674, y: 0.15109359}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f19602e975d444f5ea2c5a68cd34f063
-      internalID: -2075014450
+      spriteID: 51ad62f530c9e94448bf9e02111154ef
+      internalID: 1942440199
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_fox_sprite_sheet_8
+      name: fox_sprite_sheet_5
       rect:
         serializedVersion: 2
         x: 298
@@ -242,41 +218,41 @@ TextureImporter:
         width: 563
         height: 588
       alignment: 9
-      pivot: {x: 0.3929853, y: 0.20285231}
+      pivot: {x: 0.3700102, y: 0.22090065}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 485bce97c1c2847cd96b0f92f94d6631
-      internalID: -1755832562
+      spriteID: acfe57ccafbfb58489c61bdb4e0df3c8
+      internalID: -1946723036
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_fox_sprite_sheet_9
+      name: fox_sprite_sheet_6
       rect:
         serializedVersion: 2
-        x: 912
+        x: 911
         y: 858
-        width: 501
-        height: 578
+        width: 500
+        height: 577
       alignment: 9
-      pivot: {x: 0.34366474, y: 0.17686404}
+      pivot: {x: 0.3048418, y: 0.21558009}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cd8d79dced704afbbcb342d9b079cad
-      internalID: 193442424
+      spriteID: f1b337d783cc9c846aad725016a89e87
+      internalID: 1962479252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_fox_sprite_sheet_11
+      name: fox_sprite_sheet_8
       rect:
         serializedVersion: 2
         x: 1508
@@ -284,20 +260,20 @@ TextureImporter:
         width: 513
         height: 559
       alignment: 9
-      pivot: {x: 0.4334479, y: 0.19102944}
+      pivot: {x: 0.4048939, y: 0.2183233}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d846c57942f64d40a42a0373db78931
-      internalID: 680129884
+      spriteID: 7d4063d69ce3d9c46be0a02b2a0da6b3
+      internalID: 1124837822
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_fox_sprite_sheet_12
+      name: fox_sprite_sheet_9
       rect:
         serializedVersion: 2
         x: 2183
@@ -305,20 +281,20 @@ TextureImporter:
         width: 513
         height: 581
       alignment: 9
-      pivot: {x: 0.3786402, y: 0.18198898}
+      pivot: {x: 0.37030992, y: 0.17555065}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61dc4d9bc3be8430a84555221d6542fe
-      internalID: 905338017
+      spriteID: 60aca889d1ef480469a95d942ae83e64
+      internalID: -911348593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_fox_sprite_sheet_13
+      name: fox_sprite_sheet_10
       rect:
         serializedVersion: 2
         x: 2924
@@ -326,35 +302,14 @@ TextureImporter:
         width: 525
         height: 547
       alignment: 9
-      pivot: {x: 0.304907, y: 0.10715006}
+      pivot: {x: 0.30146298, y: 0.11078628}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 517e92c013f4640eb919680b18d91c36
-      internalID: 1469167486
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: new_fox_sprite_sheet_15
-      rect:
-        serializedVersion: 2
-        x: 3168
-        y: 963
-        width: 5
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 54673aa84370c4b6da79ca6d98c2b663
-      internalID: 370591845
+      spriteID: b10e0921af9eb694cb60e7c5905de52d
+      internalID: -1178682192
       vertices: []
       indices: 
       edges: []
@@ -370,28 +325,25 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      new_fox_sprite_sheet_17: 335232263
-      new_fox_sprite_sheet_4: 1662342034
-      new_fox_sprite_sheet_13: 1469167486
-      new_fox_sprite_sheet_10: 505614471
-      new_fox_sprite_sheet_11: 680129884
-      new_fox_sprite_sheet_9: 193442424
-      new_fox_sprite_sheet_7: -2075014450
-      new_fox_sprite_sheet_20: 1668417835
-      new_fox_sprite_sheet_1: -68812296
-      new_fox_sprite_sheet_19: 1557194316
-      new_fox_sprite_sheet_5: 2012161606
-      new_fox_sprite_sheet_15: 370591845
-      new_fox_sprite_sheet_21: 1538256119
-      new_fox_sprite_sheet_2: -763838394
-      new_fox_sprite_sheet_3: -482768211
-      new_fox_sprite_sheet_12: 905338017
-      new_fox_sprite_sheet_18: -1371512222
-      new_fox_sprite_sheet_16: -406748118
-      new_fox_sprite_sheet_8: -1755832562
-      new_fox_sprite_sheet_6: 519147157
-      new_fox_sprite_sheet_14: 1484043680
-      new_fox_sprite_sheet_0: 1894297305
+      fox_sprite_sheet_0: 1644993232
+      fox_sprite_sheet_18: 1429660745
+      fox_sprite_sheet_7: 2006634432
+      fox_sprite_sheet_6: 1962479252
+      fox_sprite_sheet_9: -911348593
+      fox_sprite_sheet_8: 1124837822
+      fox_sprite_sheet_10: -1178682192
+      fox_sprite_sheet_4: 1942440199
+      fox_sprite_sheet_12: -2038543700
+      fox_sprite_sheet_16: -1223677397
+      fox_sprite_sheet_5: -1946723036
+      fox_sprite_sheet_15: 1855491356
+      fox_sprite_sheet_17: -1271699360
+      fox_sprite_sheet_3: 1127226270
+      fox_sprite_sheet_14: 497387849
+      fox_sprite_sheet_2: 1424811570
+      fox_sprite_sheet_1: -1553147909
+      fox_sprite_sheet_13: 1095363030
+      fox_sprite_sheet_11: -1125483849
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
