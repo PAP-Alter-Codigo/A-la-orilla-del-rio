@@ -170,7 +170,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -289,10 +289,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 305867720740990393}
-  selectedCommands:
-  - {fileID: 305867720740990392}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 305867720740990374}
   - {fileID: 305867720740990391}
@@ -321,7 +319,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 67
-    y: 70
+    y: 71.26582
     width: 112.0253
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -330,7 +328,8 @@ MonoBehaviour:
   blockName: New Block
   description: 
   eventHandler: {fileID: 305867720740990362}
-  commandList: []
+  commandList:
+  - {fileID: 0}
   suppressAllAutoSelections: 0
 --- !u!114 &305867720740990362
 MonoBehaviour:
@@ -1611,8 +1610,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 357.51038
-    y: -6.3027954
+    x: 358.77618
+    y: -7.568618
     width: 82.911385
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1743,7 +1742,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1851,6 +1850,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: b9ee8cdd98119b248a2d09301eefdac1, type: 3}
   - {fileID: 21300000, guid: d119afad18649dc47bcdda9bc2a19e5a, type: 3}
   - {fileID: 21300000, guid: f039e02d5f441d64584ad7b20f19175f, type: 3}
+  reward: {fileID: 0}
   card: {fileID: 305867720752617311}
   flowchart: {fileID: 305867720740990372}
   flippedCards: {fileID: 305867720758005343}

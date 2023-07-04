@@ -171,4 +171,8 @@ public class Inventory : MonoBehaviour
         canvasGroup.blocksRaycasts = setting;
         canvasGroup.alpha = setting ? 1 : 0;
     }
+	
+	public void SetOwned(InventoryItems item, bool status){
+		item.itemOwned = status;
+	}
 }

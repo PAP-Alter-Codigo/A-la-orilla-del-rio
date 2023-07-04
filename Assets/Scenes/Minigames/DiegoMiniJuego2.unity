@@ -175,7 +175,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -207,11 +207,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &585137657 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 305867720758005340, guid: dfc6767a15282584089f7c4d624e56e1, type: 3}
-  m_PrefabInstance: {fileID: 305867720062083012}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &690618599
 GameObject:
   m_ObjectHideFlags: 0
@@ -333,7 +328,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -431,34 +426,12 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 305867720740990372, guid: dfc6767a15282584089f7c4d624e56e1, type: 3}
   m_PrefabInstance: {fileID: 305867720062083012}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1895838584}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1895838584 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 305867720740990361, guid: dfc6767a15282584089f7c4d624e56e1, type: 3}
-  m_PrefabInstance: {fileID: 305867720062083012}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1895838617
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1895838584}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 30
-  indentLevel: 0
-  targetObject: {fileID: 585137657}
-  methodName: Restart
-  delay: 1
 --- !u!1001 &305867720062083012
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -513,42 +486,6 @@ PrefabInstance:
     - target: {fileID: 305867720118115383, guid: dfc6767a15282584089f7c4d624e56e1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 305867720740990363, guid: dfc6767a15282584089f7c4d624e56e1, type: 3}
-      propertyPath: nodeRect.x
-      value: 67
-      objectReference: {fileID: 0}
-    - target: {fileID: 305867720740990363, guid: dfc6767a15282584089f7c4d624e56e1, type: 3}
-      propertyPath: nodeRect.y
-      value: 71.26582
-      objectReference: {fileID: 0}
-    - target: {fileID: 305867720740990363, guid: dfc6767a15282584089f7c4d624e56e1, type: 3}
-      propertyPath: commandList.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 305867720740990363, guid: dfc6767a15282584089f7c4d624e56e1, type: 3}
-      propertyPath: commandList.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 305867720740990363, guid: dfc6767a15282584089f7c4d624e56e1, type: 3}
-      propertyPath: commandList.Array.data[1]
-      value: 
-      objectReference: {fileID: 1895838617}
-    - target: {fileID: 305867720740990372, guid: dfc6767a15282584089f7c4d624e56e1, type: 3}
-      propertyPath: selectedBlocks.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 305867720740990372, guid: dfc6767a15282584089f7c4d624e56e1, type: 3}
-      propertyPath: selectedCommands.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 305867720740990393, guid: dfc6767a15282584089f7c4d624e56e1, type: 3}
-      propertyPath: nodeRect.x
-      value: 358.77618
-      objectReference: {fileID: 0}
-    - target: {fileID: 305867720740990393, guid: dfc6767a15282584089f7c4d624e56e1, type: 3}
-      propertyPath: nodeRect.y
-      value: -7.568618
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfc6767a15282584089f7c4d624e56e1, type: 3}
