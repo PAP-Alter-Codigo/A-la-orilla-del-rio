@@ -4,6 +4,6 @@ using UnityEngine;
 
 public class Data
 {
-    public string scene_name;
+    public string sceneName;
     public HashSet<string> collectibles;
 }
