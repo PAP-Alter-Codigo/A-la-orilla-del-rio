@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class InventoryManager : MonoBehaviour
 {
@@ -12,6 +13,10 @@ public class InventoryManager : MonoBehaviour
 	private InventoryItem[] items = new InventoryItem[4];
 	private uint inventoryIndex = 0;
 
+	[SerializeField]
+	private Image objectiveSlot;
+
+	private Objective currentObjective;
 
 	public void addItem(InventoryItem newItem)
 	{
@@ -48,8 +53,15 @@ public class InventoryManager : MonoBehaviour
 			inventorySlots[i].sprite = items[i].itemSprite;
 		}
 		print("Llegue aqui");
+
+
 	}
 
+	public void setObjective(Objective newObjective)
+	{
+		currentObjective = newObjective;
+		objectiveSlot.sprite = currentObjective.sprite;
+	}
 }
 
 

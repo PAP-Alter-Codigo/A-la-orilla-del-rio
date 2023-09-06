@@ -9,8 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d3be1bb98d5aa949bf70fae318db623, type: 3}
-  m_Name: huevo_serpiente_03
+  m_Script: {fileID: 11500000, guid: 4efb3dedeeec34fb6ac1b7b007b6fcb6, type: 3}
+  m_Name: ayudar_serpiete
   m_EditorClassIdentifier: 
-  itemName: huevo_serpiente_03
-  itemSprite: {fileID: -429304576, guid: c56158d4998f64b86887fc8ab4af9e61, type: 3}
+  toolTip: Habla con la serpiente
+  sprite: {fileID: 21300000, guid: f16cf847739d46b4cba5513e2ad8d7bf, type: 3}
+  type: 2
