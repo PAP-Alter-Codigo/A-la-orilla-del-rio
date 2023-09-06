@@ -149,4 +149,9 @@ public class SlidingPuzzleBoard : MonoBehaviour
 		reward.itemOwned = true;
         t.Win();
     }
+
+    public void ExitPuzzle(){
+        if(lostChild)
+            Destroy(lostChild);
+    }
 }
