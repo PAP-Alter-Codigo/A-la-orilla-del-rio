@@ -4,7 +4,7 @@ using UnityEngine;
 /// Clase InventoryItems que define los atributos de los objetos en el inventario de un juego de point and click.
 /// Este es un ScriptableObject, lo que permite crear instancias de objetos en el editor de Unity sin necesidad de instanciarlos en la escena.
 /// </summary>
-[CreateAssetMenu(menuName = "New InventoryItem", order = 1)]
+//[CreateAssetMenu(menuName = "New InventoryItem", order = 1)]
 public class InventoryItems : ScriptableObject
 {
     // Indica si el jugador posee este objeto en su inventario
