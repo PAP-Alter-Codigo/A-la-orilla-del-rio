@@ -311,17 +311,13 @@ GameObject:
   - component: {fileID: 60164331}
   - component: {fileID: 60164334}
   - component: {fileID: 60164333}
-  - component: {fileID: 60164337}
   - component: {fileID: 60164338}
   - component: {fileID: 60164346}
-  - component: {fileID: 60164343}
   - component: {fileID: 60164340}
   - component: {fileID: 60164344}
-  - component: {fileID: 60164339}
   - component: {fileID: 60164348}
   - component: {fileID: 60164349}
   - component: {fileID: 60164350}
-  - component: {fileID: 60164351}
   - component: {fileID: 60164353}
   - component: {fileID: 60164352}
   - component: {fileID: 60164355}
@@ -398,6 +394,10 @@ GameObject:
   - component: {fileID: 60164434}
   - component: {fileID: 60164436}
   - component: {fileID: 60164437}
+  - component: {fileID: 60164440}
+  - component: {fileID: 60164439}
+  - component: {fileID: 60164438}
+  - component: {fileID: 60164441}
   m_Layer: 0
   m_Name: Clickable Flowchart
   m_TagString: Untagged
@@ -418,11 +418,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -251.95207, y: 221.85727}
+  scrollPos: {x: -552.20154, y: 93.249054}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.67000014
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -430,8 +430,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 60163834}
-  selectedCommands: []
+  - {fileID: 60164290}
+  selectedCommands:
+  - {fileID: 60164441}
   variables:
   - {fileID: 60163885}
   - {fileID: 60163905}
@@ -488,7 +489,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 535.1518
     y: 260.6536
-    width: 76.1194
+    width: 77.333336
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -542,7 +543,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 686.18335
     y: 246.94264
-    width: 100.74626
+    width: 104
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -624,7 +625,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 476.70587
     y: 102.074135
-    width: 153.73132
+    width: 162
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1010,7 +1011,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 964.5631
     y: 402.8215
-    width: 75.37313
+    width: 76.666664
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1053,9 +1054,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 517.4415
-    y: 357.1479
-    width: 124.626854
+    x: 526.3967
+    y: 346.70013
+    width: 130.66666
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1212,7 +1213,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 732.39557
     y: 399.43344
-    width: 162.68655
+    width: 169.33334
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1367,11 +1368,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 454
-  indentLevel: 0
-  storyText: "Ay, \xA1mis hijos!"
+  indentLevel: 1
+  storyText: "NONONONO\r"
   description: 
   character: {fileID: 1322808064}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f16cf847739d46b4cba5513e2ad8d7bf, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1397,7 +1398,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 906.31104
     y: 159.91763
-    width: 161.78232
+    width: 166
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1406,17 +1407,18 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 60164295}
   commandList:
-  - {fileID: 60164289}
   - {fileID: 60164344}
-  - {fileID: 60164343}
-  - {fileID: 60164351}
   - {fileID: 60164366}
-  - {fileID: 60164339}
   - {fileID: 60164433}
   - {fileID: 60164348}
   - {fileID: 60164350}
+  - {fileID: 60164441}
   - {fileID: 60164349}
   - {fileID: 60164364}
+  - {fileID: 60164440}
+  - {fileID: 60164289}
+  - {fileID: 60164439}
+  - {fileID: 60164438}
   - {fileID: 60164299}
   - {fileID: 60164336}
   - {fileID: 60164331}
@@ -1479,7 +1481,7 @@ MonoBehaviour:
   storyText: "\xBFMe ayudar\xEDas a encontrar mis hijos?"
   description: 
   character: {fileID: 1322808064}
-  portrait: {fileID: 21300000, guid: 8de7b4069be82a24797c879a656a5c28, type: 3}
+  portrait: {fileID: 21300000, guid: f16cf847739d46b4cba5513e2ad8d7bf, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1506,7 +1508,7 @@ MonoBehaviour:
   storyText: "\xA1Oye t\xFA!"
   description: 
   character: {fileID: 1322808064}
-  portrait: {fileID: 21300000, guid: 8de7b4069be82a24797c879a656a5c28, type: 3}
+  portrait: {fileID: 21300000, guid: f16cf847739d46b4cba5513e2ad8d7bf, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2006,7 +2008,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 673.9503
     y: 167.69917
-    width: 123.5145
+    width: 125.333336
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2314,7 +2316,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 873.5981
     y: 91.07907
-    width: 159.76822
+    width: 164
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2627,7 +2629,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 673.0762
     y: 85.70318
-    width: 158.76118
+    width: 163.33334
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2690,7 +2692,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 886.23004
     y: 251.18115
-    width: 176.88805
+    width: 180.66667
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2699,7 +2701,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 60164337}
   - {fileID: 60164334}
   - {fileID: 60164333}
   suppressAllAutoSelections: 0
@@ -2767,33 +2768,6 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!114 &60164337
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 60163809}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 501
-  indentLevel: 0
-  storyText: "\xA1Muchas gracias! Te estar\xE9 esperando aqu\xED."
-  description: 
-  character: {fileID: 1322808064}
-  portrait: {fileID: 21300000, guid: a90243094eae7744185b698ac8911e4a, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &60164338
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2809,33 +2783,6 @@ MonoBehaviour:
   scope: 1
   key: NPC
   value: 0
---- !u!114 &60164339
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 60163809}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 512
-  indentLevel: 1
-  storyText: Ahora puedo volver a casa.
-  description: 
-  character: {fileID: 1322808064}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &60164340
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2850,33 +2797,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 510
   indentLevel: 0
---- !u!114 &60164343
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 60163809}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 508
-  indentLevel: 1
-  storyText: "Pero, \xBFqu\xE9 tienes ah\xED?"
-  description: 
-  character: {fileID: 1322808064}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &60164344
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3519,33 +3439,6 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
---- !u!114 &60164351
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 60163809}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 516
-  indentLevel: 1
-  storyText: "\xA1Los has encontrado todos! \xA1Muchas gracias!"
-  description: 
-  character: {fileID: 1322808064}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &60164352
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3631,7 +3524,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 913.2473
     y: 323.47412
-    width: 135.59908
+    width: 138.66666
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5465,7 +5358,7 @@ MonoBehaviour:
   storyText: Falta encontrar {$Huevos} huevitos
   description: 
   character: {fileID: 1322808064}
-  portrait: {fileID: 21300000, guid: 8de7b4069be82a24797c879a656a5c28, type: 3}
+  portrait: {fileID: 21300000, guid: f16cf847739d46b4cba5513e2ad8d7bf, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5512,7 +5405,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1195.7261
     y: 228.19104
-    width: 133.58499
+    width: 136.66666
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5672,7 +5565,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1199.2979
     y: 172.19107
-    width: 129.5568
+    width: 132.66666
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5824,7 +5717,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1199.1946
     y: 121.29535
-    width: 128.54974
+    width: 131.33334
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6045,7 +5938,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 412.51105
     y: 185.71576
-    width: 188.97263
+    width: 195.33333
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -6333,7 +6226,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 588
   indentLevel: 1
-  storyText: Creo que se fue al rio
+  storyText: " \xBFAhora\r d\xF3nde se meti\xF3?"
   description: 
   character: {fileID: 1279988736}
   portrait: {fileID: 21300000, guid: cc52d0de4e1992b41a25d6a83e62458d, type: 3}
@@ -6360,7 +6253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 587
   indentLevel: 1
-  storyText: "D\xF3nde estar\xE1 el Coyote?"
+  storyText: "Otra vez se perdi\xF3 COYOTE."
   description: 
   character: {fileID: 1279988736}
   portrait: {fileID: 21300000, guid: cc52d0de4e1992b41a25d6a83e62458d, type: 3}
@@ -7009,6 +6902,115 @@ MonoBehaviour:
   returnValueType: System.Void
   showInherited: 0
   callMode: 0
+--- !u!114 &60164438
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60163809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 606
+  indentLevel: 1
+  storyText: "\xA1NONONO!, \xBFqu\xE9 voy a hacer? Estoy\r\nbuscando a mis hijos,
+    se perdieron."
+  description: 
+  character: {fileID: 1322808064}
+  portrait: {fileID: 21300000, guid: f16cf847739d46b4cba5513e2ad8d7bf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &60164439
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60163809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 605
+  indentLevel: 1
+  storyText: "Serpiente \xBFestas bien?\r"
+  description: 
+  character: {fileID: 1279988736}
+  portrait: {fileID: 21300000, guid: cc52d0de4e1992b41a25d6a83e62458d, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &60164440
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60163809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 604
+  indentLevel: 1
+  storyText: "\xA1Auka! \xBFSabes d\xF3nde esta mi hermano?"
+  description: 
+  character: {fileID: 1279988736}
+  portrait: {fileID: 21300000, guid: cc52d0de4e1992b41a25d6a83e62458d, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &60164441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60163809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 607
+  indentLevel: 1
+  storyText: "\xA1Gracias por ayudarme! \xA1Vi a tu\r\nhermano cerca del r\xEDo!"
+  description: 
+  character: {fileID: 1322808064}
+  portrait: {fileID: 21300000, guid: f16cf847739d46b4cba5513e2ad8d7bf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &74343941
 GameObject:
   m_ObjectHideFlags: 0
@@ -7063,7 +7065,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 74343951}
+  - {fileID: 74343947}
   selectedCommands: []
   variables: []
   description: 
@@ -7092,7 +7094,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 77.75365
     y: 163.90045
-    width: 141
+    width: 144.66666
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7158,7 +7160,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 112.13338
     y: 83.59249
-    width: 121
+    width: 123.333336
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7235,7 +7237,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 79.114105
     y: 227.51317
-    width: 137
+    width: 141.33334
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -38062,7 +38064,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.1712255, y: 2.2082, z: -10}
+  m_LocalPosition: {x: -4.1711817, y: 2.2082, z: -10}
   m_LocalScale: {x: 1.8225001, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
