@@ -395,7 +395,6 @@ GameObject:
   - component: {fileID: 60164479}
   - component: {fileID: 60164478}
   - component: {fileID: 60164477}
-  - component: {fileID: 60164476}
   - component: {fileID: 60164475}
   - component: {fileID: 60164474}
   - component: {fileID: 60164484}
@@ -459,8 +458,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 60163816}
-  selectedCommands:
-  - {fileID: 60164510}
+  selectedCommands: []
   variables:
   - {fileID: 60163885}
   - {fileID: 60163905}
@@ -514,7 +512,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 540.00916
     y: 35.47857
-    width: 75.3895
+    width: 76.15888
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -536,7 +534,6 @@ MonoBehaviour:
   - {fileID: 60164479}
   - {fileID: 60164478}
   - {fileID: 60164477}
-  - {fileID: 60164476}
   - {fileID: 60164475}
   - {fileID: 60164474}
   - {fileID: 60163981}
@@ -572,7 +569,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 686.18335
     y: 246.94264
-    width: 101.93308
+    width: 101.548386
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -627,7 +624,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 655.27985
     y: 125.54792
-    width: 148.09583
+    width: 147.71112
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1076,7 +1073,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 704.81903
     y: 489.00403
-    width: 75.3895
+    width: 76.15888
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1138,7 +1135,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 517.4415
     y: 357.1479
-    width: 127.322586
+    width: 126.9379
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1275,7 +1272,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 658.6883
     y: 412.93872
-    width: 164.25278
+    width: 163.86809
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1412,7 +1409,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 948.1883
     y: 81.30478
-    width: 115.7819
+    width: 115.39721
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1658,7 +1655,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 980.3187
     y: 390.8094
-    width: 150.40396
+    width: 150.01926
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1992,7 +1989,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1089.0052
     y: 172.43819
-    width: 140.01733
+    width: 138.47858
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2497,7 +2494,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 231.6909
     y: 338.89594
-    width: 166.56091
+    width: 165.40685
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2661,7 +2658,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 232.3547
     y: 264.6903
-    width: 172.33125
+    width: 170.02312
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2849,7 +2846,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 222.59975
     y: 195.25963
-    width: 174.6394
+    width: 173.87001
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2923,7 +2920,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1094.6333
     y: 297.28705
-    width: 158.48244
+    width: 157.71304
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3469,7 +3466,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1090.0171
     y: 234.1946
-    width: 157.32837
+    width: 156.94366
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3666,7 +3663,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 635
   indentLevel: 1
-  storyText: "\xA1Listo! \xA1Ya tengo todo lo que necesito!"
+  storyText: 'Siempre la necesitas.
+
+'
   description: 
   character: {fileID: 1171566892}
   portrait: {fileID: 21300000, guid: cc52d0de4e1992b41a25d6a83e62458d, type: 3}
@@ -3711,33 +3710,6 @@ MonoBehaviour:
     floatRef: {fileID: 0}
     floatVal: 0.2
   durationOLD: 0
---- !u!114 &60164476
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 60163809}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 639
-  indentLevel: 1
-  storyText: "Ya deber\xEDa tener mi red lista."
-  description: 
-  character: {fileID: 1171566892}
-  portrait: {fileID: 21300000, guid: cc52d0de4e1992b41a25d6a83e62458d, type: 3}
-  voiceOverClip: {fileID: 8300000, guid: be122d5e134d8fb46a8f0d559bf85f08, type: 3}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &60164477
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4230,7 +4202,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 645
   indentLevel: 0
-  storyText: "Me ca\xED al rio!"
+  storyText: "No necesitaba de tu ayuda.\r"
   description: 
   character: {fileID: 818022340}
   portrait: {fileID: 21300000, guid: 9d0a5f514d9734c4d941e1e482199678, type: 3}
@@ -4257,10 +4229,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 644
   indentLevel: 0
-  storyText: Auxilio!!!
+  storyText: Diario te tengo que estar salvando.
   description: 
-  character: {fileID: 818022340}
-  portrait: {fileID: 21300000, guid: 9d0a5f514d9734c4d941e1e482199678, type: 3}
+  character: {fileID: 1171566892}
+  portrait: {fileID: 21300000, guid: cc52d0de4e1992b41a25d6a83e62458d, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5833,7 +5805,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 869.09515
     y: 238.88246
-    width: 144.6336
+    width: 143.86423
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -31178,7 +31150,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.311093, y: -5.7999997, z: -10}
+  m_LocalPosition: {x: -10.303434, y: -5.7999997, z: -10}
   m_LocalScale: {x: 1.8225001, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
