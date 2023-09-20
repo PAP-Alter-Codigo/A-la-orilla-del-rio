@@ -22,7 +22,7 @@ public class Player_Anim_Properties : MonoBehaviour
 
     // Referencia al  navmesh
     private UnityEngine.AI.NavMeshAgent nav;
-    private SpriteRenderer renderer;
+    private SpriteRenderer spriteRenderer;
 
     // Start is called before the first frame update
     void Start()
@@ -31,7 +31,7 @@ public class Player_Anim_Properties : MonoBehaviour
       facingFront = true;
       facingLeft = true;
       nav = this.gameObject.GetComponent<UnityEngine.AI.NavMeshAgent>();
-      renderer = this.gameObject.GetComponent<SpriteRenderer>();
+      spriteRenderer = this.gameObject.GetComponent<SpriteRenderer>();
     }
 	void FixedUpdate()
 	{
@@ -60,7 +60,7 @@ public class Player_Anim_Properties : MonoBehaviour
         if(nav.velocity[1] > 0) facingFront = false;
         else if(nav.velocity[1] < 0) facingFront = true;
 
-        renderer.flipX = !facingLeft;
+        spriteRenderer.flipX = !facingLeft;
 
         animator.SetBool("facingFront", facingFront);
         animator.SetBool("facingLeft", facingLeft);
@@ -72,12 +72,18 @@ public class Player_Anim_Properties : MonoBehaviour
     {
         if (isWalkingOnWater)
         {
-        	randomSound=Random.Range(0,waterSteps.Length);
-			audiosource.clip = waterSteps[randomSound];
+			if(waterSteps.Length > 0)
+			{
+				randomSound=Random.Range(0,waterSteps.Length);
+				audiosource.clip = waterSteps[randomSound];
+			}
         }else 
-        {            
-        	randomSound=Random.Range(0,dirtSteps.Length);
-			audiosource.clip = dirtSteps[randomSound];
+        {     
+			if(dirtSteps.Length > 0)
+			{
+				randomSound=Random.Range(0,dirtSteps.Length);
+				audiosource.clip = dirtSteps[randomSound];
+			}       
         }
         audiosource.Play(); 
     }
