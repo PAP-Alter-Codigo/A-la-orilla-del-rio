@@ -5,5 +5,5 @@ using UnityEngine;
 public class Data
 {
     public string sceneName;
-    public HashSet<string> collectibles;
+    public string[] legendaryItems;
 }
