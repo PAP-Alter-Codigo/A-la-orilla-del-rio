@@ -8,9 +8,11 @@ using UnityEngine.SceneManagement;
 public class DataManager : MonoBehaviour
 {
 
-    public string saveFile;
+    private string saveFile;
 
-    public Data data = new Data();
+    private Data data = new Data();
+
+	[SerializeField] private InventoryManager inventoryManager;
 
     private void Awake()
     {
@@ -29,7 +31,7 @@ public class DataManager : MonoBehaviour
         }
     }
 
-    void CargarDatos()
+    public void CargarDatos()
     {
 		// We make sure we have a save file
         if (File.Exists(saveFile))
@@ -45,6 +47,10 @@ public class DataManager : MonoBehaviour
 			// We turn it back from json to a Data object
             data = JsonUtility.FromJson<Data>(JSONData);
             SceneManager.LoadScene(data.sceneName);
+			for(int i = 0; i < data.legendaryItems.Length; i++)
+			{
+				inventoryManager.addLegendaryItem(data.legendaryItems[i]);
+			}
         }
         else
         {
@@ -52,7 +58,7 @@ public class DataManager : MonoBehaviour
         }
     }
 
-    void GuardarDatos()
+    public void GuardarDatos()
     {
 		// We get the data we are going to save
 		Scene scene = SceneManager.GetActiveScene();
@@ -61,7 +67,7 @@ public class DataManager : MonoBehaviour
         Data newData = new Data()
         {
             sceneName = scene.name,
-			collectibles = new HashSet<string>()
+			legendaryItems = inventoryManager.getLegendaryItems()
         };
 
 		// We encode it to Json 
