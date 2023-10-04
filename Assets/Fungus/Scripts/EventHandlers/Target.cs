@@ -10,7 +10,6 @@ public class Target : MonoBehaviour
     public bool cutsceneInProgress;
     private NavMeshAgent agent;
 
-    public Verb verb;
 	private Vector3 destination;
 
     // Start is called before the first frame update
@@ -19,7 +18,6 @@ public class Target : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
-        verb = FindObjectOfType<Verb>();
         //Set_Player_Position_To_Spawnpoint();
     }
 
@@ -51,10 +49,6 @@ public class Target : MonoBehaviour
         inDialogue = false;
         cutsceneInProgress = false;
 
-        verb.verb = Verb.Actions.Walk;
-        verb.UpdateVerbTextBox(null);
-        verb.gameObject.SetActive(true);
-
         enableUI();
     }
 
@@ -73,10 +67,6 @@ public class Target : MonoBehaviour
     {
         inDialogue = true;
         cutsceneInProgress = true;
-
-        verb.verb = Verb.Actions.Walk;
-        verb.UpdateVerbTextBox(null);
-        verb.gameObject.SetActive(false);
 
         // // Disable all UI buttons
         disableUI();

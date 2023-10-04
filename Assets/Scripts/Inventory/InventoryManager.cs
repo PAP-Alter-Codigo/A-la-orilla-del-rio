@@ -4,19 +4,26 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using Unity.VisualScripting;
 
 public class InventoryManager : MonoBehaviour
 {
-	[SerializeField]
-	private Image[] inventorySlots = new Image[4];
-	
+	//maximo 4 objetos por objetivo
 	private InventoryItem[] items = new InventoryItem[4];
+	//Solo hay 4 objetos legendarios en todo el juego
+	private List<LegendaryItem> legendaryItems = new List<LegendaryItem>();
+	//Referencia al objetivo actual
+	private Objective currentObjective;
+
+
 	private uint inventoryIndex = 0;
 
 	[SerializeField]
+	private Image[] inventorySlots = new Image[4];
+	
+	[SerializeField]
 	private Image objectiveSlot;
 
-	private Objective currentObjective;
 
 	public void addItem(InventoryItem newItem)
 	{
@@ -43,6 +50,36 @@ public class InventoryManager : MonoBehaviour
 
 	}
 
+	public string[] getLegendaryItems()
+	{
+		if(legendaryItems.Count == 0){
+			return new string[0];
+		}
+
+		List<string> currentLegendaryItems = new List<string>();
+		for(int i = 0; i < legendaryItems.Count; i++)
+		{
+			currentLegendaryItems.Add(legendaryItems[i].name);
+		}
+		return currentLegendaryItems.ToArray();
+	}
+
+	public void addLegendaryItem(string legendaryItem)
+	{
+		LegendaryItem ScriptableLegendaryItem = (LegendaryItem)Resources.Load(legendaryItem);
+
+		if(ScriptableLegendaryItem)
+		{
+			legendaryItems.Add(ScriptableLegendaryItem);
+		}
+		
+	}
+
+	public void setObjective(Objective newObjective)
+	{
+		currentObjective = newObjective;
+		objectiveSlot.sprite = currentObjective.sprite;
+	}
 
 	private void updateUI()
 	{
@@ -54,13 +91,6 @@ public class InventoryManager : MonoBehaviour
 		}
 		print("Llegue aqui");
 
-
-	}
-
-	public void setObjective(Objective newObjective)
-	{
-		currentObjective = newObjective;
-		objectiveSlot.sprite = currentObjective.sprite;
 	}
 }
 

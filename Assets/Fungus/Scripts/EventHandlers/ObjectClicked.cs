@@ -39,13 +39,10 @@ namespace Fungus
 
         private NavMeshAgent agent;
 
-        public Verb verb;
-
         void Start()
         {
             target = FindObjectOfType<Target>();
             agent = GetComponent<NavMeshAgent>();
-            verb = FindObjectOfType<Verb>();
             //  agent.updateRotation = false;
             // agent.updateUpAxis = false;
 
@@ -94,9 +91,6 @@ namespace Fungus
                     target.cutsceneInProgress = true;
                     target.SetDestinationTarget();
                     target.followSpot = target.transform.position;
-                    verb.gameObject.SetActive(false);
-                    //change verb to Use
-                    verb.UpdateVerbTextBox(clickableObject.clickableName);
                     //target.animator.SetFloat("distance",0);
                     doExecute = true;
                 }

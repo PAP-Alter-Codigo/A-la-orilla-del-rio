@@ -25,12 +25,6 @@ namespace Fungus
         public float ActivateDistance;
         public string clickableName;
 
-        private Verb verb;
-        public void Start()
-        {
-            verb = FindObjectOfType<Verb>();
-        }
-
         protected virtual void ChangeCursor(Texture2D cursorTexture)
         {
             if (!clickEnabled)
@@ -56,18 +50,12 @@ namespace Fungus
         protected virtual void DoPointerEnter()
         {
             ChangeCursor(hoverCursor);
-            verb.UpdateVerbTextBox(clickableName);
-            verb.currentClickable = clickableName;
-            // verb.currentClickable = clickableName;
-
         }
 
         protected virtual void DoPointerExit()
         {
             // Always reset the mouse cursor to be on the safe side
             SetMouseCursor.ResetMouseCursor();
-            verb.UpdateVerbTextBox(null);
-            // verb.currentClickable = null;
         }
 
         #region Legacy OnMouseX methods
