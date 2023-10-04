@@ -35732,7 +35732,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.7437944, y: 2.19447, z: -10}
+  m_LocalPosition: {x: -5.9144955, y: 2.19315, z: -10}
   m_LocalScale: {x: 1.8225001, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -88506,42 +88506,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 206726605097039379, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 206726605097039379, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 206726605097039379, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 206726605097039379, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 206726605097039379, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4232780634934988940, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4232780634934988940, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4232780634934988940, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4232780634934988940, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 4716950904804510298, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
       propertyPath: m_Name
       value: Core
@@ -88552,15 +88516,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4716950904804510299, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1063.1442
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4716950904804510299, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 442.62167
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4716950904804510299, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.349402
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4716950904804510299, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
       propertyPath: m_LocalRotation.w
@@ -88589,10 +88553,6 @@ PrefabInstance:
     - target: {fileID: 4716950904804510299, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7486697732972884225, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
-      propertyPath: m_Name
-      value: Inventario
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
