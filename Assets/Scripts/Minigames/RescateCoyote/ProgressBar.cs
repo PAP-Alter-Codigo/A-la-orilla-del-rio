@@ -30,8 +30,8 @@ public class ProgressBar : MonoBehaviour
 	{
 		if(Progress >= 1.0f){
 			//Aqui hacer la rutina de juego ganado.
-			this.enabled = false;
-			CoyoteController.gameComplete = true;
+			enabled = false;
+			Coyote.gameOver = true;
 		}
 		if(MakingProgress && Progress < 1.0f)
 		{
