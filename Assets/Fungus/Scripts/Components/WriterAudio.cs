@@ -37,7 +37,7 @@ namespace Fungus
         [SerializeField] protected AudioMode audioMode = AudioMode.Beeps;
 
         [Tooltip("List of beeps to randomly select when playing beep sound effects. Will play maximum of one beep per character, with only one beep playing at a time.")]
-        [SerializeField] protected List<AudioClip> beepSounds = new List<AudioClip>();
+        [SerializeField] public List<AudioClip> beepSounds = new List<AudioClip>();
 
         [Tooltip("Long playing sound effect to play when writing text")]
         [SerializeField] protected AudioClip soundEffect;

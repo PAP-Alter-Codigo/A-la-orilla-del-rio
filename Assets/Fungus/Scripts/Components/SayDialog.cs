@@ -6,6 +6,7 @@ using UnityEngine.UI;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.Events;
 
 namespace Fungus
 {
@@ -97,6 +98,9 @@ namespace Fungus
 
         // Cache active Say Dialogs to avoid expensive scene search
         protected static List<SayDialog> activeSayDialogs = new List<SayDialog>();
+
+        [Tooltip("Evento que se llama cuando el personaje actual cambia")]
+        [SerializeField] UnityEvent<Character> onCharacterSet;
 
         protected virtual void Awake()
         {
@@ -337,6 +341,7 @@ namespace Fungus
         /// <param name="character">The active speaking character.</param>
         public virtual void SetCharacter(Character character)
         {
+            onCharacterSet.Invoke(character);
             if (character == null)
             {
                 if (characterImage != null)
