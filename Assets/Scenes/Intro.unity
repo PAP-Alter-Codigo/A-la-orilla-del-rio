@@ -223,7 +223,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 296.52673
     y: -32.44088
-    width: 76.26865
+    width: 76.11939
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -541,7 +541,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -37.13878
     y: 18.375889
-    width: 133.58205
+    width: 129.85071
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -578,7 +578,6 @@ MonoBehaviour:
   clickableObject: {fileID: 1840979291}
   waitFrames: 1
   target: {fileID: 0}
-  verb: {fileID: 682481626}
 --- !u!114 &73214012
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -708,7 +707,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -15.108833
     y: -77.087944
-    width: 84.62685
+    width: 82.8358
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -874,7 +873,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -267.60883
     y: 59.012062
-    width: 73.880585
+    width: 72.38805
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -954,7 +953,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -266.60883
     y: 12.012062
-    width: 78.6567
+    width: 76.86566
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1882,7 +1881,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -266.45135
     y: -48.561584
-    width: 76.26865
+    width: 75.37312
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4017,17 +4016,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 607945678}
   m_CullTransparentMesh: 1
---- !u!114 &682481626 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7758709117577439093, guid: 39bf73f97fd4efd4c914dd4f5ce3c748, type: 3}
-  m_PrefabInstance: {fileID: 1387868576}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8ef6a6bfd693194182a83aa8a403b67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &701293508
 GameObject:
   m_ObjectHideFlags: 0
@@ -4273,6 +4261,7 @@ GameObject:
   - component: {fileID: 793027021}
   - component: {fileID: 793027020}
   - component: {fileID: 793027019}
+  - component: {fileID: 793027022}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4346,6 +4335,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &793027022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793027018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1 &835540345
 GameObject:
   m_ObjectHideFlags: 0
