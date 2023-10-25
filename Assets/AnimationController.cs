@@ -8,22 +8,31 @@ public class AnimationController : MonoBehaviour
     private Animator m_Animator;
 	private bool NewGame = true;
 
-    void Start()
+
+	[SerializeField] private bool ResetFirstTime = false;
+
+    void Awake()
     {
         //Get the Animator attached to the GameObject you are intending to animate.
         m_Animator = gameObject.GetComponent<Animator>();
-		int FirstTime = PlayerPrefs.GetInt("FistTime", 0); 
+		int FirstTime = PlayerPrefs.GetInt("playintro", 0);
 		if(FirstTime == 0)
 		{
-			m_Animator.SetTrigger("FirstTime");
-			PlayerPrefs.SetInt("FirstTime", 1);
+			PlayerPrefs.SetInt("playintro", 1);
 			PlayerPrefs.Save();
+			m_Animator.SetTrigger("FirstTime");
+		} else {
 		}
 	}
     // Update is called once per frame
     void Update()
     {
-        
+        if(ResetFirstTime)
+		{
+			PlayerPrefs.SetInt("playintro", 0);
+			PlayerPrefs.Save();
+			ResetFirstTime = false;
+		}
     }
 
 	public void StartGame() 
@@ -42,7 +51,7 @@ public class AnimationController : MonoBehaviour
 		NewGame = false;
 	}
 	public void QuitGame() {
-    	Application.Quit();
+		Application.Quit();
 	}
 
 	public void ChangeScene(){
