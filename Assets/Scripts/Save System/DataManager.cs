@@ -7,16 +7,13 @@ using UnityEngine.SceneManagement;
 
 public class DataManager : MonoBehaviour
 {
-
-    private string saveFile;
-
-    private Data data = new Data();
+	private static string saveFile;
 
 	[SerializeField] private InventoryManager inventoryManager;
 
     private void Awake()
     {
-        saveFile = Application.dataPath + "/saveFile.json";
+		saveFile = Application.dataPath + "/saveFile.json";
     }
 
     private void Update()
@@ -31,9 +28,13 @@ public class DataManager : MonoBehaviour
         }
     }
 
-    public void CargarDatos()
+    public static void CargarDatos()
     {
 		// We make sure we have a save file
+		if(saveFile == null){
+			saveFile = Application.dataPath + "/saveFile.json";
+		}
+		print(saveFile);
         if (File.Exists(saveFile))
         {
 			// We read the file content
@@ -45,12 +46,12 @@ public class DataManager : MonoBehaviour
 			string JSONData = System.Text.Encoding.UTF8.GetString(jsonBytes);
 
 			// We turn it back from json to a Data object
-            data = JsonUtility.FromJson<Data>(JSONData);
+            Data data = JsonUtility.FromJson<Data>(JSONData);
             SceneManager.LoadScene(data.sceneName);
-			for(int i = 0; i < data.legendaryItems.Length; i++)
-			{
-				inventoryManager.addLegendaryItem(data.legendaryItems[i]);
-			}
+			//for(int i = 0; i < data.legendaryItems.Length; i++)
+			//{
+			//	inventoryManager.addLegendaryItem(data.legendaryItems[i]);
+			//}
         }
         else
         {
@@ -60,6 +61,10 @@ public class DataManager : MonoBehaviour
 
     public void GuardarDatos()
     {
+		
+		if(saveFile == null){
+			saveFile = Application.dataPath + "/saveFile.json";
+		}
 		// We get the data we are going to save
 		Scene scene = SceneManager.GetActiveScene();
 		
