@@ -14,15 +14,12 @@ public class RedDePesca : MonoBehaviour
 	[SerializeField]
 	private Transform recoveryPoint;
 
-	private Zorro zorro;
-
 	private void Start() {
 		redColider = GetComponent<Collider2D>();
-		zorro = GameObject.FindWithTag("Player").GetComponent<Zorro>();
 	}
 
     void Update() {
-        if(!Coyote.gameOver && !zorro.canMove && Input.GetMouseButton(0)) {
+        if(!Coyote.gameOver && Input.GetMouseButton(0)) {
             Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 			transform.position = new Vector3(mousePosition.x, mousePosition.y, 0.0f);
         }else {

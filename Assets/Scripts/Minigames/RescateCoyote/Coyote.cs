@@ -17,7 +17,6 @@ public class Coyote: MonoBehaviour{
     Flowchart flowchart;
 
 	private Animator animator;
-    private Rigidbody2D rb;
     private Vector2 minPos = new(-2.5f, -4.5f);
     private Vector2 targetPos = new(-6, 0);
     private Vector2 maxPos = new(5.5f, 4.0f);
@@ -25,7 +24,6 @@ public class Coyote: MonoBehaviour{
 
     private void Start() {
         gameOver = false;
-        rb = GetComponent<Rigidbody2D>();
 		animator = GetComponent<Animator>();
     }
 
@@ -33,13 +31,12 @@ public class Coyote: MonoBehaviour{
         if(gameOver && Vector2.Distance(transform.position, foxTransform.position) < 0.25f) {
 			flowchart.ExecuteBlock("FinalDialogs");
 			animator.SetBool("GameOver", true);
-            Destroy(rb);
 			enabled = false;
             return;
         }
         // Moverse
         GetTargetPos();
-        rb.MovePosition(Vector2.MoveTowards(transform.position, targetPos, actualSpeed * Time.deltaTime));
+        transform.position = Vector2.MoveTowards(transform.position, targetPos, actualSpeed * Time.deltaTime);
     }
 
     private void GetTargetPos() {
