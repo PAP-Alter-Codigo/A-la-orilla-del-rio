@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Fungus;
+using TMPro;
 
 public class MemoramaBoard : MonoBehaviour{
     [SerializeField, Range(2, 9)]
@@ -12,21 +13,21 @@ public class MemoramaBoard : MonoBehaviour{
     [SerializeField, Range(0.0f, 2.0f)]
     float cardSpacing = 0.1f;
     [SerializeField]
-    Sprite[] icons;
-    [SerializeField]
-
-	public InventoryItems reward;	
+    CardData[] cartitas;
     [SerializeField]
     GameObject card;
     [SerializeField]
     Flowchart flowchart;
+    [SerializeField]
+    TMP_Text textES, textCU;
     public GameObjectCollection flippedCards;
+    private AudioSource audioSource;
     int matches = 0;
     bool resetti = false;
 
     // Start is called before the first frame update
     void Start(){
-        //MakeBoard();
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void FixedUpdate() {
@@ -63,12 +64,12 @@ public class MemoramaBoard : MonoBehaviour{
                 carta.transform.localPosition = new Vector2(i * (cardSize.x + cardSpacing), j * (cardSize.y + cardSpacing));
                 carta.transform.localRotation = new Quaternion(0,0,0,1);
                 int smth = GetNextCard(cards);
-                carta.GetComponent<MemoramaCard>().SetCard(smth, icons[smth]);
+                carta.GetComponent<MemoramaCard>().SetCardData(smth, cartitas[smth]);
             }
         }
         float boardWidth = (horizontalCards - 1) * (cardSize.x + cardSpacing),
               boardHeight = (verticards - 1) * (cardSize.y + cardSpacing);
-        transform.position = new Vector2(-boardWidth/2.0f, -boardHeight/2.0f);
+        transform.position = new Vector2(-boardWidth/2.0f, -boardHeight/2.0f + 1.25f);
     }
 
     // Consigue una carta del memorama
@@ -118,8 +119,11 @@ public class MemoramaBoard : MonoBehaviour{
     // Una carta ha sido descubierta
     public void CardFlipped() {
         GameObject currCard = flowchart.GetGameObjectVariable("currCard");
-        int cardId = currCard.GetComponent<MemoramaCard>().GetCard();
+        MemoramaCard card = currCard.GetComponent<MemoramaCard>();
+        int cardId = card.GetCard();
         bool sameCards = true;
+        textES.text = card.nameES;
+        textCU.text = card.nameCU;
         // Revisar si las cartas que est�n en juego sean iguales
         foreach(GameObject go in flippedCards) {
             if(go.GetComponent<MemoramaCard>().GetCard() != cardId) {
@@ -137,14 +141,21 @@ public class MemoramaBoard : MonoBehaviour{
         // Se consiguieron todas las cartas con el mismo icono
         if(flippedCards.Count >= matchingCards) {
             flowchart.ExecuteBlock("CardConfetti");
+            audioSource.clip = card.audioClip;
+            audioSource.Play();
             matches++;
         }
         // Se complet� el juego
         if(matches >= uniqueCards) {
             //win
-			
-			reward.itemOwned = true;
             flowchart.ExecuteBlock("MemoramaWin");
         }
+    }
+
+    [Serializable]
+    public class CardData {
+        public AudioClip audioClip;
+        public Sprite icon;
+        public string name_es, name_cu;
     }
 }

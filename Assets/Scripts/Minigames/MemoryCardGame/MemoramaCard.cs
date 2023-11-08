@@ -11,6 +11,12 @@ public class MemoramaCard : MonoBehaviour{
     Flowchart flowchart;
     [SerializeField]
     GameObjectCollection flippedCards;
+
+    [NonSerialized]
+    public string nameES, nameCU;
+    [NonSerialized]
+    public AudioClip audioClip;
+    
     private int card;
 
     private void OnMouseOver() {
@@ -20,9 +26,12 @@ public class MemoramaCard : MonoBehaviour{
         }
     }
 
-    internal void SetCard(int smth, Sprite sprite){
+    internal void SetCardData(int smth, MemoramaBoard.CardData cardData){
         card = smth;
-        spriteRenderer.sprite = sprite;
+        spriteRenderer.sprite = cardData.icon;
+        nameES = cardData.name_es;
+        nameCU = cardData.name_cu;
+        audioClip = cardData.audioClip;
     }
 
     internal int GetCard() => card;
