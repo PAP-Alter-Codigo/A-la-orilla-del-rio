@@ -78,6 +78,11 @@ public class CuervoMinigame: MonoBehaviour {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         }
+
+        if(GetTouchDown()) {
+            oMousePos = Input.mousePosition;
+        }
+
         if(Input.GetMouseButton(0)) {
             float yDiff = oMousePos.y - Input.mousePosition.y;
             if(yDiff < 0) {
@@ -108,6 +113,8 @@ public class CuervoMinigame: MonoBehaviour {
 
         oMousePos = Input.mousePosition;
     }
+
+    private bool GetTouchDown()=>Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began || Input.GetMouseButtonDown(0);
 
     private void TintStage(Color tint) {
         foreach(Image sideBar in sideBars) {
