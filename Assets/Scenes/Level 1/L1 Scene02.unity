@@ -442,7 +442,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -260.59845, y: 100.93335}
+  scrollPos: {x: -117.14349, y: 74.633286}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 521
@@ -454,9 +454,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 60164505}
-  selectedCommands:
-  - {fileID: 60164509}
+  - {fileID: 60163816}
+  selectedCommands: []
   variables:
   - {fileID: 60163885}
   - {fileID: 60163905}
@@ -510,7 +509,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 540.00916
     y: 35.47857
-    width: 77.49553
+    width: 76.30007
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -564,7 +563,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 686.18335
     y: 246.94264
-    width: 102.60014
+    width: 103.7956
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -618,8 +617,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 571.7505
-    y: 131.43027
-    width: 149.82072
+    y: 130.2348
+    width: 151.61392
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1112,7 +1111,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 517.4415
     y: 357.1479
-    width: 128.30249
+    width: 130.09567
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1248,7 +1247,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 658.6883
     y: 412.93872
-    width: 167.7526
+    width: 167.15486
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1369,7 +1368,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 948.1883
     y: 81.30478
-    width: 116.94563
+    width: 118.14109
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1613,7 +1612,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 980.3187
     y: 390.8094
-    width: 151.01617
+    width: 154.00482
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1946,7 +1945,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1091.8286
     y: 173.77777
-    width: 140.25706
+    width: 143.2457
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2023,7 +2022,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 689.15094
     y: 13.555181
-    width: 148.62527
+    width: 150.41846
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2431,7 +2430,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 231.6909
     y: 338.89594
-    width: 167.7526
+    width: 168.35031
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2595,7 +2594,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 232.3547
     y: 264.6903
-    width: 172.53442
+    width: 173.13214
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2782,7 +2781,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 222.59975
     y: 195.25963
-    width: 177.31625
+    width: 176.71854
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2856,7 +2855,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1095.8098
     y: 297.28705
-    width: 159.98212
+    width: 162.37303
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3400,7 +3399,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1090.0171
     y: 234.1946
-    width: 158.78665
+    width: 161.17758
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4191,7 +4190,7 @@ MonoBehaviour:
   itemId: 666
   indentLevel: 0
   description: 
-  targetObject: {fileID: 195797471}
+  targetObject: {fileID: 2145221751}
   targetComponentAssemblyName: InventoryManager, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -5739,7 +5738,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 869.09515
     y: 238.88246
-    width: 145.63663
+    width: 148.02754
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5785,7 +5784,7 @@ MonoBehaviour:
   itemId: 668
   indentLevel: 0
   description: 
-  targetObject: {fileID: 195797471}
+  targetObject: {fileID: 2145221751}
   targetComponentAssemblyName: InventoryManager, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -5830,7 +5829,7 @@ MonoBehaviour:
   itemId: 667
   indentLevel: 0
   description: 
-  targetObject: {fileID: 195797471}
+  targetObject: {fileID: 2145221751}
   targetComponentAssemblyName: InventoryManager, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -5896,7 +5895,7 @@ MonoBehaviour:
   itemId: 670
   indentLevel: 1
   description: 
-  targetObject: {fileID: 195797471}
+  targetObject: {fileID: 2145221751}
   targetComponentAssemblyName: InventoryManager, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -6790,11 +6789,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &195797471 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7486697733449297171, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
-  m_PrefabInstance: {fileID: 935964459}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &289090266 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4688602539579240421, guid: ab41890332949154789ea89695b7e702, type: 3}
@@ -31404,85 +31398,9 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6451090340409117328, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6451090340409117328, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6451090340409117328, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7049354097194562760, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.000015258789
-      objectReference: {fileID: 0}
-    - target: {fileID: 7486697734416935308, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7486697734416935308, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7486697734416935308, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7486697734416935308, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7486697734546170491, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7486697734546170491, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7486697734546170491, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7486697734546170491, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7486697734555360358, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7486697734555360358, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7486697734555360358, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7486697734555360358, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7486697734953261079, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7486697734953261079, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7486697734953261079, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7486697734953261079, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 0.00002670288
       objectReference: {fileID: 0}
     - target: {fileID: 7600057014743648679, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
       propertyPath: m_AnchorMax.x
@@ -73462,3 +73380,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2145221751 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7486697732972884225, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
+  m_PrefabInstance: {fileID: 935964459}
+  m_PrefabAsset: {fileID: 0}
