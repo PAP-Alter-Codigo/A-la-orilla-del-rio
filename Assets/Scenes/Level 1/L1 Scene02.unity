@@ -442,11 +442,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 3.0451941, y: 71.45299}
+  scrollPos: {x: -117.14349, y: 74.633286}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 521
-  zoom: 0.8654996
+  zoom: 0.83649963
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -455,8 +455,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 60163816}
-  selectedCommands:
-  - {fileID: 60164466}
+  selectedCommands: []
   variables:
   - {fileID: 60163885}
   - {fileID: 60163905}
@@ -510,7 +509,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 540.00916
     y: 35.47857
-    width: 75.418846
+    width: 76.30007
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -564,7 +563,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 686.18335
     y: 246.94264
-    width: 101.99309
+    width: 103.7956
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -618,8 +617,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 571.7505
-    y: 131.43027
-    width: 148.20917
+    y: 130.2348
+    width: 151.61392
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1067,7 +1066,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 704.81903
     y: 489.00403
-    width: 75.418846
+    width: 76.30007
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1112,7 +1111,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 517.4415
     y: 357.1479
-    width: 127.411934
+    width: 130.09567
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1248,7 +1247,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 658.6883
     y: 412.93872
-    width: 164.3848
+    width: 167.15486
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1369,7 +1368,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 948.1883
     y: 81.30478
-    width: 115.85792
+    width: 118.14109
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1613,7 +1612,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 980.3187
     y: 390.8094
-    width: 150.51997
+    width: 154.00482
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1944,9 +1943,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1093.024
+    x: 1091.8286
     y: 173.77777
-    width: 140.12137
+    width: 143.2457
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2023,7 +2022,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 689.15094
     y: 13.555181
-    width: 147.05377
+    width: 150.41846
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2431,7 +2430,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 231.6909
     y: 338.89594
-    width: 166.6956
+    width: 168.35031
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2595,7 +2594,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 232.3547
     y: 264.6903
-    width: 172.47261
+    width: 173.13214
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2782,7 +2781,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 222.59975
     y: 195.25963
-    width: 174.78342
+    width: 176.71854
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2856,7 +2855,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1095.8098
     y: 297.28705
-    width: 158.60779
+    width: 162.37303
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3400,7 +3399,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1090.0171
     y: 234.1946
-    width: 157.4524
+    width: 161.17758
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4191,7 +4190,7 @@ MonoBehaviour:
   itemId: 666
   indentLevel: 0
   description: 
-  targetObject: {fileID: 0}
+  targetObject: {fileID: 2145221751}
   targetComponentAssemblyName: InventoryManager, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -5739,7 +5738,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 869.09515
     y: 238.88246
-    width: 144.74297
+    width: 148.02754
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5785,7 +5784,7 @@ MonoBehaviour:
   itemId: 668
   indentLevel: 0
   description: 
-  targetObject: {fileID: 0}
+  targetObject: {fileID: 2145221751}
   targetComponentAssemblyName: InventoryManager, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -5830,7 +5829,7 @@ MonoBehaviour:
   itemId: 667
   indentLevel: 0
   description: 
-  targetObject: {fileID: 0}
+  targetObject: {fileID: 2145221751}
   targetComponentAssemblyName: InventoryManager, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -5896,7 +5895,7 @@ MonoBehaviour:
   itemId: 670
   indentLevel: 1
   description: 
-  targetObject: {fileID: 0}
+  targetObject: {fileID: 2145221751}
   targetComponentAssemblyName: InventoryManager, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -6057,7 +6056,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 17.182562
     y: 100.92404
-    width: 141.42853
+    width: 142.8571
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6225,7 +6224,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 187.14536
     y: 163.5473
-    width: 137.14282
+    width: 138.5714
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29838,7 +29837,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.315014, y: -5.7999997, z: -10}
+  m_LocalPosition: {x: -10.311093, y: -5.7999997, z: -10}
   m_LocalScale: {x: 1.8225001, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -31399,6 +31398,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7049354097194562760, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.00002670288
+      objectReference: {fileID: 0}
     - target: {fileID: 7600057014743648679, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -31409,6 +31412,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7600057014743648679, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
       propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7932004102364502132, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7932004102364502132, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -73353,7 +73364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 74343942}
+  selectedFlowchart: {fileID: 60163810}
 --- !u!4 &2125055453
 Transform:
   m_ObjectHideFlags: 1
@@ -73369,3 +73380,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2145221751 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7486697732972884225, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
+  m_PrefabInstance: {fileID: 935964459}
+  m_PrefabAsset: {fileID: 0}

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4efb3dedeeec34fb6ac1b7b007b6fcb6, type: 3}
   m_Name: buscar_huevos
   m_EditorClassIdentifier: 
-  toolTip: Huevos
+  toolTip: Encuentra los huevos de la serpiente
   sprite: {fileID: 676935225, guid: c56158d4998f64b86887fc8ab4af9e61, type: 3}
   type: 1
