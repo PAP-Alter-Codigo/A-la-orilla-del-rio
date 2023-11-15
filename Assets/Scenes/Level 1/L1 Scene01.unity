@@ -538,6 +538,7 @@ GameObject:
   - component: {fileID: 60164445}
   - component: {fileID: 60164444}
   - component: {fileID: 60164443}
+  - component: {fileID: 60164449}
   m_Layer: 0
   m_Name: Clickable Flowchart
   m_TagString: Untagged
@@ -558,11 +559,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -4.1733627, y: 199.015}
+  scrollPos: {x: -357.58517, y: 70.89401}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 568
-  zoom: 0.73000026
+  zoom: 0.9379995
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -570,8 +571,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 60163816}
-  selectedCommands: []
+  - {fileID: 60164290}
+  selectedCommands:
+  - {fileID: 60164444}
   variables:
   - {fileID: 60163885}
   - {fileID: 60163905}
@@ -628,7 +630,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 536.4176
     y: 260.6536
-    width: 77.39725
+    width: 77.71857
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -681,7 +683,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 687.2224
     y: 246.94264
-    width: 100.68491
+    width: 102.23883
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -763,7 +765,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 476.70587
     y: 102.074135
-    width: 155.47942
+    width: 157.67596
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1129,7 +1131,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 967.0947
     y: 402.8215
-    width: 76.02739
+    width: 76.119415
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1174,7 +1176,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 526.29266
     y: 348.07
-    width: 125.34244
+    width: 127.29215
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1330,7 +1332,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 733.6614
     y: 399.43344
-    width: 165.06845
+    width: 166.7378
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1499,7 +1501,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 906.31104
     y: 159.91763
-    width: 159.589
+    width: 161.94037
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1511,6 +1513,7 @@ MonoBehaviour:
   - {fileID: 60164344}
   - {fileID: 60164366}
   - {fileID: 60164445}
+  - {fileID: 60164449}
   - {fileID: 60164348}
   - {fileID: 60164350}
   - {fileID: 60164441}
@@ -2108,7 +2111,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 673.9503
     y: 167.69917
-    width: 122.602715
+    width: 123.027756
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2396,7 +2399,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 873.5981
     y: 89.58653
-    width: 158.21915
+    width: 159.80817
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2689,7 +2692,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 673.0762
     y: 85.70318
-    width: 156.84927
+    width: 158.74207
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2751,7 +2754,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 886.23004
     y: 251.18115
-    width: 176.02734
+    width: 176.3327
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3583,7 +3586,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 915.77893
     y: 323.47412
-    width: 133.56161
+    width: 135.2879
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5420,7 +5423,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1195.7261
     y: 228.19104
-    width: 130.8219
+    width: 133.68875
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5580,7 +5583,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1199.2979
     y: 172.19107
-    width: 126.7123
+    width: 129.42435
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5731,7 +5734,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1199.1946
     y: 121.29535
-    width: 125.34244
+    width: 128.8913
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5951,7 +5954,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 411.29153
     y: 185.71576
-    width: 185.6164
+    width: 188.59282
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -6816,7 +6819,7 @@ MonoBehaviour:
       colorValue: {r: 0, g: 0, b: 0, a: 0}
       gameObjectValue: {fileID: 0}
       materialValue: {fileID: 0}
-      objectValue: {fileID: 11400000, guid: 9663ce3a1485c441f84ce919fdb11632, type: 2}
+      objectValue: {fileID: 11400000, guid: 65b15236d81a1414e9643a3b038de68e, type: 2}
       spriteValue: {fileID: 0}
       textureValue: {fileID: 0}
       vector2Value: {x: 0, y: 0}
@@ -6861,7 +6864,7 @@ MonoBehaviour:
       colorValue: {r: 0, g: 0, b: 0, a: 0}
       gameObjectValue: {fileID: 0}
       materialValue: {fileID: 0}
-      objectValue: {fileID: 11400000, guid: eade23b20bc7044ea9fd67357d22c52a, type: 2}
+      objectValue: {fileID: 11400000, guid: 7175e469f896a41ecb418a52c557dd1a, type: 2}
       spriteValue: {fileID: 0}
       textureValue: {fileID: 0}
       vector2Value: {x: 0, y: 0}
@@ -7035,6 +7038,51 @@ MonoBehaviour:
   returnValueType: System.Void
   showInherited: 0
   callMode: 0
+--- !u!114 &60164449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60163809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 616
+  indentLevel: 1
+  description: 
+  targetObject: {fileID: 452262190}
+  targetComponentAssemblyName: InventoryManager, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: InventoryManager
+  targetMethod: setObjective
+  targetMethodText: 'setObjective (Objective): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: Objective, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      typeFullname: Objective
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 11400000, guid: b9d818fc8848d401091e79a6e957264f, type: 2}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!1 &74343941
 GameObject:
   m_ObjectHideFlags: 0
@@ -7118,7 +7166,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 77.75365
     y: 165.27031
-    width: 142.23741
+    width: 139.726
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7184,7 +7232,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 112.13338
     y: 83.59249
-    width: 121.23285
+    width: 120.54792
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7261,7 +7309,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 79.114105
     y: 227.51317
-    width: 138.58444
+    width: 134.93149
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -89223,6 +89271,22 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3463061843353383168, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3463061843353383168, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3463061843353383168, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3463061843353383168, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3989303405619816258, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -89279,6 +89343,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4826834182892316184, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4826834182892316184, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4826834182892316184, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4826834182892316184, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5519656204120058531, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -89287,9 +89367,53 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6192635554165756930, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6192635554165756930, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6192635554165756930, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6192635554165756930, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6451090340409117328, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6451090340409117328, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6451090340409117328, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7017991740380795484, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7017991740380795484, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7017991740380795484, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7017991740380795484, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7049354097194562760, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.000019073486
+      value: 0.000011444092
       objectReference: {fileID: 0}
     - target: {fileID: 7600057014743648679, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
       propertyPath: m_AnchorMax.x
