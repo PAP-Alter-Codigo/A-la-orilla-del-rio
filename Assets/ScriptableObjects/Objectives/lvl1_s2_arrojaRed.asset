@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4efb3dedeeec34fb6ac1b7b007b6fcb6, type: 3}
-  m_Name: buscar_huevos
+  m_Name: lvl1_s2_arrojaRed
   m_EditorClassIdentifier: 
-  toolTip: Encuentra los huevos de la serpiente
-  sprite: {fileID: 676935225, guid: c56158d4998f64b86887fc8ab4af9e61, type: 3}
-  type: 1
+  toolTip: Utiliza la red para salvar a tu hermano
+  sprite: {fileID: 21300000, guid: 9d0a5f514d9734c4d941e1e482199678, type: 3}
+  type: 0

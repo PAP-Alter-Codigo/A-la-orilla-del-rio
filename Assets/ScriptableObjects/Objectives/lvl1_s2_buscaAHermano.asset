@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4efb3dedeeec34fb6ac1b7b007b6fcb6, type: 3}
-  m_Name: ayudar_serpiete
+  m_Name: lvl1_s2_buscaAHermano
   m_EditorClassIdentifier: 
-  toolTip: Habla con la serpiente
-  sprite: {fileID: 21300000, guid: f16cf847739d46b4cba5513e2ad8d7bf, type: 3}
-  type: 2
+  toolTip: Busca a tu hermano
+  sprite: {fileID: 21300000, guid: 9d0a5f514d9734c4d941e1e482199678, type: 3}
+  type: 0
