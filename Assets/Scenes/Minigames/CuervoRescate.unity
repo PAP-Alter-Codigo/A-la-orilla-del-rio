@@ -387,14 +387,16 @@ MonoBehaviour:
   - {fileID: 1973127019}
   scrollbar: {fileID: 2067131851}
   scrollSpeed: 0.2
-  crowSpeedModifier: 0.8
+  crowSpeedModifier: 0.7
   tiem: 30
   sidebarsUntintSpeed: 3
   maxRopeForce: 16
   rotSpeed: 20
   rotoSpeed: 10000
-  tintStrength: 2.18
-  rotationAngle: 80
+  tintStrength: 3.5
+  maxRotationAngle: 20
+  rotationSpeedModifier: 15
+  rotationSpeedDecreaseModifier: 1.75
   cameraShakeVal: 1
   obstaclesParent: {fileID: 2079932709}
 --- !u!114 &191673333

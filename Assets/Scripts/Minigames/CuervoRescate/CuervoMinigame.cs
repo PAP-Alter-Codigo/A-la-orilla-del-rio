@@ -23,7 +23,7 @@ public class CuervoMinigame: MonoBehaviour {
     [SerializeField, Range(0.1f, 5.5f)]
     private float tintStrength;
     [SerializeField]
-    private float rotationAngle;
+    private float maxRotationAngle, rotationSpeedModifier, rotationSpeedDecreaseModifier;
     [SerializeField]
     private float cameraShakeVal = 1.0f;
     [SerializeField]
@@ -35,11 +35,10 @@ public class CuervoMinigame: MonoBehaviour {
     private bool won = false;
     private float currTiem;
     private float yOffset;
-    private float startYPos;
+    private float curRotationAngle;
 
     void Start() {
         currTiem = tiem;
-        startYPos = cuervoRed.transform.position.y;
         obstacleRenderers = new();
         for(int i=0; i<obstaclesParent.transform.childCount; i++) {
             obstacleRenderers.Add(obstaclesParent.transform.GetChild(i).gameObject.GetComponent<SpriteRenderer>());
@@ -60,9 +59,11 @@ public class CuervoMinigame: MonoBehaviour {
             UnAlive();
         }
 
-        float progress = (cuervoRed.transform.position.y - startYPos) / (startYPos + 7.7f);
-        float v = Mathf.Sin(Mathf.PI * (tiem - currTiem) / tiem * rotSpeed) * Mathf.Clamp(progress * rotationAngle, 0.0f, 22.0f);
+        float v = Mathf.Sin(Mathf.PI * (tiem - currTiem) / tiem * rotSpeed) * Mathf.Clamp(curRotationAngle, 0.0f, maxRotationAngle);
         cuervoRed.transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0.0f, 0.0f, v), rotoSpeed * Time.deltaTime);
+
+        curRotationAngle -= rotationSpeedDecreaseModifier * Time.deltaTime;
+        if(curRotationAngle < 0.0f) curRotationAngle = 0.0f;
     }
 
     void Update() {
@@ -88,6 +89,8 @@ public class CuervoMinigame: MonoBehaviour {
             if(yDiff < 0) {
                 yOffset += yDiff * scrollSpeed * Time.deltaTime;
                 backgroundImage.uvRect = new(new(yOffset, 0), new(1, 1));
+
+                curRotationAngle += -yDiff * rotationSpeedModifier * scrollSpeed * Time.deltaTime;
 
                 Color tint = new(-yDiff * tintStrength / 255.0f, 0, 0, 1.0f);
                 TintStage(tint);
