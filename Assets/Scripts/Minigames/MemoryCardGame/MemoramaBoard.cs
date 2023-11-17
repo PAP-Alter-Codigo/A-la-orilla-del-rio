@@ -40,6 +40,11 @@ public class MemoramaBoard : MonoBehaviour{
 
     // Reiniciar el juego
     public void Restart() {
+        Rigidbody2D rb = gameObject.GetComponent<Rigidbody2D>();
+        transform.rotation = new();
+        if(rb) {
+            Destroy(rb);
+        }
         if(transform.childCount < 1) {
             MakeBoard();
             return;
@@ -69,7 +74,8 @@ public class MemoramaBoard : MonoBehaviour{
         }
         float boardWidth = (horizontalCards - 1) * (cardSize.x + cardSpacing),
               boardHeight = (verticards - 1) * (cardSize.y + cardSpacing);
-        transform.position = new Vector2(-boardWidth/2.0f, -boardHeight/2.0f + 1.25f);
+        Vector3 camPos = Camera.main.transform.position;
+        transform.position = new Vector3(camPos.x - boardWidth/2.0f, camPos.y - boardHeight/2.0f + 1.25f, camPos.z + 2.5f);
     }
 
     // Consigue una carta del memorama
@@ -149,7 +155,12 @@ public class MemoramaBoard : MonoBehaviour{
         if(matches >= uniqueCards) {
             //win
             flowchart.ExecuteBlock("MemoramaWin");
+            gameObject.AddComponent<Rigidbody2D>();
         }
+    }
+
+    public void ClearTexts() {
+        textCU.text = textES.text = "";
     }
 
     [Serializable]

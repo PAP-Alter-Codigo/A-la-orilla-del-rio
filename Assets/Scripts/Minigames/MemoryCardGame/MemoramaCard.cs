@@ -18,9 +18,15 @@ public class MemoramaCard : MonoBehaviour{
     public AudioClip audioClip;
     
     private int card;
+    private AudioSource audioSource;
+
+    private void Start() {
+        audioSource = GetComponent<AudioSource>();
+    }
 
     private void OnMouseOver() {
         if(Input.GetMouseButtonDown(0) && transform.forward.z > 0 && !flowchart.GetBooleanVariable("isCardInUse")) {
+            audioSource.Play();
             flowchart.SetGameObjectVariable("currCard", gameObject);
             flowchart.ExecuteBlock("flipCard");
         }
