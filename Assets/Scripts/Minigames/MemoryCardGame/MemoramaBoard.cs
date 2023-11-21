@@ -42,6 +42,10 @@ public class MemoramaBoard : MonoBehaviour{
     public void Restart() {
         Rigidbody2D rb = gameObject.GetComponent<Rigidbody2D>();
         transform.rotation = new();
+        ClearTexts();
+        flippedCards.Clear();
+        flowchart.StopAllBlocks();
+        flowchart.SetBooleanVariable("isCardInUse", false);
         if(rb) {
             Destroy(rb);
         }
