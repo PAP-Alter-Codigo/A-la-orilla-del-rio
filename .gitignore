@@ -87,4 +87,4 @@ UserSettings/
 
 
 # Custom ignores
-Assets/saveFile.json
+Assets/saveFile.*
