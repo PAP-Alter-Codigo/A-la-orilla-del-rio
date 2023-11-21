@@ -207,7 +207,13 @@ MonoBehaviour:
   animator: {fileID: 4688602539579240423}
   path_indicator_animator: {fileID: 8940444062282708541}
   audiosource: {fileID: 8910764672211777176}
-  dirtSteps: []
+  dirtSteps:
+  - {fileID: 8300000, guid: fd1deeeaa6dac5e14ab003f81fd69047, type: 3}
+  - {fileID: 8300000, guid: 68a21bca785fd7757abbd1850b334476, type: 3}
+  - {fileID: 8300000, guid: 4c0c4824ed4ddeaf7a8889f475be7090, type: 3}
+  - {fileID: 8300000, guid: 35881ed651aee39f5a898627c6893044, type: 3}
+  - {fileID: 8300000, guid: fa321c5204b01ab21a71e3d129c26a54, type: 3}
+  - {fileID: 8300000, guid: 2d3a65963be5e8a4c9bc0e7ae81a653d, type: 3}
   waterSteps: []
   isWalkingOnWater: 0
 --- !u!120 &278426689
@@ -318,7 +324,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -414,8 +420,8 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
+  m_PlayOnAwake: 0
+  m_Volume: 0.42
   m_Pitch: 1
   Loop: 0
   Mute: 0

@@ -11,6 +11,7 @@ public class SceneChangeIntro : MonoBehaviour
         
     }
     public void intro(){
+		Time.timeScale = 1;
         SceneManager.LoadScene("Intro");
     }
 
