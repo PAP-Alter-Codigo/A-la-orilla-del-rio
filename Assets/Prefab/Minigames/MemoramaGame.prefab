@@ -2243,27 +2243,27 @@ MonoBehaviour:
   - audioClip: {fileID: 8300000, guid: c0f84608df790fe49a63c631f6719b5f, type: 3}
     icon: {fileID: -932359949, guid: dc50c2ddd319a21de94d9cf8787740c2, type: 3}
     name_es: casa
-    name_cu: '-'
+    name_cu: "wa any\xE1y pi"
   - audioClip: {fileID: 8300000, guid: ef0332d6581c5554c85397f162f8e82e, type: 3}
     icon: {fileID: 1923874927, guid: dc50c2ddd319a21de94d9cf8787740c2, type: 3}
     name_es: molcajete
-    name_cu: '-'
+    name_cu: wi / sur
   - audioClip: {fileID: 8300000, guid: 774486030b696474e8b3cf7f178123da, type: 3}
     icon: {fileID: 109840770, guid: dc50c2ddd319a21de94d9cf8787740c2, type: 3}
     name_es: canasta
-    name_cu: '-'
+    name_cu: "sukw\xEDny / \u0161aw\xE1"
   - audioClip: {fileID: 8300000, guid: 48d66cb2887f33a45a85360bf93e5a87, type: 3}
     icon: {fileID: -2139298886, guid: dc50c2ddd319a21de94d9cf8787740c2, type: 3}
     name_es: jarra
-    name_cu: '-'
+    name_cu: ska
   - audioClip: {fileID: 8300000, guid: dec505353d483ba469f613cf6584cea8, type: 3}
     icon: {fileID: 1878022930, guid: dc50c2ddd319a21de94d9cf8787740c2, type: 3}
     name_es: "t\xFAnica"
-    name_cu: '-'
+    name_cu: "pax\xE1l / say\xFAl"
   - audioClip: {fileID: 8300000, guid: f3a7d52fb07dcd24a94832f919e0ab50, type: 3}
     icon: {fileID: -686670178, guid: dc50c2ddd319a21de94d9cf8787740c2, type: 3}
     name_es: plumas
-    name_cu: '-'
+    name_cu: sawal
   card: {fileID: 305867720752617311}
   flowchart: {fileID: 305867720740990372}
   textES: {fileID: 2064479524913752642}
