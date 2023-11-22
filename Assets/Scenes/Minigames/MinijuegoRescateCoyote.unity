@@ -123,6 +123,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &139074644 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7559014992433920604, guid: 69849b960687036419f41ea7ee5b820c, type: 3}
+  m_PrefabInstance: {fileID: 1045019739}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &165407637
 GameObject:
   m_ObjectHideFlags: 0
@@ -10007,6 +10018,17 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!114 &655175351 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7559014993906210387, guid: 69849b960687036419f41ea7ee5b820c, type: 3}
+  m_PrefabInstance: {fileID: 1045019739}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &712116237
 GameObject:
   m_ObjectHideFlags: 0
@@ -14917,6 +14939,63 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 6.25
+--- !u!1001 &1045019739
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4105650279525455427, guid: 69849b960687036419f41ea7ee5b820c, type: 3}
+      propertyPath: m_Name
+      value: DialogBox
+      objectReference: {fileID: 0}
+    - target: {fileID: 4174821211297827491, guid: 69849b960687036419f41ea7ee5b820c, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4174821211297827491, guid: 69849b960687036419f41ea7ee5b820c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 960
+      objectReference: {fileID: 0}
+    - target: {fileID: 4174821211297827491, guid: 69849b960687036419f41ea7ee5b820c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 540
+      objectReference: {fileID: 0}
+    - target: {fileID: 4174821211297827491, guid: 69849b960687036419f41ea7ee5b820c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4174821211297827491, guid: 69849b960687036419f41ea7ee5b820c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4174821211297827491, guid: 69849b960687036419f41ea7ee5b820c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4174821211297827491, guid: 69849b960687036419f41ea7ee5b820c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4174821211297827491, guid: 69849b960687036419f41ea7ee5b820c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4174821211297827491, guid: 69849b960687036419f41ea7ee5b820c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4174821211297827491, guid: 69849b960687036419f41ea7ee5b820c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4174821211297827491, guid: 69849b960687036419f41ea7ee5b820c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 69849b960687036419f41ea7ee5b820c, type: 3}
 --- !u!1 &1082014266
 GameObject:
   m_ObjectHideFlags: 0
@@ -19744,6 +19823,8 @@ GameObject:
   - component: {fileID: 1202122286}
   - component: {fileID: 1202122285}
   - component: {fileID: 1202122289}
+  - component: {fileID: 1202122291}
+  - component: {fileID: 1202122290}
   m_Layer: 0
   m_Name: Dialogs
   m_TagString: Untagged
@@ -19782,7 +19863,7 @@ MonoBehaviour:
   scrollPos: {x: -157.58534, y: -60.80176}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 400
+  blockViewHeight: 401
   zoom: 1
   scrollViewRect:
     serializedVersion: 2
@@ -19792,7 +19873,8 @@ MonoBehaviour:
     height: 0
   selectedBlocks:
   - {fileID: 1202122287}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1202122291}
   variables: []
   description: Manages the final conversation dialogs
   stepPause: 0
@@ -19833,12 +19915,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: 'Siempre la necesitas.
-
-'
+  storyText: No necesitaba de tu ayuda.
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 655175351}
+  portrait: {fileID: 21300000, guid: 9d0a5f514d9734c4d941e1e482199678, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19847,7 +19927,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1883766890}
 --- !u!114 &1202122287
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -19873,7 +19953,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1202122285}
   commandList:
+  - {fileID: 1202122290}
   - {fileID: 1202122286}
+  - {fileID: 1202122291}
   - {fileID: 1202122289}
   suppressAllAutoSelections: 0
 --- !u!114 &1202122289
@@ -19895,6 +19977,62 @@ MonoBehaviour:
     stringVal: L1 Scene01
   loadingImage: {fileID: 2800000, guid: c37ad1efcdfbedd44af34621872ffd1f, type: 3}
   sceneNameOLD: 
+--- !u!114 &1202122290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202122282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 5
+  indentLevel: 0
+  storyText: "Diario te tengo que estar salvando.\r"
+  description: 
+  character: {fileID: 139074644}
+  portrait: {fileID: 21300000, guid: cc52d0de4e1992b41a25d6a83e62458d, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1883766890}
+--- !u!114 &1202122291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202122282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 4
+  indentLevel: 0
+  storyText: 'Siempre la necesitas.
+
+'
+  description: 
+  character: {fileID: 139074644}
+  portrait: {fileID: 21300000, guid: cc52d0de4e1992b41a25d6a83e62458d, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1883766890}
 --- !u!1 &1335545866
 GameObject:
   m_ObjectHideFlags: 0
@@ -34766,6 +34904,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1883766890 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7559014993395704020, guid: 69849b960687036419f41ea7ee5b820c, type: 3}
+  m_PrefabInstance: {fileID: 1045019739}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a0bbe22c246e4c78ad8e9816cbae9d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1906472192
 GameObject:
   m_ObjectHideFlags: 0
