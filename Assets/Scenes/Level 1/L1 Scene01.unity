@@ -36638,7 +36638,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 873117709}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Script: {fileID: 11500000, guid: 847e4abbfd0fcad4e8edbe7859c1a23d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Coyote
@@ -36649,6 +36649,12 @@ MonoBehaviour:
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
+  beepSounds:
+  - {fileID: 8300000, guid: ac21be44fd50cb44b851abfae43e9645, type: 3}
+  - {fileID: 8300000, guid: 4324a354bf8ae8541b970783eea57d14, type: 3}
+  - {fileID: 8300000, guid: 3712812025bb5854da8fded8f828fe94, type: 3}
+  - {fileID: 8300000, guid: 952c1827e16a20e42b7fad9691ade2b9, type: 3}
+  - {fileID: 8300000, guid: 5825a2b4cd66f6743b1326be13230da5, type: 3}
 --- !u!1 &911089158
 GameObject:
   m_ObjectHideFlags: 3
@@ -37680,7 +37686,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1279988734}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Script: {fileID: 11500000, guid: 847e4abbfd0fcad4e8edbe7859c1a23d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Zorro
@@ -37691,6 +37697,10 @@ MonoBehaviour:
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
+  beepSounds:
+  - {fileID: 8300000, guid: 24490bda2ac7beb4bbc5ca5bb0f71ace, type: 3}
+  - {fileID: 8300000, guid: d29fc5e6c4cdda24a997c9192df40c24, type: 3}
+  - {fileID: 8300000, guid: 43a73a2b305d9e64a9a0eac414840107, type: 3}
 --- !u!1 &1304499525
 GameObject:
   m_ObjectHideFlags: 0
@@ -37828,14 +37838,14 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
   description: 
   beepSounds:
-  - {fileID: 8300000, guid: 88e153f837c017e43ab34add97a114eb, type: 3}
-  - {fileID: 8300000, guid: 31e52e4bbcf151343bc2f672ae35904a, type: 3}
-  - {fileID: 8300000, guid: 5d34baf8f42110a4c9d987b4ad6e9d1c, type: 3}
-  - {fileID: 8300000, guid: 1180db17b125ca14fb84a554088d0233, type: 3}
-  - {fileID: 8300000, guid: c7cf0c8cc4acff84bac06471e1b85e4a, type: 3}
-  - {fileID: 8300000, guid: b7e954eeef86d864babf7b53643bd01c, type: 3}
-  - {fileID: 8300000, guid: 3e54d0de967b6734bad1056d900efc31, type: 3}
-  - {fileID: 8300000, guid: b4ac2684702fcaa49a39e4a8af5595b0, type: 3}
+  - {fileID: 8300000, guid: 3d91293b51319e646916f7186421462c, type: 3}
+  - {fileID: 8300000, guid: 456d89126e5d01f4dac2dd6d322b6ad7, type: 3}
+  - {fileID: 8300000, guid: fa3960a617d11de4fb528b00806093fb, type: 3}
+  - {fileID: 8300000, guid: bf1856cabef72c249af50bd5764a2039, type: 3}
+  - {fileID: 8300000, guid: 53e565c441eb19f4e823f74aeac3d2e7, type: 3}
+  - {fileID: 8300000, guid: ec89371a17b229f489a8df8129ac531e, type: 3}
+  - {fileID: 8300000, guid: a9d649bfb6832904fb853c3b2b707cf0, type: 3}
+  - {fileID: 8300000, guid: 7679e2334644c444fa92860d4c683cb7, type: 3}
 --- !u!1 &1366139273
 GameObject:
   m_ObjectHideFlags: 0
@@ -86777,7 +86787,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7049354097194562760, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.000011444092
+      value: -0.00004005432
       objectReference: {fileID: 0}
     - target: {fileID: 7600057014743648679, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
       propertyPath: m_AnchorMax.x
