@@ -4,26 +4,21 @@ using UnityEngine.UI;
 
 public class Target : MonoBehaviour
 {
-
-    private Vector2 followSpot;
+    public Vector2 followSpot;
     public float speed = 1f;
     public bool inDialogue;
     public bool cutsceneInProgress;
     private NavMeshAgent agent;
 
-    [SerializeField] private GameObject uiCanvas;
-
 	private Vector3 destination;
 
-    [Header("Start position")]
-    [SerializeField] private Transform spawnPoint;
     // Start is called before the first frame update
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
-        SetPlayerPositionToSpawnpoint();
+        //Set_Player_Position_To_Spawnpoint();
     }
 
     // Update is called once per frame
@@ -41,6 +36,10 @@ public class Target : MonoBehaviour
 			destination = new Vector3(followSpot.x, followSpot.y, transform.position.z);
             agent.SetDestination(destination);
 
+						
+
+            // moverse hacia el punto de seguimiento
+            //transform.position = Vector2.MoveTowards(transform.position, followSpot, speed * Time.deltaTime);
         }
 
     }
@@ -54,6 +53,15 @@ public class Target : MonoBehaviour
     }
 
 
+    // public void enterDialogue()
+    // {
+    //     inDialogue = true;
+    //     cutsceneInProgress = true;
+
+    //     verb.verb = Verb.Actions.Walk;
+    //     verb.UpdateVerbTextBox(null);
+    //     verb.gameObject.SetActive(false);
+    // }
 
     public void enterDialogue()
     {
@@ -67,12 +75,19 @@ public class Target : MonoBehaviour
 
     public void disableUI()
     {
-        uiCanvas.SetActive(false);
+        var buttons = FindObjectsOfType<Button>();
+        foreach (var button in buttons)
+        {
+            button.interactable = false;
+        }
     }
 
     public void enableUI(){
-
-        uiCanvas.SetActive(true);
+        var buttons = FindObjectsOfType<Button>();
+        foreach (var button in buttons)
+        {
+            button.interactable = true;
+        }
     }
 
 
@@ -90,19 +105,9 @@ public class Target : MonoBehaviour
         print("after position: " + transform.position);
     }
 
-    public void setFollowSpot(Vector2 position)
-    {
-        followSpot = position;
-    }
-
-    private void SetPlayerPositionToSpawnpoint()
-    {
-        if (spawnPoint)
-        {
-            agent.SetDestination(spawnPoint.position);
-        }
-
-        followSpot = new Vector2(transform.position.x, transform.position.y);
-    }
+    // private void OnCollisionStay2D(Collision2D collision)
+    // {
+    //     followSpot = transform.position;
+    // }
 
 }
