@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4efb3dedeeec34fb6ac1b7b007b6fcb6, type: 3}
   m_Name: lvl1_s1_buscaAHermano
   m_EditorClassIdentifier: 
-  toolTip: Busca a tu hermano, tal vez la serpiente sabe algo
+  toolTip: "Busca a tu hermano, preg\xFAntale a la serpiente si sabe algo"
   sprite: {fileID: 21300000, guid: 9d0a5f514d9734c4d941e1e482199678, type: 3}
   type: 0

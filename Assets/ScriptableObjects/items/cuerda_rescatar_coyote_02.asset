@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6d3be1bb98d5aa949bf70fae318db623, type: 3}
-  m_Name: lvl1_s2_palito_rescatar_coyote_01
+  m_Name: cuerda_rescatar_coyote_02
   m_EditorClassIdentifier: 
-  itemName: palito_rescatar_coyote_01
-  itemSprite: {fileID: -1891880337, guid: 8a5a90ca101504ce7835568c91c816fb, type: 3}
+  itemName: cuerda_rescatar_coyote_02
+  itemSprite: {fileID: 1901545745, guid: 8a5a90ca101504ce7835568c91c816fb, type: 3}

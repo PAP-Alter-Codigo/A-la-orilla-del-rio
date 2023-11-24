@@ -90,7 +90,8 @@ namespace Fungus
                     target.inDialogue = true;
                     target.cutsceneInProgress = true;
                     target.SetDestinationTarget();
-                    target.setFollowSpot(target.transform.position);
+                    target.followSpot = target.transform.position;
+                    //target.animator.SetFloat("distance",0);
                     doExecute = true;
                 }
             }
