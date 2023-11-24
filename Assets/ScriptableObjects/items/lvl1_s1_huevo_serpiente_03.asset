@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6d3be1bb98d5aa949bf70fae318db623, type: 3}
-  m_Name: huevo_serpiente_03
+  m_Name: lvl1_s1_huevo_serpiente_03
   m_EditorClassIdentifier: 
   itemName: huevo_serpiente_03
-  itemSprite: {fileID: -429304576, guid: c56158d4998f64b86887fc8ab4af9e61, type: 3}
+  itemSprite: {fileID: -1952677894, guid: c56158d4998f64b86887fc8ab4af9e61, type: 3}
