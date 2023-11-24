@@ -448,7 +448,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 60163853}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 60164302}
   variables:
   - {fileID: 60163885}
   - {fileID: 60163905}
@@ -1806,7 +1807,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 463
   indentLevel: 1
-  storyText: Ayudame!
+  storyText: "\xA1Ayudame!"
   description: 
   character: {fileID: 818022340}
   portrait: {fileID: 21300000, guid: 9d0a5f514d9734c4d941e1e482199678, type: 3}
@@ -5792,7 +5793,7 @@ AudioSource:
   m_GameObject: {fileID: 310270203}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 3899814558157520523, guid: a8e055a1c44235149828b843af7db636, type: 2}
   m_audioClip: {fileID: 8300000, guid: 9f029023fdadbc679a7ff57cf1e1ad60, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -29817,7 +29818,7 @@ AudioSource:
   m_GameObject: {fileID: 901662369}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 3899814558157520523, guid: a8e055a1c44235149828b843af7db636, type: 2}
   m_audioClip: {fileID: 8300000, guid: 9f029023fdadbc679a7ff57cf1e1ad60, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -30432,7 +30433,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7049354097194562760, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.000011444092
+      value: -0.000019073486
       objectReference: {fileID: 0}
     - target: {fileID: 7600057014743648679, guid: 9bf2a52b09587574d94b1fe6bd604223, type: 3}
       propertyPath: m_AnchorMax.x
@@ -31179,7 +31180,7 @@ AudioSource:
   m_GameObject: {fileID: 1127750878}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 3899814558157520523, guid: a8e055a1c44235149828b843af7db636, type: 2}
   m_audioClip: {fileID: 8300000, guid: 9f029023fdadbc679a7ff57cf1e1ad60, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -32775,7 +32776,7 @@ AudioSource:
   m_GameObject: {fileID: 1450776372}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 3899814558157520523, guid: a8e055a1c44235149828b843af7db636, type: 2}
   m_audioClip: {fileID: 8300000, guid: 0f59a56e68c79db02a0949b1eed4d474, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -32992,7 +32993,7 @@ AudioSource:
   m_GameObject: {fileID: 1499726231}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 3899814558157520523, guid: a8e055a1c44235149828b843af7db636, type: 2}
   m_audioClip: {fileID: 8300000, guid: 5797e1eb9e9a009e3a60efc694ca41e2, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -71042,7 +71043,7 @@ AudioSource:
   m_GameObject: {fileID: 1887460505}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 3899814558157520523, guid: a8e055a1c44235149828b843af7db636, type: 2}
   m_audioClip: {fileID: 8300000, guid: 7ea9ec621d60f7fa3a1d0f30abfd55ce, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
