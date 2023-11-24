@@ -79,7 +79,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Serpiente
   nameColor: {r: 0.17481782, g: 0.4433962, b: 0.14807758, a: 1}
-  soundEffect: {fileID: 0}
+  soundEffect: {fileID: 8300000, guid: 456d89126e5d01f4dac2dd6d322b6ad7, type: 3}
   portraits:
   - {fileID: 21300000, guid: f16cf847739d46b4cba5513e2ad8d7bf, type: 3}
   portraitsFace: 0
