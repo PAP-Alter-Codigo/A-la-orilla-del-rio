@@ -12,6 +12,8 @@ public class PersonajeEditor: CharacterEditor {
 
     public override void OnInspectorGUI() {
         base.OnInspectorGUI();
+        serializedObject.Update();
         EditorGUILayout.PropertyField(beepSounds);
+        serializedObject.ApplyModifiedProperties();
     }
 }
