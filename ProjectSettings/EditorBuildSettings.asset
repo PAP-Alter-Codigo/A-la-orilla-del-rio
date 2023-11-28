@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 1/L1 Scene02.unity
     guid: 38c10505f3b31463fbd03ae6ea3758cb
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Minigames/MinijuegoVueloGavilan.unity
     guid: 66b7c1dcdfe4f004bbd5aac803151991
   - enabled: 1

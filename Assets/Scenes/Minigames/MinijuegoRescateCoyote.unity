@@ -34977,9 +34977,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fa09fd5b29b2a74a9f46f77cf371e22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 12
+  speed: 6
   minWait: 0.5
-  maxWait: 4
+  maxWait: 2
   canMove: 1
 --- !u!95 &1877801048
 Animator:
@@ -35130,7 +35130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 357956cdea3b84348a74063f09298492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 12
+  speed: 5
   sploosh: {fileID: 1707408078}
   foxTransform: {fileID: 1877801046}
   flowchart: {fileID: 1202122284}

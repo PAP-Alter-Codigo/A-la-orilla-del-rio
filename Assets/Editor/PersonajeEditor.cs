@@ -1,5 +1,5 @@
-using Fungus.EditorUtils;
 using UnityEditor;
+using Fungus.EditorUtils;
 
 [CustomEditor(typeof(Personaje))]
 public class PersonajeEditor: CharacterEditor {
