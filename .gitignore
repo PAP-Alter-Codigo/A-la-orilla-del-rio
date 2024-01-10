@@ -84,3 +84,7 @@ UserSettings/
 # .onetoc2 files are generated when opening the project in Unity 2018 and can be ignored
 *.onetoc2
 *.onetoc2.meta
+
+
+# Custom ignores
+Assets/saveFile.*

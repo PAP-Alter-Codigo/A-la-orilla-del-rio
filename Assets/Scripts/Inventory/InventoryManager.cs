@@ -1,13 +1,13 @@
-using System.Collections;
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using Unity.VisualScripting;
 
 public class InventoryManager : MonoBehaviour
 {
+
+	[SerializeField] private Sprite defaultSprite;
+
 	//maximo 4 objetos por objetivo
 	private InventoryItem[] items = new InventoryItem[4];
 	//Solo hay 4 objetos legendarios en todo el juego
@@ -22,8 +22,11 @@ public class InventoryManager : MonoBehaviour
 	private Image[] inventorySlots = new Image[4];
 	
 	[SerializeField]
-	private Image objectiveSlot;
+	private TextMeshProUGUI objectiveSlot;
+	[SerializeField]
+	private Animator inventoryAnimator;
 
+	private bool isDrawerOut;
 
 	public void addItem(InventoryItem newItem)
 	{
@@ -45,7 +48,7 @@ public class InventoryManager : MonoBehaviour
 
 		for (int i = 0; i < 4; i++)
 		{
-			inventorySlots[i].sprite = null;
+			inventorySlots[i].sprite = defaultSprite;
 		}
 
 	}
@@ -78,7 +81,7 @@ public class InventoryManager : MonoBehaviour
 	public void setObjective(Objective newObjective)
 	{
 		currentObjective = newObjective;
-		objectiveSlot.sprite = currentObjective.sprite;
+		objectiveSlot.text = currentObjective.toolTip;
 	}
 
 	private void updateUI()
@@ -91,6 +94,12 @@ public class InventoryManager : MonoBehaviour
 		}
 		print("Llegue aqui");
 
+	}
+
+
+	public void toggleDrawer()
+	{
+		inventoryAnimator.SetTrigger("ToggleDrawer");
 	}
 }
 
